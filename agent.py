@@ -1,63 +1,131 @@
 import requests
+import threading
 import time
 import webbrowser
 import random
+import tkinter as tk
+from tkinter import ttk, messagebox
 
-# === Настройки ===
 BASE_URL = "http://localhost:8000"
-AGENT_ID = "agent_001"
-CONFIG_URL = f"{BASE_URL}/api/agents/{AGENT_ID}/config/download"
 
-# === Загрузка конфигурации ===
-def fetch_agent_config():
+# === API ===
+def fetch_agent_list():
     try:
-        response = requests.get(CONFIG_URL)
-        response.raise_for_status()
-        return response.json()
+        res = requests.get(f"{BASE_URL}/api/agents")
+        res.raise_for_status()
+        return res.json()
     except Exception as e:
-        print(f"[!] Ошибка загрузки конфигурации: {e}")
+        messagebox.showerror("Ошибка", f"Не удалось получить список агентов:\n{e}")
+        return []
+
+def fetch_agent_config(agent_id):
+    try:
+        res = requests.get(f"{BASE_URL}/api/agents/{agent_id}/config/download")
+        res.raise_for_status()
+        return res.json()
+    except Exception as e:
+        messagebox.showerror("Ошибка", f"Не удалось загрузить конфиг агента:\n{e}")
         return None
 
-# === Задача: открыть браузер ===
+# === Задачи ===
 def open_browser(url="https://example.com"):
-    print(f"[+] Открываю браузер по адресу: {url}")
+    print(f"[+] Открываю браузер: {url}")
     webbrowser.open(url)
 
-# === Задача: симуляция активности ===
 def simulate_activity(duration=5):
-    print(f"[+] Симулирую активность пользователя на {duration} секунд...")
+    print(f"[+] Симулирую активность ({duration} сек)")
     for i in range(duration):
         print(f"    ...активность... ({i+1}s)")
         time.sleep(1)
 
-# === Основной цикл ===
-def main():
-    config = fetch_agent_config()
-    if not config:
-        return
+def start_explorer():
+    print("[+] Запуск проводника")
+    import subprocess
+    subprocess.Popen("explorer")
 
-    tasks = config.get("behavior_template", {}).get("tasks", [])
-    interval = config.get("custom_config", {}).get("interval", 5)
-    randomize = config.get("custom_config", {}).get("randomize", False)
+def start_calc():
+    print("[+] Запуск калькулятора")
+    import subprocess
+    subprocess.Popen("calc")
 
-    print(f"[*] Задачи агента: {tasks}")
-    print(f"[*] Интервал: {interval}, случайность: {randomize}")
+TASK_MAP = {
+    "open_browser": open_browser,
+    "simulate_activity": simulate_activity,
+    "start_explorer": start_explorer,
+    "start_calc": start_calc,
+}
 
-    while True:
+# === Запуск задач ===
+def run_tasks(agent_config):
+    tasks = agent_config.get("behavior_template", {}).get("tasks", [])
+    interval = agent_config.get("custom_config", {}).get("interval", 5)
+    randomize = agent_config.get("custom_config", {}).get("randomize", False)
+
+    for task in tasks:
+        func = TASK_MAP.get(task)
+        if func:
+            func()
+        else:
+            print(f"[!] Неизвестная задача: {task}")
+
+        wait = random.randint(1, interval * 2) if randomize else interval
+        print(f"[*] Ожидание {wait} секунд...\n")
+        time.sleep(wait)
+
+# === GUI ===
+class AgentGUI(tk.Tk):
+    def __init__(self):
+        super().__init__()
+        self.title("Агент-исполнитель")
+        self.geometry("400x300")
+        self.agent_list = []
+        self.current_config = None
+
+        self.create_widgets()
+        self.load_agents()
+
+    def create_widgets(self):
+        ttk.Label(self, text="Выберите агента:").pack(pady=5)
+
+        self.agent_combo = ttk.Combobox(self, state="readonly")
+        self.agent_combo.pack(fill="x", padx=20)
+        self.agent_combo.bind("<<ComboboxSelected>>", self.on_agent_selected)
+
+        ttk.Label(self, text="Задачи:").pack(pady=5)
+        self.task_listbox = tk.Listbox(self, height=8)
+        self.task_listbox.pack(fill="both", expand=True, padx=20)
+
+        self.run_button = ttk.Button(self, text="Запустить задачи", command=self.on_run_clicked)
+        self.run_button.pack(pady=10)
+
+    def load_agents(self):
+        self.agent_list = fetch_agent_list()
+        items = [agent["agent_id"] for agent in self.agent_list]
+        self.agent_combo["values"] = items
+        if items:
+            self.agent_combo.current(0)
+            self.on_agent_selected()
+
+    def on_agent_selected(self, event=None):
+        agent_id = self.agent_combo.get()
+        self.current_config = fetch_agent_config(agent_id)
+        self.update_task_list()
+
+    def update_task_list(self):
+        self.task_listbox.delete(0, tk.END)
+        if not self.current_config:
+            return
+        tasks = self.current_config.get("behavior_template", {}).get("tasks", [])
         for task in tasks:
-            if task == "open_browser":
-                open_browser()
-            elif task == "simulate_activity":
-                simulate_activity()
-            else:
-                print(f"[!] Неизвестная задача: {task}")
+            self.task_listbox.insert(tk.END, task)
 
-            wait = interval
-            if randomize:
-                wait = random.randint(1, interval * 2)
+    def on_run_clicked(self):
+        if not self.current_config:
+            messagebox.showwarning("Нет конфигурации", "Сначала выберите агента")
+            return
+        threading.Thread(target=run_tasks, args=(self.current_config,), daemon=True).start()
 
-            print(f"[*] Ожидание {wait} секунд...\n")
-            time.sleep(wait)
-
+# === Запуск ===
 if __name__ == "__main__":
-    main()
+    app = AgentGUI()
+    app.mainloop()
