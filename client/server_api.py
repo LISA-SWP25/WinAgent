@@ -17,6 +17,27 @@ def generate_agent_config(role_id: int, template_id: int):
         logging.error(f"Ошибка при генерации конфига агента: {e}")
         return None
 
+def test_generate_agent_config(setup_db):
+    payload = {
+        "name": "TestAgent",
+        "role_id": setup_db["role_id"],
+        "template_id": setup_db["template_id"],
+        "os_type": "linux",
+        "injection_target": "sshd",
+        "stealth_level": 5,
+        "custom_config": {"delay": 3}
+    }
+
+    response = client.post("/agents/generate", json=payload)
+    assert response.status_code == 200
+
+    data = response.json()
+    assert "agent_id" in data
+    assert data["config"]["name"] == "TestAgent"
+    assert data["config"]["target_os"] == "linux"
+    assert data["config"]["stealth_level"] == 5
+    assert data["download_url"].startswith("/api/agents")
+
 def download_agent_config(agent_id: str):
     url = f"{BASE_URL}/agents/{agent_id}/config/download?format=json"
     try:
