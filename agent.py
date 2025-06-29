@@ -13,7 +13,7 @@ from client.server_api import send_activity, download_agent_config
 
 mac = uuid.getnode()
 mac_str = ':'.join(f'{(mac >> ele) & 0xff:02x}' for ele in range(40, -1, -8))
-agent_id = f"agent_{mac:012x}"  # 12-значный hex без разделителей
+agent_id = f"agent_{mac:012x}"  
 
 AGENT_ID = "agent_001"
 
@@ -95,6 +95,35 @@ def is_work_time(settings):
     end = datetime.strptime(settings["work_end"], "%H:%M").time()
     return weekday in work_days and start <= current_time <= end
 
+
+def test_agent_main_workflow():
+    with patch('agent.download_agent_config') as mock_download, \
+         patch('agent.send_activity') as mock_send, \
+         patch('agent.run_action') as mock_run, \
+         patch('agent.time.sleep') as mock_sleep, \
+         patch('agent.logger') as mock_logger:
+        
+        # Настраиваем моки
+        mock_download.return_value = {
+            "custom_config": {
+                "interval": 5,
+                "randomize": False
+            },
+            "behavior_template": {
+                "tasks": ["test_action"]
+            }
+        }
+        
+        mock_sleep.side_effect = KeyboardInterrupt()
+        try:
+            from agent import main
+            main()
+        except KeyboardInterrupt:
+            pass
+        mock_download.assert_called_once_with("agent_001")
+        mock_run.assert_called_once()
+        mock_send.assert_called_once_with("agent_001", "test_action", {"status": "ok"})
+        mock_logger.info.assert_any_call("Аgent: agent_001, Interval: 5, TAsks: ['test_action']")
 
 def main():
     logger.info("Запуск агента LISA с конфигурацией по ID")
