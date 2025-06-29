@@ -1,0 +1,24 @@
+# Поведение разработчика
+activities:
+  - action: open_app
+    app: vscode
+    weight: 4
+
+  - action: run_terminal_command
+    terminal: powershell
+    command: "git pull"
+    weight: 2
+
+  - action: edit_file
+    path: "C:\\Users\\%USERNAME%\\Projects\\main.py"
+    weight: 2
+
+  - action: open_browser
+    urls:
+      - "https://stackoverflow.com"
+      - "https://github.com"
+    weight: 3
+
+  - action: sleep
+    seconds: 180
+    weight: 1

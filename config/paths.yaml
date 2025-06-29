@@ -1,0 +1,10 @@
+# Пути к приложениям и важным системным объектам для Windows
+apps:
+  browser: "C:\\Program Files\\Mozilla Firefox\\firefox.exe"
+  notepad: "C:\\Windows\\system32\\notepad.exe"
+  calc: "C:\\Windows\\system32\\calc.exe"
+  word: "C:\\Program Files\\Microsoft Office\\root\\Office16\\WINWORD.EXE"
+  excel: "C:\\Program Files\\Microsoft Office\\root\\Office16\\EXCEL.EXE"
+  powershell: "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
+  cmd: "C:\\Windows\\System32\\cmd.exe"
+  vscode: "C:\\Users\\%USERNAME%\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe"
