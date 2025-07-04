@@ -118,3 +118,282 @@
 2025-06-27 20:49:31,882 [INFO] Ожидание 1 секунд
 2025-06-27 20:49:32,884 [INFO] Браузер открыл URL: https://example.com
 2025-06-27 20:49:34,929 [INFO] Ожидание 1 секунд
+2025-06-29 18:23:18,470 [INFO] Запуск агента LISA с конфигурацией по ID
+2025-06-29 18:23:21,109 [INFO] Агент: agent_001, Интервал: 1, Задачи: ['open_browser', 'simulate_activity']
+2025-06-29 18:23:21,125 [INFO] Браузер открыл URL: https://example.com
+2025-06-29 18:23:23,178 [INFO] Ожидание 1 секунд
+2025-06-29 18:23:24,181 [INFO] Браузер открыл URL: https://example.com
+2025-06-29 18:23:26,223 [INFO] Ожидание 1 секунд
+2025-06-29 18:23:27,225 [INFO] Браузер открыл URL: https://example.com
+2025-06-29 18:23:29,284 [INFO] Ожидание 1 секунд
+2025-06-29 18:24:34,535 [INFO] Запуск агента LISA с конфигурацией по ID
+2025-06-29 18:24:36,590 [INFO] Агент: agent_001, Интервал: 1, Задачи: ['open_browser', 'simulate_activity']
+2025-06-29 18:24:36,596 [INFO] Браузер открыл URL: https://example.com
+2025-06-29 18:24:38,647 [INFO] Ожидание 1 секунд
+2025-06-29 18:24:40,266 [INFO] Сетевой запрос: https://example.com → 200
+2025-06-29 18:24:42,325 [INFO] Ожидание 1 секунд
+2025-06-29 18:24:43,964 [INFO] Сетевой запрос: https://example.com → 200
+2025-06-29 18:24:46,018 [INFO] Ожидание 1 секунд
+2025-06-29 18:24:47,020 [INFO] Браузер открыл URL: https://example.com
+2025-06-29 18:24:49,056 [INFO] Ожидание 1 секунд
+2025-06-29 18:24:50,058 [INFO] Браузер открыл URL: https://example.com
+2025-06-29 18:35:11,915 [INFO] Запуск агента LISA с конфигурацией по ID
+2025-06-29 18:35:13,976 [INFO] Агент: agent_001, Интервал: 1, Задачи: ['open_browser', 'simulate_activity']
+2025-06-29 18:35:14,783 [INFO] Сетевой запрос: https://example.com → 200
+2025-06-29 18:35:16,829 [INFO] Ожидание 1 секунд
+2025-06-29 18:35:18,475 [INFO] Сетевой запрос: https://example.com → 200
+2025-06-29 18:35:20,512 [INFO] Ожидание 1 секунд
+2025-06-29 18:35:21,521 [INFO] Браузер открыл URL: https://example.com
+2025-06-29 18:35:23,560 [INFO] Ожидание 1 секунд
+2025-06-29 18:35:24,562 [INFO] Браузер открыл URL: https://example.com
+2025-06-29 18:35:26,611 [INFO] Ожидание 1 секунд
+2025-06-29 18:35:27,942 [INFO] Сетевой запрос: https://github.com → 200
+2025-06-29 18:35:29,983 [INFO] Ожидание 1 секунд
+2025-06-29 18:35:30,985 [INFO] Браузер открыл URL: https://example.com
+2025-06-29 18:35:33,032 [INFO] Ожидание 1 секунд
+2025-06-29 18:35:34,279 [INFO] Сетевой запрос: https://www.python.org → 200
+2025-06-29 18:35:36,330 [INFO] Ожидание 1 секунд
+2025-06-29 18:35:37,333 [INFO] Браузер открыл URL: https://example.com
+2025-06-29 18:35:39,381 [INFO] Ожидание 1 секунд
+2025-06-29 18:35:41,064 [INFO] Сетевой запрос: https://example.com → 200
+2025-06-29 18:35:43,120 [INFO] Ожидание 1 секунд
+2025-06-29 18:41:09,991 [INFO] Запуск агента LISA с конфигурацией по ID
+2025-06-29 18:41:12,048 [INFO] Агент: agent_001, Интервал: 1, Задачи: ['open_browser', 'simulate_activity']
+2025-06-29 18:41:12,980 [INFO] Сетевой запрос: https://example.com → 200
+2025-06-29 18:41:15,019 [INFO] Ожидание 1 секунд
+2025-06-29 18:41:16,026 [INFO] Браузер открыл URL: https://example.com
+2025-06-29 18:41:18,074 [INFO] Ожидание 1 секунд
+2025-06-29 18:41:19,754 [INFO] Сетевой запрос: https://example.com → 200
+2025-06-29 18:41:21,797 [INFO] Ожидание 1 секунд
+2025-06-29 18:41:23,045 [INFO] Сетевой запрос: https://www.python.org → 200
+2025-06-29 18:41:25,096 [INFO] Ожидание 1 секунд
+2025-06-29 18:41:26,098 [INFO] Браузер открыл URL: https://example.com
+2025-06-29 18:41:28,153 [INFO] Ожидание 1 секунд
+2025-06-29 18:41:29,155 [INFO] Браузер открыл URL: https://example.com
+2025-06-29 18:41:31,196 [INFO] Ожидание 1 секунд
+2025-06-29 18:48:05,518 [INFO] Запуск агента LISA с конфигурацией по ID
+2025-06-29 18:48:07,546 [INFO] Агент: agent_001, Интервал: 1, Задачи: ['open_browser', 'simulate_activity']
+2025-06-29 18:48:07,553 [INFO] Браузер открыл URL: https://example.com
+2025-06-29 18:48:09,565 [INFO] Ожидание 1 секунд
+2025-06-29 18:48:10,568 [INFO] Браузер открыл URL: https://example.com
+2025-06-29 18:48:12,573 [INFO] Ожидание 1 секунд
+2025-06-29 18:48:13,838 [INFO] Сетевой запрос: https://www.python.org → 200
+2025-06-29 18:48:15,844 [INFO] Ожидание 1 секунд
+2025-06-29 18:48:16,846 [INFO] Браузер открыл URL: https://example.com
+2025-06-29 18:48:18,851 [INFO] Ожидание 1 секунд
+2025-06-29 18:48:20,156 [INFO] Сетевой запрос: https://www.python.org → 200
+2025-06-29 18:48:22,161 [INFO] Ожидание 1 секунд
+2025-06-29 18:48:23,501 [INFO] Сетевой запрос: https://github.com → 200
+2025-06-29 18:48:25,508 [INFO] Ожидание 1 секунд
+2025-06-29 18:48:26,509 [INFO] Браузер открыл URL: https://example.com
+2025-06-29 18:48:28,514 [INFO] Ожидание 1 секунд
+2025-06-29 18:48:29,795 [INFO] Сетевой запрос: https://www.python.org → 200
+2025-06-29 18:48:31,801 [INFO] Ожидание 1 секунд
+2025-06-29 18:49:56,428 [INFO] Запуск агента LISA с конфигурацией по ID
+2025-06-29 18:49:58,449 [INFO] Агент: agent_001, Интервал: 1, Задачи: ['open_browser', 'simulate_activity']
+2025-06-29 18:49:58,456 [INFO] Браузер открыл URL: https://example.com
+2025-06-29 18:50:00,465 [INFO] Ожидание 1 секунд
+2025-06-29 18:50:01,468 [INFO] Браузер открыл URL: https://example.com
+2025-06-29 18:50:03,481 [INFO] Ожидание 1 секунд
+2025-06-29 18:50:04,992 [INFO] Сетевой запрос: https://example.com → 200
+2025-06-29 18:50:06,999 [INFO] Ожидание 1 секунд
+2025-06-29 18:50:08,001 [INFO] Браузер открыл URL: https://example.com
+2025-06-29 18:50:10,005 [INFO] Ожидание 1 секунд
+2025-06-29 18:50:11,326 [INFO] Сетевой запрос: https://github.com → 200
+2025-06-29 18:50:13,332 [INFO] Ожидание 1 секунд
+2025-06-29 18:50:14,336 [INFO] Браузер открыл URL: https://example.com
+2025-06-29 18:50:16,339 [INFO] Ожидание 1 секунд
+2025-06-29 18:50:17,341 [INFO] Браузер открыл URL: https://example.com
+2025-06-29 18:50:19,350 [INFO] Ожидание 1 секунд
+2025-06-29 18:50:20,352 [INFO] Браузер открыл URL: https://example.com
+2025-06-29 18:50:22,359 [INFO] Ожидание 1 секунд
+2025-06-29 18:50:23,361 [INFO] Браузер открыл URL: https://example.com
+2025-06-29 20:59:41,686 [INFO] Запуск агента LISA с конфигурацией по ID
+2025-06-29 20:59:43,792 [ERROR] Ошибка при загрузке конфига агента: 404 Client Error: Not Found for url: http://localhost:8000/api/agents/agent_admin_dc1ba1be30dd/config/download?format=json
+2025-06-29 20:59:43,792 [ERROR] Конфигурация агента не получена. Завершение.
+2025-06-29 21:01:01,994 [INFO] Запуск агента LISA с конфигурацией по ID
+2025-06-29 21:01:04,042 [ERROR] Ошибка при загрузке конфига агента: 404 Client Error: Not Found for url: http://localhost:8000/api/agents/agent_admin_dc1ba1be30dd/config/download?format=json
+2025-06-29 21:01:04,042 [ERROR] Конфигурация агента не получена. Завершение.
+2025-06-29 21:03:30,218 [INFO] Запуск агента LISA с конфигурацией по ID
+2025-06-29 21:03:32,279 [INFO] Агент: agent_admin_dc1ba1be30dd, Интервал: 10, Задачи: ['open_browser', 'simulate_activity']
+2025-06-29 21:03:32,286 [INFO] Браузер открыл URL: https://example.com
+2025-06-29 21:03:34,331 [INFO] Ожидание 10 секунд
+2025-06-29 21:42:15,726 [INFO] Создан файл-блокировка agent_admin_dc1ba1be30dd.lock
+2025-06-29 21:42:15,726 [INFO] Запуск агента LISA с конфигурацией по ID
+2025-06-29 21:42:17,784 [INFO] Агент: agent_admin_dc1ba1be30dd, Интервал: 10, Задачи: ['open_browser', 'simulate_activity']
+2025-06-29 21:42:18,122 [INFO] Сетевой запрос: https://github.com → 200
+2025-06-29 21:42:20,158 [INFO] Ожидание 10 секунд
+2025-06-29 21:42:30,951 [INFO] Сетевой запрос: https://example.com → 200
+2025-06-29 21:42:32,999 [INFO] Ожидание 10 секунд
+2025-06-29 21:42:43,249 [INFO] Сетевой запрос: https://www.python.org → 200
+2025-06-29 21:42:45,298 [INFO] Ожидание 10 секунд
+2025-06-29 21:42:50,795 [INFO] Файл-блокировка agent_admin_dc1ba1be30dd.lock удалён
+2025-06-29 21:42:52,265 [INFO] Создан файл-блокировка agent_admin_dc1ba1be30dd.lock
+2025-06-29 21:42:52,265 [INFO] Запуск агента LISA с конфигурацией по ID
+2025-06-29 21:42:54,320 [INFO] Агент: agent_admin_dc1ba1be30dd, Интервал: 10, Задачи: ['open_browser', 'simulate_activity']
+2025-06-29 21:42:54,649 [INFO] Сетевой запрос: https://github.com → 200
+2025-06-29 21:42:56,696 [INFO] Ожидание 10 секунд
+2025-06-29 21:43:06,706 [INFO] Браузер открыл URL: https://example.com
+2025-06-29 21:43:08,744 [INFO] Ожидание 10 секунд
+2025-06-29 21:43:11,619 [INFO] Файл-блокировка agent_admin_dc1ba1be30dd.lock удалён
+2025-06-30 17:15:03,477 [INFO] Создан файл-блокировка agent_admin_dc1ba1be30dd.lock
+2025-06-30 17:15:03,478 [INFO] Запуск агента LISA с конфигурацией по ID
+2025-06-30 17:15:05,771 [INFO] Агент: agent_admin_dc1ba1be30dd, Интервал: 10, Задачи: ['open_browser', 'simulate_activity']
+2025-06-30 17:15:06,118 [INFO] Сетевой запрос: https://github.com → 200
+2025-06-30 17:15:08,152 [INFO] Ожидание 10 секунд
+2025-06-30 17:15:14,544 [INFO] Файл-блокировка agent_admin_dc1ba1be30dd.lock удалён
+2025-06-30 17:23:28,574 [INFO] Создан файл-блокировка agent_admin_dc1ba1be30dd.lock
+2025-06-30 17:23:28,574 [INFO] Запуск агента LISA с конфигурацией по ID
+2025-06-30 17:23:30,637 [INFO] Агент: agent_admin_dc1ba1be30dd, Интервал: 10, Задачи: [{'action': 'open_app', 'app': 'word', 'delay': 2, 'weight': 2}, {'action': 'open_app', 'app': 'docker', 'delay': 1, 'weight': 2}, {'action': 'open_browser', 'urls': ['https://admin.microsoft.com', 'https://docs.microsoft.com'], 'delay': 2, 'weight': 3}, {'action': 'run_terminal_command', 'terminal': 'powershell', 'command': 'Get-Service', 'delay': 2, 'weight': 2}, {'action': 'edit_file', 'path': 'C:\\\\Users\\\\%USERNAME%\\\\Documents\\\\admin_notes.txt', 'delay': 2, 'weight': 1}, {'action': 'simulate_activity', 'weight': 1}, {'action': 'os_settings', 'weight': 1}, {'action': 'ad_utilities', 'weight': 1}, {'action': 'sleep', 'seconds': 10, 'weight': 1}, {'action': 'terminate', 'delay': 5, 'weight': 1}]
+2025-06-30 17:23:30,637 [ERROR] Неизвестное действие: {'action': 'sleep', 'seconds': 10, 'weight': 1}
+2025-06-30 17:23:32,681 [INFO] Ожидание 10 секунд
+2025-06-30 17:23:42,682 [ERROR] Неизвестное действие: {'action': 'edit_file', 'path': 'C:\\\\Users\\\\%USERNAME%\\\\Documents\\\\admin_notes.txt', 'delay': 2, 'weight': 1}
+2025-06-30 17:23:44,725 [INFO] Ожидание 10 секунд
+2025-06-30 17:23:54,725 [ERROR] Неизвестное действие: {'action': 'open_app', 'app': 'docker', 'delay': 1, 'weight': 2}
+2025-06-30 17:23:56,774 [INFO] Ожидание 10 секунд
+2025-06-30 17:24:06,775 [ERROR] Неизвестное действие: {'action': 'sleep', 'seconds': 10, 'weight': 1}
+2025-06-30 17:24:08,822 [INFO] Файл-блокировка agent_admin_dc1ba1be30dd.lock удалён
+2025-06-30 17:27:13,755 [INFO] Создан файл-блокировка agent_admin_dc1ba1be30dd.lock
+2025-06-30 17:27:13,756 [INFO] Запуск агента LISA с конфигурацией по ID
+2025-06-30 17:27:15,802 [INFO] Агент: agent_admin_dc1ba1be30dd, Интервал: 10, Задачи: [{'action': 'open_app', 'app': 'word', 'delay': 2, 'weight': 2}, {'action': 'open_app', 'app': 'docker', 'delay': 1, 'weight': 2}, {'action': 'open_browser', 'urls': ['https://admin.microsoft.com', 'https://docs.microsoft.com'], 'delay': 2, 'weight': 3}, {'action': 'run_terminal_command', 'terminal': 'powershell', 'command': 'Get-Service', 'delay': 2, 'weight': 2}, {'action': 'edit_file', 'path': 'C:\\\\Users\\\\%USERNAME%\\\\Documents\\\\admin_notes.txt', 'delay': 2, 'weight': 1}, {'action': 'simulate_activity', 'weight': 1}, {'action': 'os_settings', 'weight': 1}, {'action': 'ad_utilities', 'weight': 1}, {'action': 'sleep', 'seconds': 10, 'weight': 1}, {'action': 'terminate', 'delay': 5, 'weight': 1}]
+2025-06-30 17:27:15,802 [INFO] Задержка 5 секунд перед действием terminate
+2025-06-30 17:27:20,804 [INFO] Выполняется завершение агента по сценарию.
+2025-06-30 17:27:20,804 [INFO] Файл-блокировка agent_admin_dc1ba1be30dd.lock удалён
+2025-06-30 17:27:25,531 [INFO] Создан файл-блокировка agent_admin_dc1ba1be30dd.lock
+2025-06-30 17:27:25,531 [INFO] Запуск агента LISA с конфигурацией по ID
+2025-06-30 17:27:27,591 [INFO] Агент: agent_admin_dc1ba1be30dd, Интервал: 10, Задачи: [{'action': 'open_app', 'app': 'word', 'delay': 2, 'weight': 2}, {'action': 'open_app', 'app': 'docker', 'delay': 1, 'weight': 2}, {'action': 'open_browser', 'urls': ['https://admin.microsoft.com', 'https://docs.microsoft.com'], 'delay': 2, 'weight': 3}, {'action': 'run_terminal_command', 'terminal': 'powershell', 'command': 'Get-Service', 'delay': 2, 'weight': 2}, {'action': 'edit_file', 'path': 'C:\\\\Users\\\\%USERNAME%\\\\Documents\\\\admin_notes.txt', 'delay': 2, 'weight': 1}, {'action': 'simulate_activity', 'weight': 1}, {'action': 'os_settings', 'weight': 1}, {'action': 'ad_utilities', 'weight': 1}, {'action': 'sleep', 'seconds': 10, 'weight': 1}, {'action': 'terminate', 'delay': 5, 'weight': 1}]
+2025-06-30 17:27:27,591 [INFO] Пауза (sleep) на 10 секунд
+2025-06-30 17:27:39,629 [INFO] Ожидание 10 секунд
+2025-06-30 17:27:49,986 [INFO] Сетевой запрос: https://github.com → 200
+2025-06-30 17:27:52,015 [INFO] Ожидание 10 секунд
+2025-06-30 17:28:02,358 [INFO] Сетевой запрос: https://github.com → 200
+2025-06-30 17:28:04,395 [INFO] Ожидание 10 секунд
+2025-06-30 17:28:08,039 [INFO] Файл-блокировка agent_admin_dc1ba1be30dd.lock удалён
+2025-06-30 17:28:23,075 [INFO] Создан файл-блокировка agent_admin_dc1ba1be30dd.lock
+2025-06-30 17:28:23,075 [INFO] Запуск агента LISA с конфигурацией по ID
+2025-06-30 17:28:25,134 [INFO] Агент: agent_admin_dc1ba1be30dd, Интервал: 10, Задачи: [{'action': 'open_app', 'app': 'word', 'delay': 2, 'weight': 2}, {'action': 'open_app', 'app': 'docker', 'delay': 1, 'weight': 2}, {'action': 'open_browser', 'urls': ['https://admin.microsoft.com', 'https://docs.microsoft.com'], 'delay': 2, 'weight': 3}, {'action': 'run_terminal_command', 'terminal': 'powershell', 'command': 'Get-Service', 'delay': 2, 'weight': 2}, {'action': 'edit_file', 'path': 'C:\\\\Users\\\\%USERNAME%\\\\Documents\\\\admin_notes.txt', 'delay': 2, 'weight': 1}, {'action': 'simulate_activity', 'weight': 1}, {'action': 'os_settings', 'weight': 1}, {'action': 'ad_utilities', 'weight': 1}, {'action': 'sleep', 'seconds': 10, 'weight': 1}, {'action': 'terminate', 'delay': 5, 'weight': 1}]
+2025-06-30 17:28:32,035 [INFO] Файл-блокировка agent_admin_dc1ba1be30dd.lock удалён
+2025-06-30 17:29:18,436 [INFO] Создан файл-блокировка agent_admin_dc1ba1be30dd.lock
+2025-06-30 17:29:18,436 [INFO] Запуск агента LISA с конфигурацией по ID
+2025-06-30 17:29:20,487 [INFO] Агент: agent_admin_dc1ba1be30dd, Интервал: 10, Задачи: [{'action': 'open_app', 'app': 'word', 'delay': 2, 'weight': 2}, {'action': 'open_app', 'app': 'docker', 'delay': 1, 'weight': 2}, {'action': 'open_browser', 'urls': ['https://admin.microsoft.com', 'https://docs.microsoft.com'], 'delay': 2, 'weight': 3}, {'action': 'run_terminal_command', 'terminal': 'powershell', 'command': 'Get-Service', 'delay': 2, 'weight': 2}, {'action': 'edit_file', 'path': 'C:\\\\Users\\\\%USERNAME%\\\\Documents\\\\admin_notes.txt', 'delay': 2, 'weight': 1}, {'action': 'simulate_activity', 'weight': 1}, {'action': 'os_settings', 'weight': 1}, {'action': 'ad_utilities', 'weight': 1}, {'action': 'sleep', 'seconds': 10, 'weight': 1}, {'action': 'terminate', 'delay': 5, 'weight': 1}]
+2025-06-30 17:29:20,487 [INFO] Задержка 2 секунд перед действием open_app
+2025-06-30 17:29:22,487 [INFO] Файл-блокировка agent_admin_dc1ba1be30dd.lock удалён
+2025-06-30 17:29:40,230 [INFO] Создан файл-блокировка agent_admin_dc1ba1be30dd.lock
+2025-06-30 17:29:40,230 [INFO] Запуск агента LISA с конфигурацией по ID
+2025-06-30 17:29:42,296 [INFO] Агент: agent_admin_dc1ba1be30dd, Интервал: 10, Задачи: [{'action': 'open_app', 'app': 'word', 'delay': 2, 'weight': 2}, {'action': 'open_app', 'app': 'docker', 'delay': 1, 'weight': 2}, {'action': 'open_browser', 'urls': ['https://admin.microsoft.com', 'https://docs.microsoft.com'], 'delay': 2, 'weight': 3}, {'action': 'run_terminal_command', 'terminal': 'powershell', 'command': 'Get-Service', 'delay': 2, 'weight': 2}, {'action': 'edit_file', 'path': 'C:\\\\Users\\\\%USERNAME%\\\\Documents\\\\admin_notes.txt', 'delay': 2, 'weight': 1}, {'action': 'simulate_activity', 'weight': 1}, {'action': 'os_settings', 'weight': 1}, {'action': 'ad_utilities', 'weight': 1}, {'action': 'sleep', 'seconds': 10, 'weight': 1}, {'action': 'terminate', 'delay': 5, 'weight': 1}]
+2025-06-30 17:29:42,296 [INFO] Задержка 2 секунд перед действием open_app
+2025-06-30 17:30:22,217 [INFO] Файл-блокировка agent_admin_dc1ba1be30dd.lock удалён
+2025-06-30 17:30:23,990 [INFO] Создан файл-блокировка agent_admin_dc1ba1be30dd.lock
+2025-06-30 17:30:23,991 [INFO] Запуск агента LISA с конфигурацией по ID
+2025-06-30 17:30:26,028 [INFO] Агент: agent_admin_dc1ba1be30dd, Интервал: 10, Задачи: [{'action': 'open_app', 'app': 'word', 'delay': 2, 'weight': 2}, {'action': 'open_app', 'app': 'docker', 'delay': 1, 'weight': 2}, {'action': 'open_browser', 'urls': ['https://admin.microsoft.com', 'https://docs.microsoft.com'], 'delay': 2, 'weight': 3}, {'action': 'run_terminal_command', 'terminal': 'powershell', 'command': 'Get-Service', 'delay': 2, 'weight': 2}, {'action': 'edit_file', 'path': 'C:\\\\Users\\\\%USERNAME%\\\\Documents\\\\admin_notes.txt', 'delay': 2, 'weight': 1}, {'action': 'simulate_activity', 'weight': 1}, {'action': 'os_settings', 'weight': 1}, {'action': 'ad_utilities', 'weight': 1}, {'action': 'sleep', 'seconds': 10, 'weight': 1}, {'action': 'terminate', 'delay': 5, 'weight': 1}]
+2025-06-30 17:30:26,028 [INFO] Задержка 2 секунд перед действием open_app
+2025-06-30 17:30:28,029 [INFO] Файл-блокировка agent_admin_dc1ba1be30dd.lock удалён
+2025-06-30 17:33:16,476 [INFO] Создан файл-блокировка agent_admin_dc1ba1be30dd.lock
+2025-06-30 17:33:16,476 [INFO] Запуск агента LISA с конфигурацией по ID
+2025-06-30 17:33:18,526 [INFO] Агент: agent_admin_dc1ba1be30dd, Интервал: 10, Задачи: [{'action': 'open_app', 'app': 'word', 'delay': 2, 'weight': 2}, {'action': 'open_app', 'app': 'docker', 'delay': 1, 'weight': 2}, {'action': 'open_browser', 'urls': ['https://admin.microsoft.com', 'https://docs.microsoft.com'], 'delay': 2, 'weight': 3}, {'action': 'run_terminal_command', 'terminal': 'powershell', 'command': 'Get-Service', 'delay': 2, 'weight': 2}, {'action': 'edit_file', 'path': 'C:\\\\Users\\\\%USERNAME%\\\\Documents\\\\admin_notes.txt', 'delay': 2, 'weight': 1}, {'action': 'simulate_activity', 'weight': 1}, {'action': 'os_settings', 'weight': 1}, {'action': 'ad_utilities', 'weight': 1}, {'action': 'sleep', 'seconds': 10, 'weight': 1}, {'action': 'terminate', 'delay': 5, 'weight': 1}]
+2025-06-30 17:33:18,526 [INFO] Задержка 2 секунд перед действием open_app
+2025-06-30 17:33:20,528 [INFO] Файл-блокировка agent_admin_dc1ba1be30dd.lock удалён
+2025-06-30 17:33:40,933 [INFO] Создан файл-блокировка agent_admin_dc1ba1be30dd.lock
+2025-06-30 17:33:40,933 [INFO] Запуск агента LISA с конфигурацией по ID
+2025-06-30 17:33:42,998 [INFO] Агент: agent_admin_dc1ba1be30dd, Интервал: 10, Задачи: [{'action': 'open_app', 'app': 'word', 'delay': 2, 'weight': 2}, {'action': 'open_app', 'app': 'docker', 'delay': 1, 'weight': 2}, {'action': 'open_browser', 'urls': ['https://admin.microsoft.com', 'https://docs.microsoft.com'], 'delay': 2, 'weight': 3}, {'action': 'run_terminal_command', 'terminal': 'powershell', 'command': 'Get-Service', 'delay': 2, 'weight': 2}, {'action': 'edit_file', 'path': 'C:\\\\Users\\\\%USERNAME%\\\\Documents\\\\admin_notes.txt', 'delay': 2, 'weight': 1}, {'action': 'simulate_activity', 'weight': 1}, {'action': 'os_settings', 'weight': 1}, {'action': 'ad_utilities', 'weight': 1}, {'action': 'sleep', 'seconds': 10, 'weight': 1}, {'action': 'terminate', 'delay': 5, 'weight': 1}]
+2025-06-30 17:33:42,998 [INFO] Задержка 2 секунд перед действием open_app
+2025-06-30 17:36:56,087 [INFO] Файл-блокировка agent_admin_dc1ba1be30dd.lock удалён
+2025-06-30 17:37:10,194 [INFO] Создан файл-блокировка agent_admin_dc1ba1be30dd.lock
+2025-06-30 17:37:10,194 [INFO] Запуск агента LISA с конфигурацией по ID
+2025-06-30 17:37:12,256 [INFO] Агент: agent_admin_dc1ba1be30dd, Интервал: 10, Задачи: [{'action': 'open_app', 'app': 'word', 'delay': 2, 'weight': 2}, {'action': 'open_app', 'app': 'docker', 'delay': 1, 'weight': 2}, {'action': 'open_browser', 'urls': ['https://admin.microsoft.com', 'https://docs.microsoft.com'], 'delay': 2, 'weight': 3}, {'action': 'run_terminal_command', 'terminal': 'powershell', 'command': 'Get-Service', 'delay': 2, 'weight': 2}, {'action': 'edit_file', 'path': 'C:\\\\Users\\\\%USERNAME%\\\\Documents\\\\admin_notes.txt', 'delay': 2, 'weight': 1}, {'action': 'simulate_activity', 'weight': 1}, {'action': 'os_settings', 'weight': 1}, {'action': 'ad_utilities', 'weight': 1}, {'action': 'sleep', 'seconds': 10, 'weight': 1}, {'action': 'terminate', 'delay': 5, 'weight': 1}]
+2025-06-30 17:37:18,895 [INFO] Задержка 2 секунд перед действием open_app
+2025-06-30 17:37:20,896 [INFO] Файл-блокировка agent_admin_dc1ba1be30dd.lock удалён
+2025-06-30 17:37:28,348 [INFO] Создан файл-блокировка agent_admin_dc1ba1be30dd.lock
+2025-06-30 17:37:28,349 [INFO] Запуск агента LISA с конфигурацией по ID
+2025-06-30 17:37:30,382 [INFO] Агент: agent_admin_dc1ba1be30dd, Интервал: 10, Задачи: [{'action': 'open_app', 'app': 'word', 'delay': 2, 'weight': 2}, {'action': 'open_app', 'app': 'docker', 'delay': 1, 'weight': 2}, {'action': 'open_browser', 'urls': ['https://admin.microsoft.com', 'https://docs.microsoft.com'], 'delay': 2, 'weight': 3}, {'action': 'run_terminal_command', 'terminal': 'powershell', 'command': 'Get-Service', 'delay': 2, 'weight': 2}, {'action': 'edit_file', 'path': 'C:\\\\Users\\\\%USERNAME%\\\\Documents\\\\admin_notes.txt', 'delay': 2, 'weight': 1}, {'action': 'simulate_activity', 'weight': 1}, {'action': 'os_settings', 'weight': 1}, {'action': 'ad_utilities', 'weight': 1}, {'action': 'sleep', 'seconds': 10, 'weight': 1}, {'action': 'terminate', 'delay': 5, 'weight': 1}]
+2025-06-30 17:37:30,388 [INFO] Задержка 2 секунд перед действием open_app
+2025-06-30 17:37:32,389 [INFO] Файл-блокировка agent_admin_dc1ba1be30dd.lock удалён
+2025-06-30 17:37:42,502 [INFO] Создан файл-блокировка agent_admin_dc1ba1be30dd.lock
+2025-06-30 17:37:42,502 [INFO] Запуск агента LISA с конфигурацией по ID
+2025-06-30 17:37:44,569 [INFO] Агент: agent_admin_dc1ba1be30dd, Интервал: 10, Задачи: [{'action': 'open_app', 'app': 'word', 'delay': 2, 'weight': 2}, {'action': 'open_app', 'app': 'docker', 'delay': 1, 'weight': 2}, {'action': 'open_browser', 'urls': ['https://admin.microsoft.com', 'https://docs.microsoft.com'], 'delay': 2, 'weight': 3}, {'action': 'run_terminal_command', 'terminal': 'powershell', 'command': 'Get-Service', 'delay': 2, 'weight': 2}, {'action': 'edit_file', 'path': 'C:\\\\Users\\\\%USERNAME%\\\\Documents\\\\admin_notes.txt', 'delay': 2, 'weight': 1}, {'action': 'simulate_activity', 'weight': 1}, {'action': 'os_settings', 'weight': 1}, {'action': 'ad_utilities', 'weight': 1}, {'action': 'sleep', 'seconds': 10, 'weight': 1}, {'action': 'terminate', 'delay': 5, 'weight': 1}]
+2025-06-30 17:37:48,049 [INFO] Задержка 2 секунд перед действием open_app
+2025-06-30 17:38:03,721 [INFO] Файл-блокировка agent_admin_dc1ba1be30dd.lock удалён
+2025-06-30 17:38:19,736 [INFO] Создан файл-блокировка agent_admin_dc1ba1be30dd.lock
+2025-06-30 17:38:19,736 [INFO] Запуск агента LISA с конфигурацией по ID
+2025-06-30 17:38:21,788 [INFO] Агент: agent_admin_dc1ba1be30dd, Интервал: 10, Задачи: [{'action': 'open_app', 'app': 'word', 'delay': 2, 'weight': 2}, {'action': 'open_app', 'app': 'docker', 'delay': 1, 'weight': 2}, {'action': 'open_browser', 'urls': ['https://admin.microsoft.com', 'https://docs.microsoft.com'], 'delay': 2, 'weight': 3}, {'action': 'run_terminal_command', 'terminal': 'powershell', 'command': 'Get-Service', 'delay': 2, 'weight': 2}, {'action': 'edit_file', 'path': 'C:\\\\Users\\\\%USERNAME%\\\\Documents\\\\admin_notes.txt', 'delay': 2, 'weight': 1}, {'action': 'simulate_activity', 'weight': 1}, {'action': 'os_settings', 'weight': 1}, {'action': 'ad_utilities', 'weight': 1}, {'action': 'sleep', 'seconds': 10, 'weight': 1}, {'action': 'terminate', 'delay': 5, 'weight': 1}]
+2025-06-30 17:38:21,792 [INFO] Задержка 2 секунд перед действием open_app
+2025-06-30 17:38:23,799 [INFO] Приложение запущено: C:\Program Files (x86)\Microsoft Office\root\Office16\WINWORD.EXE
+2025-06-30 17:38:25,838 [INFO] Ожидание 10 секунд
+2025-06-30 17:38:35,839 [INFO] Задержка 2 секунд перед действием open_app
+2025-06-30 17:38:37,841 [INFO] Приложение запущено: C:\Program Files (x86)\Microsoft Office\root\Office16\WINWORD.EXE
+2025-06-30 17:38:39,867 [INFO] Ожидание 10 секунд
+2025-06-30 17:38:49,868 [INFO] Задержка 2 секунд перед действием open_app
+2025-06-30 17:38:51,871 [INFO] Приложение запущено: C:\Program Files (x86)\Microsoft Office\root\Office16\WINWORD.EXE
+2025-06-30 17:38:53,895 [INFO] Ожидание 10 секунд
+2025-06-30 17:39:03,895 [INFO] Задержка 2 секунд перед действием open_app
+2025-06-30 17:39:05,897 [INFO] Приложение запущено: C:\Program Files (x86)\Microsoft Office\root\Office16\WINWORD.EXE
+2025-06-30 17:39:07,954 [INFO] Ожидание 10 секунд
+2025-06-30 17:39:17,955 [INFO] Задержка 2 секунд перед действием open_app
+2025-06-30 17:39:19,957 [INFO] Приложение запущено: C:\Program Files (x86)\Microsoft Office\root\Office16\WINWORD.EXE
+2025-06-30 17:39:22,008 [INFO] Ожидание 10 секунд
+2025-06-30 17:39:29,330 [INFO] Файл-блокировка agent_admin_dc1ba1be30dd.lock удалён
+2025-06-30 17:43:41,019 [INFO] Создан файл-блокировка agent_admin_dc1ba1be30dd.lock
+2025-06-30 17:43:41,019 [INFO] Запуск агента LISA с конфигурацией по ID
+2025-06-30 17:43:43,065 [INFO] Агент: agent_admin_dc1ba1be30dd, Интервал: 10, Задачи: [{'action': 'open_app', 'app': 'word', 'delay': 2, 'weight': 2}, {'action': 'open_app', 'app': 'docker', 'delay': 1, 'weight': 2}, {'action': 'open_browser', 'urls': ['https://admin.microsoft.com', 'https://docs.microsoft.com'], 'delay': 2, 'weight': 3}, {'action': 'run_terminal_command', 'terminal': 'powershell', 'command': 'Get-Service', 'delay': 2, 'weight': 2}, {'action': 'edit_file', 'path': 'C:\\\\Users\\\\%USERNAME%\\\\Documents\\\\admin_notes.txt', 'delay': 2, 'weight': 1}, {'action': 'simulate_activity', 'weight': 1}, {'action': 'os_settings', 'weight': 1}, {'action': 'ad_utilities', 'weight': 1}, {'action': 'sleep', 'seconds': 10, 'weight': 1}, {'action': 'terminate', 'delay': 5, 'weight': 1}]
+2025-06-30 17:43:43,069 [INFO] Задержка 2 секунд перед действием open_app
+2025-06-30 17:43:45,074 [INFO] Приложение запущено: C:\Program Files (x86)\Microsoft Office\root\Office16\WINWORD.EXE
+2025-06-30 17:43:47,098 [INFO] Ожидание 10 секунд
+2025-06-30 17:43:57,100 [INFO] Задержка 1 секунд перед действием open_app
+2025-06-30 17:43:58,105 [INFO] Приложение запущено: C:\Program Files\Docker\Docker\Docker Desktop.exe
+2025-06-30 17:44:00,147 [INFO] Ожидание 10 секунд
+2025-06-30 17:44:10,147 [INFO] Задержка 2 секунд перед действием open_browser
+2025-06-30 17:44:12,155 [INFO] Браузер открыл URL: https://docs.microsoft.com
+2025-06-30 17:44:14,189 [INFO] Ожидание 10 секунд
+2025-06-30 17:44:24,189 [INFO] Задержка 2 секунд перед действием run_terminal_command
+2025-06-30 17:44:26,196 [INFO] Выполнена команда: Get-Service
+2025-06-30 17:44:28,237 [INFO] Ожидание 10 секунд
+2025-06-30 17:44:38,240 [INFO] Задержка 2 секунд перед действием edit_file
+2025-06-30 17:44:40,271 [ERROR] Ошибка при открытии файла: [WinError 2] Не удается найти указанный файл: 'C:\\\\Users\\\\admin\\\\Documents\\\\admin_notes.txt'
+2025-06-30 17:44:42,315 [INFO] Ожидание 10 секунд
+2025-06-30 17:44:52,513 [INFO] Сетевой запрос: https://www.python.org → 200
+2025-06-30 17:44:54,564 [INFO] Ожидание 10 секунд
+2025-06-30 17:45:04,566 [ERROR] Неизвестное действие: os_settings
+2025-06-30 17:45:06,621 [INFO] Ожидание 10 секунд
+2025-06-30 17:45:16,621 [ERROR] Неизвестное действие: ad_utilities
+2025-06-30 17:45:18,666 [INFO] Ожидание 10 секунд
+2025-06-30 17:45:28,667 [INFO] Пауза (sleep) на 10 секунд
+2025-06-30 17:45:40,720 [INFO] Ожидание 10 секунд
+2025-06-30 17:45:50,720 [INFO] Задержка 5 секунд перед действием terminate
+2025-06-30 17:45:55,721 [INFO] Выполняется завершение агента по сценарию.
+2025-06-30 17:45:55,721 [INFO] Файл-блокировка agent_admin_dc1ba1be30dd.lock удалён
+2025-06-30 17:47:32,841 [INFO] Создан файл-блокировка agent_admin_dc1ba1be30dd.lock
+2025-06-30 17:47:32,841 [INFO] Запуск агента LISA с конфигурацией по ID
+2025-06-30 17:47:34,907 [INFO] Агент: agent_admin_dc1ba1be30dd, Интервал: 10, Задачи: [{'action': 'open_app', 'app': 'word', 'delay': 2, 'weight': 2}, {'action': 'open_app', 'app': 'docker', 'delay': 1, 'weight': 2}, {'action': 'open_browser', 'urls': ['https://admin.microsoft.com', 'https://docs.microsoft.com'], 'delay': 2, 'weight': 3}, {'action': 'run_terminal_command', 'terminal': 'powershell', 'command': 'Get-Service', 'delay': 2, 'weight': 2}, {'action': 'edit_file', 'path': 'C:\\\\Users\\\\%USERNAME%\\\\Documents\\\\admin_notes.txt', 'delay': 2, 'weight': 1}, {'action': 'simulate_activity', 'weight': 1}, {'action': 'os_settings', 'weight': 1}, {'action': 'ad_utilities', 'weight': 1}, {'action': 'sleep', 'seconds': 10, 'weight': 1}, {'action': 'terminate', 'delay': 5, 'weight': 1}]
+2025-06-30 17:47:34,911 [INFO] Задержка 2 секунд перед действием open_app
+2025-06-30 17:47:36,915 [INFO] Приложение запущено: C:\Program Files (x86)\Microsoft Office\root\Office16\WINWORD.EXE
+2025-06-30 17:47:38,959 [INFO] Ожидание 10 секунд
+2025-06-30 17:47:48,960 [INFO] Задержка 1 секунд перед действием open_app
+2025-06-30 17:47:49,964 [INFO] Приложение запущено: C:\Program Files\Docker\Docker\Docker Desktop.exe
+2025-06-30 17:47:52,013 [INFO] Ожидание 10 секунд
+2025-06-30 17:48:02,014 [INFO] Задержка 2 секунд перед действием open_browser
+2025-06-30 17:48:04,022 [INFO] Браузер открыл URL: https://admin.microsoft.com
+2025-06-30 17:48:06,062 [INFO] Ожидание 10 секунд
+2025-06-30 17:48:16,063 [INFO] Задержка 2 секунд перед действием run_terminal_command
+2025-06-30 17:48:18,070 [INFO] Выполнена команда: Get-Service
+2025-06-30 17:48:20,102 [INFO] Ожидание 10 секунд
+2025-06-30 17:48:30,104 [INFO] Задержка 2 секунд перед действием edit_file
+2025-06-30 17:48:32,182 [INFO] Файл открыт: C:\\Users\\admin\\Documents\\admin_notes.txt
+2025-06-30 17:48:34,234 [INFO] Ожидание 10 секунд
+2025-06-30 17:48:44,759 [INFO] Сетевой запрос: https://example.com → 200
+2025-06-30 17:48:46,792 [INFO] Ожидание 10 секунд
+2025-06-30 17:48:56,797 [INFO] Открыты настройки Windows
+2025-06-30 17:48:58,837 [INFO] Ожидание 10 секунд
+2025-06-30 17:49:08,841 [INFO] Открыт Active Directory Users and Computers
+2025-06-30 17:49:10,856 [INFO] Ожидание 10 секунд
+2025-06-30 17:49:20,857 [INFO] Пауза (sleep) на 10 секунд
+2025-06-30 17:49:32,900 [INFO] Ожидание 10 секунд
+2025-06-30 17:49:42,901 [INFO] Задержка 5 секунд перед действием terminate
+2025-06-30 17:49:47,902 [INFO] Выполняется завершение агента по сценарию.
+2025-06-30 17:49:47,902 [INFO] Файл-блокировка agent_admin_dc1ba1be30dd.lock удалён
+2025-06-30 18:12:49,356 [INFO] A blocking file has been created agent_admin_dc1ba1be30dd.lock
+2025-06-30 18:12:49,356 [INFO] Launching the LISA agent with the configuration by ID
+2025-06-30 18:12:51,406 [INFO] Agent: agent_admin_dc1ba1be30dd, Interval: 10, Tasks: [{'action': 'open_app', 'app': 'word', 'delay': 2, 'weight': 2}, {'action': 'open_app', 'app': 'docker', 'delay': 1, 'weight': 2}, {'action': 'open_browser', 'urls': ['https://admin.microsoft.com', 'https://docs.microsoft.com'], 'delay': 2, 'weight': 3}, {'action': 'run_terminal_command', 'terminal': 'powershell', 'command': 'Get-Service', 'delay': 2, 'weight': 2}, {'action': 'edit_file', 'path': 'C:\\\\Users\\\\%USERNAME%\\\\Documents\\\\admin_notes.txt', 'delay': 2, 'weight': 1}, {'action': 'simulate_activity', 'weight': 1}, {'action': 'os_settings', 'weight': 1}, {'action': 'ad_utilities', 'weight': 1}, {'action': 'sleep', 'seconds': 10, 'weight': 1}, {'action': 'terminate', 'delay': 5, 'weight': 1}]
+2025-06-30 18:12:51,410 [INFO] Delay of 2 seconds before the action open_app
+2025-06-30 18:12:53,415 [INFO] The application is running: C:\Program Files (x86)\Microsoft Office\root\Office16\WINWORD.EXE
+2025-06-30 18:12:55,448 [INFO] Waiting 10 seconds
+2025-06-30 18:12:58,173 [INFO] The lock file agent_admin_dc1ba1be30dd.lock has been deleted

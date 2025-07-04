@@ -3,8 +3,25 @@ apps:
   browser: "C:\\Program Files\\Mozilla Firefox\\firefox.exe"
   notepad: "C:\\Windows\\system32\\notepad.exe"
   calc: "C:\\Windows\\system32\\calc.exe"
-  word: "C:\\Program Files\\Microsoft Office\\root\\Office16\\WINWORD.EXE"
-  excel: "C:\\Program Files\\Microsoft Office\\root\\Office16\\EXCEL.EXE"
+
+  # MS Office
+  word: "C:\\Program Files (x86)\\Microsoft Office\\root\\Office16\\WINWORD.EXE"
+  excel: "C:\\Program Files (x86)\\Microsoft Office\\root\\Office16\\EXCEL.EXE"
+  outlook: "C:\\Program Files (x86)\\Microsoft Office\\root\\Office16\\OUTLOOK.EXE"
+
+  # Dev tools
+  vscode: "C:\\Users\\%USERNAME%\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe"
+  gitbash: "C:\\Program Files\\Git\\git-bash.exe"
+
+  # Terminals
   powershell: "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
   cmd: "C:\\Windows\\System32\\cmd.exe"
-  vscode: "C:\\Users\\%USERNAME%\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe"
+
+  # Docker
+  docker: "C:\\Program Files\\Docker\\Docker\\Docker Desktop.exe"
+
+  # OS Settings (используется как спец-флаг)
+  os_settings: "ms-settings:"
+
+  # Active Directory Utilities
+  ad_utilities: "C:\\Windows\\System32\\mmc.exe dsa.msc"

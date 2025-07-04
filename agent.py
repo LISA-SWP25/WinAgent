@@ -1,3 +1,4 @@
+import getpass
 import logging
 import os
 import random
@@ -10,16 +11,39 @@ import yaml
 
 from actions import apps, files, net
 from client.server_api import send_activity, download_agent_config
-
-mac = uuid.getnode()
-mac_str = ':'.join(f'{(mac >> ele) & 0xff:02x}' for ele in range(40, -1, -8))
-agent_id = f"agent_{mac:012x}"  
-
-AGENT_ID = "agent_001"
-
 from utils.logger import setup_logger
 
+# === Генерация уникального AGENT_ID ===
+
+username = getpass.getuser()
+mac_int = uuid.getnode()
+mac_str = f"{mac_int:012x}"
+AGENT_ID = f"agent_{username}_{mac_str}".lower()
+
+# === Инициализация логгера ===
 logger = setup_logger()
+
+# === Singleton: файл-блокировка ===
+
+LOCK_FILE = Path(f"{AGENT_ID}.lock")
+
+
+def check_singleton():
+    if LOCK_FILE.exists():
+        logger.error(f"The agent with the ID {AGENT_ID} has already been launched! Completion.")
+        sys.exit(1)
+    else:
+        LOCK_FILE.touch()
+        logger.info(f"A blocking file has been created {LOCK_FILE}")
+
+
+def cleanup_singleton():
+    if LOCK_FILE.exists():
+        LOCK_FILE.unlink()
+        logger.info(f"The lock file {LOCK_FILE} has been deleted")
+
+
+# === Пути к локальным конфигам (если используются) ===
 
 CONFIG_PATH = Path("config/settings.yaml")
 PATHS_PATH = Path("config/paths.yaml")
@@ -40,21 +64,39 @@ def load_config():
     return settings, paths, role
 
 
+# === Выбор случайной активности по весам ===
+
 def weighted_choice(activities):
     weights = [a.get("weight", 1) for a in activities]
     return random.choices(activities, weights=weights, k=1)[0]
 
 
+# === Основной исполнитель действий ===
+
+import sys
+
+
 def run_action(action, paths):
     action_type = action.get("action")
+
+    # Задержка перед выполнением, если указана
+    delay = action.get("delay")
+    if delay:
+        logging.info(f"Delay of {delay} seconds before the action {action_type}")
+        time.sleep(delay)
 
     if action_type == "open_app":
         app_name = action.get("app")
         path = paths.get("apps", {}).get(app_name)
-        if path:
+
+        if path == "ms-settings:":
+            apps.open_settings()
+        elif "dsa.msc" in path:
+            apps.open_ad_utilities()
+        elif path:
             apps.open_app(path)
         else:
-            logging.warning(f"Неизвестное приложение: {app_name}")
+            logging.warning(f"Unknown application: {app_name}")
 
     elif action_type == "open_browser":
         urls = action.get("urls", ["https://example.com"])
@@ -68,7 +110,7 @@ def run_action(action, paths):
         if term_path:
             apps.run_terminal_command(term_path, command)
         else:
-            logging.warning(f"Неизвестный терминал: {terminal}")
+            logging.warning(f"Unknown terminal: {terminal}")
 
     elif action_type == "edit_file":
         path = os.path.expandvars(action.get("path", ""))
@@ -76,15 +118,37 @@ def run_action(action, paths):
 
     elif action_type == "sleep":
         seconds = action.get("seconds", 60)
-        logging.info(f"Пауза на {seconds} секунд")
+        logging.info(f"Pause (sleep) for {seconds} seconds")
         time.sleep(seconds)
 
     elif action_type == "simulate_activity":
         net.simulate_network_activity()
 
-    else:
-        logging.error(f"Неизвестное действие: {action_type}")
+    elif action_type == "terminate":
+        logging.info("The agent is being terminated according to the script.")
+        sys.exit(0)
 
+    elif action_type == "os_settings":
+        apps.open_settings()
+
+    elif action_type == "ad_utilities":
+        apps.open_ad_utilities()
+
+
+    elif action_type == "conditional_exit":
+        condition = action.get("condition")
+        # Пример: проверка нерабочего времени
+        if condition == "not_work_time" and not is_work_time({}):  # передай settings если нужно
+            logging.info("The condition is met: the agent is shutting down.")
+            sys.exit(0)
+        else:
+            logging.info("The completion condition is not met — the agent continues to work.")
+
+    else:
+        logging.error(f"Unknown action: {action_type}")
+
+
+# === Проверка рабочего времени ===
 
 def is_work_time(settings):
     now = datetime.now()
@@ -96,62 +160,51 @@ def is_work_time(settings):
     return weekday in work_days and start <= current_time <= end
 
 
-def test_agent_main_workflow():
-    with patch('agent.download_agent_config') as mock_download, \
-         patch('agent.send_activity') as mock_send, \
-         patch('agent.run_action') as mock_run, \
-         patch('agent.time.sleep') as mock_sleep, \
-         patch('agent.logger') as mock_logger:
-        
-        # Настраиваем моки
-        mock_download.return_value = {
-            "custom_config": {
-                "interval": 5,
-                "randomize": False
-            },
-            "behavior_template": {
-                "tasks": ["test_action"]
-            }
-        }
-        
-        mock_sleep.side_effect = KeyboardInterrupt()
-        try:
-            from agent import main
-            main()
-        except KeyboardInterrupt:
-            pass
-        mock_download.assert_called_once_with("agent_001")
-        mock_run.assert_called_once()
-        mock_send.assert_called_once_with("agent_001", "test_action", {"status": "ok"})
-        mock_logger.info.assert_any_call("Аgent: agent_001, Interval: 5, TAsks: ['test_action']")
+# === Основной цикл ===
 
 def main():
-    logger.info("Запуск агента LISA с конфигурацией по ID")
+    check_singleton()
+    logger.info("Launching the LISA agent with the configuration by ID")
 
-    config = download_agent_config(AGENT_ID)
-    if not config:
-        logger.error("Конфигурация агента не получена. Завершение.")
-        return
+    try:
+        config = download_agent_config(AGENT_ID)
+        if not config:
+            logger.error("The agent configuration was not received. Completion.")
+            return
 
-    interval = config.get("custom_config", {}).get("interval", 10)
-    randomize = config.get("custom_config", {}).get("randomize", True)
-    tasks = config.get("behavior_template", {}).get("tasks", [])
+        interval = config.get("custom_config", {}).get("interval", 10)
+        randomize = config.get("custom_config", {}).get("randomize", True)
+        tasks = config.get("behavior_template", {}).get("tasks", [])
 
-    if not tasks:
-        logger.error("Шаблон задач пуст. Завершение.")
-        return
+        if not tasks:
+            logger.error("The task template is empty. Completion.")
+            return
 
-    logger.info(f"Агент: {AGENT_ID}, Интервал: {interval}, Задачи: {tasks}")
+        logger.info(f"Agent: {AGENT_ID}, Interval: {interval}, Tasks: {tasks}")
+        settings, paths, _ = load_config()
 
-    while True:
-        task = random.choice(tasks) if randomize else tasks[0]
-        action = {"action": task}
-        run_action(action, paths={})  # paths можно убрать, если не используется
+        if randomize:
+            while True:
+                task = weighted_choice(tasks)
+                run_action(task, paths=paths)
 
-        send_activity(AGENT_ID, task, {"status": "ok"})
-        logger.info(f"Ожидание {interval} секунд")
-        time.sleep(interval)
+                send_activity(AGENT_ID, task, {"status": "ok"})
+                logger.info(f"Waiting {interval} seconds")
+                time.sleep(interval)
+        else:
+            while True:
+                for task in tasks:
+                    run_action(task, paths=paths)
 
+                    send_activity(AGENT_ID, task, {"status": "ok"})
+                    logger.info(f"Waiting {interval} seconds")
+                    time.sleep(interval)
+
+    finally:
+        cleanup_singleton()
+
+
+# === Запуск ===
 
 if __name__ == "__main__":
     main()
