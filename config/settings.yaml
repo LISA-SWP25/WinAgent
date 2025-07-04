@@ -1,0 +1,8 @@
+# Общие настройки агента
+role: user             # user | dev | admin
+work_days: [1, 2, 3, 4, 5]  # 1=Пн, 7=Вс
+work_start: "09:00"
+work_end: "18:00"
+activity_interval_min: 120  # в секундах
+activity_interval_max: 300
+log_file: "logs/agent.log"
