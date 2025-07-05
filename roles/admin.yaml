@@ -1,0 +1,25 @@
+# Поведение системного администратора
+activities:
+  - action: run_terminal_command
+    terminal: powershell
+    command: "Get-Service"
+    weight: 3
+
+  - action: run_terminal_command
+    terminal: cmd
+    command: "ipconfig /all"
+    weight: 2
+
+  - action: open_browser
+    urls:
+      - "https://admin.microsoft.com"
+      - "https://docs.microsoft.com"
+    weight: 2
+
+  - action: open_app
+    app: powershell
+    weight: 1
+
+  - action: sleep
+    seconds: 150
+    weight: 1

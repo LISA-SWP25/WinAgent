@@ -1,0 +1,23 @@
+# Поведение офисного сотрудника
+activities:
+  - action: open_app
+    app: word
+    weight: 3
+
+  - action: open_app
+    app: excel
+    weight: 2
+
+  - action: open_browser
+    urls:
+      - "https://mail.yandex.ru"
+      - "https://docs.google.com"
+    weight: 4
+
+  - action: edit_file
+    path: "C:\\Users\\%USERNAME%\\Documents\\report.docx"
+    weight: 1
+
+  - action: sleep
+    seconds: 120
+    weight: 1
