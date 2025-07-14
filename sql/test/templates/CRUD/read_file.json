@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    {
+      "action": "read_file",
+      "path": "C:\\\\Users\\\\%USERNAME%\\\\Documents\\\\word_doc.docx",
+      "editor": "word",
+      "delay": 1,
+      "repeatable": false,
+      "weight": 1
+    },
+    {
+      "action": "read_file",
+      "path": "C:\\\\Users\\\\%USERNAME%\\\\Documents\\\\notes.txt",
+      "editor": "notepad",
+      "delay": 1,
+      "repeatable": false,
+      "weight": 1
+    },
+    {
+      "action": "read_file",
+      "path": "C:\\\\Users\\\\%USERNAME%\\\\Documents\\\\vscode_note.txt",
+      "editor": "vscode",
+      "delay": 1,
+      "repeatable": false,
+      "weight": 1
+    },
+    {
+      "action": "terminate",
+      "delay": 0,
+      "repeatable": false,
+      "weight": 1
+    }
+  ],
+  "interval": 0
+}

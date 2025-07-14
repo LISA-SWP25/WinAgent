@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    {
+      "action": "update_file",
+      "path": "C:\\\\Users\\\\%USERNAME%\\\\Documents\\\\word_doc.docx",
+      "content": "Updated Word document content.",
+      "delay": 1,
+      "repeatable": false,
+      "weight": 1
+    },
+    {
+      "action": "update_file",
+      "path": "C:\\\\Users\\\\%USERNAME%\\\\Documents\\\\notes.txt",
+      "content": "Updated Notepad file content.",
+      "delay": 1,
+      "repeatable": false,
+      "weight": 1
+    },
+    {
+      "action": "update_file",
+      "path": "C:\\\\Users\\\\%USERNAME%\\\\Documents\\\\vscode_note.txt",
+      "content": "Updated VSCode file content.",
+      "delay": 1,
+      "repeatable": false,
+      "weight": 1
+    },
+    {
+      "action": "terminate",
+      "delay": 0,
+      "repeatable": false,
+      "weight": 1
+    }
+  ],
+  "interval": 0
+}

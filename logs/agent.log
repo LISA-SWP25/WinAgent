@@ -1,512 +1,633 @@
-2025-06-26 19:31:49,472 [INFO] Агент LISA запущен под Windows
-2025-06-26 19:31:49,475 [INFO] Вне рабочего времени. Пауза 5 минут
-2025-06-27 14:56:15,774 [INFO] Агент LISA запущен под Windows
-2025-06-27 14:56:15,777 [INFO] Запуск приложения: C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE
-2025-06-27 14:56:15,781 [INFO] Следующее действие через 186 секунд
-2025-06-27 14:56:47,423 [INFO] Агент LISA запущен под Windows
-2025-06-27 14:56:47,425 [INFO] Запуск приложения: C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE
-2025-06-27 14:56:47,429 [INFO] Следующее действие через 226 секунд
-2025-06-27 15:06:56,297 [INFO] Запуск агента LISA с серверной конфигурацией
-2025-06-27 15:06:58,347 [ERROR] Ошибка при получении конфига агента: 404 Client Error: Not Found for url: http://localhost:8000/api/agents/agent_001
-2025-06-27 15:06:58,347 [ERROR] Конфигурация агента не получена. Завершение.
-2025-06-27 15:07:59,247 [INFO] Запуск агента LISA с серверной конфигурацией
-2025-06-27 15:08:01,301 [ERROR] Ошибка при получении конфига агента: 404 Client Error: Not Found for url: http://localhost:8000/api/agents/agent_001
-2025-06-27 15:08:01,301 [ERROR] Конфигурация агента не получена. Завершение.
-2025-06-27 15:10:12,103 [INFO] Запуск агента LISA с серверной конфигурацией
-2025-06-27 15:10:14,149 [ERROR] Ошибка при получении конфига агента: 404 Client Error: Not Found for url: http://localhost:8000/api/agents/agent_001
-2025-06-27 15:10:14,149 [ERROR] Конфигурация агента не получена. Завершение.
-2025-06-27 15:14:57,854 [INFO] Запуск агента LISA с серверной конфигурацией
-2025-06-27 15:14:59,912 [ERROR] Ошибка при генерации конфига агента: 422 Client Error: Unprocessable Entity for url: http://localhost:8000/api/agents/generate
-2025-06-27 15:14:59,913 [ERROR] Конфигурация агента не получена. Завершение.
-2025-06-27 15:19:13,049 [INFO] Запуск агента LISA с серверной конфигурацией
-2025-06-27 15:19:15,104 [ERROR] Ошибка при генерации конфига агента: 422 Client Error: Unprocessable Entity for url: http://localhost:8000/api/agents/generate
-2025-06-27 15:19:15,104 [ERROR] Конфигурация агента не получена. Завершение.
-2025-06-27 15:26:10,455 [INFO] Запуск агента LISA с конфигурацией по ID
-2025-06-27 15:26:12,513 [INFO] Агент: agent_001, Интервал: 10, Задачи: ['open_browser', 'simulate_activity']
-2025-06-27 15:26:12,513 [ERROR] Неизвестное действие: simulate_activity
-2025-06-27 15:26:14,559 [INFO] Ожидание 10 секунд
-2025-06-27 15:27:24,670 [INFO] Запуск агента LISA с конфигурацией по ID
-2025-06-27 15:27:26,724 [INFO] Агент: agent_001, Интервал: 10, Задачи: ['open_browser', 'simulate_activity']
-2025-06-27 15:27:26,725 [ERROR] Неизвестное действие: simulate_activity
-2025-06-27 15:27:28,769 [INFO] Ожидание 10 секунд
-2025-06-27 15:29:18,579 [INFO] Запуск агента LISA с конфигурацией по ID
-2025-06-27 15:29:20,629 [INFO] Агент: agent_001, Интервал: 10, Задачи: ['open_browser', 'simulate_activity']
-2025-06-27 15:29:20,629 [INFO] Симуляция фоновой активности (заглушка)
-2025-06-27 15:29:24,665 [INFO] Ожидание 10 секунд
-2025-06-27 15:29:34,666 [INFO] Симуляция фоновой активности (заглушка)
-2025-06-27 15:29:38,720 [INFO] Ожидание 10 секунд
-2025-06-27 15:31:18,382 [INFO] Запуск агента LISA с конфигурацией по ID
-2025-06-27 15:31:20,441 [INFO] Агент: agent_001, Интервал: 1, Задачи: ['open_browser', 'simulate_activity']
-2025-06-27 15:31:20,442 [INFO] Симуляция фоновой активности (заглушка)
-2025-06-27 15:31:24,485 [INFO] Ожидание 1 секунд
-2025-06-27 15:31:25,486 [INFO] Симуляция фоновой активности (заглушка)
-2025-06-27 15:31:29,527 [INFO] Ожидание 1 секунд
-2025-06-27 15:31:30,528 [INFO] Открытие браузера по ссылке: https://example.com
-2025-06-27 15:31:32,571 [INFO] Ожидание 1 секунд
-2025-06-27 15:31:33,573 [INFO] Симуляция фоновой активности (заглушка)
-2025-06-27 15:31:37,615 [INFO] Ожидание 1 секунд
-2025-06-27 15:31:38,616 [INFO] Открытие браузера по ссылке: https://example.com
-2025-06-27 15:31:40,664 [INFO] Ожидание 1 секунд
-2025-06-27 15:31:41,666 [INFO] Симуляция фоновой активности (заглушка)
-2025-06-27 15:36:29,838 [INFO] Запуск агента LISA с конфигурацией по ID
-2025-06-27 15:36:31,890 [INFO] Агент: agent_001, Интервал: 1, Задачи: ['open_browser', 'simulate_activity']
-2025-06-27 15:36:32,188 [INFO] Сетевой запрос: https://www.python.org → 200
-2025-06-27 15:36:34,242 [INFO] Ожидание 1 секунд
-2025-06-27 15:36:35,989 [INFO] Сетевой запрос: https://example.com → 200
-2025-06-27 15:36:38,035 [INFO] Ожидание 1 секунд
-2025-06-27 15:36:39,042 [INFO] Браузер открыл URL: https://example.com
-2025-06-27 15:36:41,084 [INFO] Ожидание 1 секунд
-2025-06-27 15:36:42,086 [INFO] Браузер открыл URL: https://example.com
-2025-06-27 15:36:44,127 [INFO] Ожидание 1 секунд
-2025-06-27 15:36:45,129 [INFO] Браузер открыл URL: https://example.com
-2025-06-27 15:36:47,170 [INFO] Ожидание 1 секунд
-2025-06-27 15:36:48,172 [INFO] Браузер открыл URL: https://example.com
-2025-06-27 15:36:50,228 [INFO] Ожидание 1 секунд
-2025-06-27 20:45:19,751 [INFO] Запуск агента LISA с конфигурацией по ID
-2025-06-27 20:45:21,860 [INFO] Агент: agent_001, Интервал: 1, Задачи: ['open_browser', 'simulate_activity']
-2025-06-27 20:45:22,162 [INFO] Сетевой запрос: https://www.python.org → 200
-2025-06-27 20:45:24,209 [INFO] Ожидание 1 секунд
-2025-06-27 20:45:25,217 [INFO] Браузер открыл URL: https://example.com
-2025-06-27 20:45:27,252 [INFO] Ожидание 1 секунд
-2025-06-27 20:45:28,691 [INFO] Сетевой запрос: https://github.com → 200
-2025-06-27 20:45:30,802 [INFO] Ожидание 1 секунд
-2025-06-27 20:45:32,087 [INFO] Сетевой запрос: https://www.python.org → 200
-2025-06-27 20:45:34,130 [INFO] Ожидание 1 секунд
-2025-06-27 20:45:35,132 [INFO] Браузер открыл URL: https://example.com
-2025-06-27 20:45:37,174 [INFO] Ожидание 1 секунд
-2025-06-27 20:45:38,177 [INFO] Браузер открыл URL: https://example.com
-2025-06-27 20:45:40,228 [INFO] Ожидание 1 секунд
-2025-06-27 20:45:41,721 [INFO] Сетевой запрос: https://example.com → 200
-2025-06-27 20:45:43,760 [INFO] Ожидание 1 секунд
-2025-06-27 20:45:44,761 [INFO] Браузер открыл URL: https://example.com
-2025-06-27 20:45:46,803 [INFO] Ожидание 1 секунд
-2025-06-27 20:45:48,490 [INFO] Сетевой запрос: https://github.com → 200
-2025-06-27 20:45:50,539 [INFO] Ожидание 1 секунд
-2025-06-27 20:45:51,829 [INFO] Сетевой запрос: https://www.python.org → 200
-2025-06-27 20:45:53,878 [INFO] Ожидание 1 секунд
-2025-06-27 20:45:55,238 [INFO] Сетевой запрос: https://github.com → 200
-2025-06-27 20:45:57,282 [INFO] Ожидание 1 секунд
-2025-06-27 20:45:58,755 [INFO] Сетевой запрос: https://example.com → 200
-2025-06-27 20:46:00,801 [INFO] Ожидание 1 секунд
-2025-06-27 20:46:02,167 [INFO] Сетевой запрос: https://github.com → 200
-2025-06-27 20:46:04,206 [INFO] Ожидание 1 секунд
-2025-06-27 20:46:05,210 [INFO] Браузер открыл URL: https://example.com
-2025-06-27 20:46:07,262 [INFO] Ожидание 1 секунд
-2025-06-27 20:46:08,265 [INFO] Браузер открыл URL: https://example.com
-2025-06-27 20:46:10,324 [INFO] Ожидание 1 секунд
-2025-06-27 20:46:11,326 [INFO] Браузер открыл URL: https://example.com
-2025-06-27 20:46:13,372 [INFO] Ожидание 1 секунд
-2025-06-27 20:46:14,374 [INFO] Браузер открыл URL: https://example.com
-2025-06-27 20:46:16,417 [INFO] Ожидание 1 секунд
-2025-06-27 20:46:17,887 [INFO] Сетевой запрос: https://example.com → 200
-2025-06-27 20:46:19,931 [INFO] Ожидание 1 секунд
-2025-06-27 20:46:20,934 [INFO] Браузер открыл URL: https://example.com
-2025-06-27 20:46:22,973 [INFO] Ожидание 1 секунд
-2025-06-27 20:46:23,979 [INFO] Браузер открыл URL: https://example.com
-2025-06-27 20:46:26,037 [INFO] Ожидание 1 секунд
-2025-06-27 20:46:27,040 [INFO] Браузер открыл URL: https://example.com
-2025-06-27 20:46:29,097 [INFO] Ожидание 1 секунд
-2025-06-27 20:49:18,000 [INFO] Запуск агента LISA с конфигурацией по ID
-2025-06-27 20:49:20,047 [INFO] Агент: agent_001, Интервал: 1, Задачи: ['open_browser', 'simulate_activity']
-2025-06-27 20:49:20,455 [INFO] Сетевой запрос: https://github.com → 200
-2025-06-27 20:49:22,501 [INFO] Ожидание 1 секунд
-2025-06-27 20:49:23,741 [INFO] Сетевой запрос: https://www.python.org → 200
-2025-06-27 20:49:25,784 [INFO] Ожидание 1 секунд
-2025-06-27 20:49:26,792 [INFO] Браузер открыл URL: https://example.com
-2025-06-27 20:49:28,835 [INFO] Ожидание 1 секунд
-2025-06-27 20:49:29,836 [INFO] Браузер открыл URL: https://example.com
-2025-06-27 20:49:31,882 [INFO] Ожидание 1 секунд
-2025-06-27 20:49:32,884 [INFO] Браузер открыл URL: https://example.com
-2025-06-27 20:49:34,929 [INFO] Ожидание 1 секунд
-2025-06-29 18:23:18,470 [INFO] Запуск агента LISA с конфигурацией по ID
-2025-06-29 18:23:21,109 [INFO] Агент: agent_001, Интервал: 1, Задачи: ['open_browser', 'simulate_activity']
-2025-06-29 18:23:21,125 [INFO] Браузер открыл URL: https://example.com
-2025-06-29 18:23:23,178 [INFO] Ожидание 1 секунд
-2025-06-29 18:23:24,181 [INFO] Браузер открыл URL: https://example.com
-2025-06-29 18:23:26,223 [INFO] Ожидание 1 секунд
-2025-06-29 18:23:27,225 [INFO] Браузер открыл URL: https://example.com
-2025-06-29 18:23:29,284 [INFO] Ожидание 1 секунд
-2025-06-29 18:24:34,535 [INFO] Запуск агента LISA с конфигурацией по ID
-2025-06-29 18:24:36,590 [INFO] Агент: agent_001, Интервал: 1, Задачи: ['open_browser', 'simulate_activity']
-2025-06-29 18:24:36,596 [INFO] Браузер открыл URL: https://example.com
-2025-06-29 18:24:38,647 [INFO] Ожидание 1 секунд
-2025-06-29 18:24:40,266 [INFO] Сетевой запрос: https://example.com → 200
-2025-06-29 18:24:42,325 [INFO] Ожидание 1 секунд
-2025-06-29 18:24:43,964 [INFO] Сетевой запрос: https://example.com → 200
-2025-06-29 18:24:46,018 [INFO] Ожидание 1 секунд
-2025-06-29 18:24:47,020 [INFO] Браузер открыл URL: https://example.com
-2025-06-29 18:24:49,056 [INFO] Ожидание 1 секунд
-2025-06-29 18:24:50,058 [INFO] Браузер открыл URL: https://example.com
-2025-06-29 18:35:11,915 [INFO] Запуск агента LISA с конфигурацией по ID
-2025-06-29 18:35:13,976 [INFO] Агент: agent_001, Интервал: 1, Задачи: ['open_browser', 'simulate_activity']
-2025-06-29 18:35:14,783 [INFO] Сетевой запрос: https://example.com → 200
-2025-06-29 18:35:16,829 [INFO] Ожидание 1 секунд
-2025-06-29 18:35:18,475 [INFO] Сетевой запрос: https://example.com → 200
-2025-06-29 18:35:20,512 [INFO] Ожидание 1 секунд
-2025-06-29 18:35:21,521 [INFO] Браузер открыл URL: https://example.com
-2025-06-29 18:35:23,560 [INFO] Ожидание 1 секунд
-2025-06-29 18:35:24,562 [INFO] Браузер открыл URL: https://example.com
-2025-06-29 18:35:26,611 [INFO] Ожидание 1 секунд
-2025-06-29 18:35:27,942 [INFO] Сетевой запрос: https://github.com → 200
-2025-06-29 18:35:29,983 [INFO] Ожидание 1 секунд
-2025-06-29 18:35:30,985 [INFO] Браузер открыл URL: https://example.com
-2025-06-29 18:35:33,032 [INFO] Ожидание 1 секунд
-2025-06-29 18:35:34,279 [INFO] Сетевой запрос: https://www.python.org → 200
-2025-06-29 18:35:36,330 [INFO] Ожидание 1 секунд
-2025-06-29 18:35:37,333 [INFO] Браузер открыл URL: https://example.com
-2025-06-29 18:35:39,381 [INFO] Ожидание 1 секунд
-2025-06-29 18:35:41,064 [INFO] Сетевой запрос: https://example.com → 200
-2025-06-29 18:35:43,120 [INFO] Ожидание 1 секунд
-2025-06-29 18:41:09,991 [INFO] Запуск агента LISA с конфигурацией по ID
-2025-06-29 18:41:12,048 [INFO] Агент: agent_001, Интервал: 1, Задачи: ['open_browser', 'simulate_activity']
-2025-06-29 18:41:12,980 [INFO] Сетевой запрос: https://example.com → 200
-2025-06-29 18:41:15,019 [INFO] Ожидание 1 секунд
-2025-06-29 18:41:16,026 [INFO] Браузер открыл URL: https://example.com
-2025-06-29 18:41:18,074 [INFO] Ожидание 1 секунд
-2025-06-29 18:41:19,754 [INFO] Сетевой запрос: https://example.com → 200
-2025-06-29 18:41:21,797 [INFO] Ожидание 1 секунд
-2025-06-29 18:41:23,045 [INFO] Сетевой запрос: https://www.python.org → 200
-2025-06-29 18:41:25,096 [INFO] Ожидание 1 секунд
-2025-06-29 18:41:26,098 [INFO] Браузер открыл URL: https://example.com
-2025-06-29 18:41:28,153 [INFO] Ожидание 1 секунд
-2025-06-29 18:41:29,155 [INFO] Браузер открыл URL: https://example.com
-2025-06-29 18:41:31,196 [INFO] Ожидание 1 секунд
-2025-06-29 18:48:05,518 [INFO] Запуск агента LISA с конфигурацией по ID
-2025-06-29 18:48:07,546 [INFO] Агент: agent_001, Интервал: 1, Задачи: ['open_browser', 'simulate_activity']
-2025-06-29 18:48:07,553 [INFO] Браузер открыл URL: https://example.com
-2025-06-29 18:48:09,565 [INFO] Ожидание 1 секунд
-2025-06-29 18:48:10,568 [INFO] Браузер открыл URL: https://example.com
-2025-06-29 18:48:12,573 [INFO] Ожидание 1 секунд
-2025-06-29 18:48:13,838 [INFO] Сетевой запрос: https://www.python.org → 200
-2025-06-29 18:48:15,844 [INFO] Ожидание 1 секунд
-2025-06-29 18:48:16,846 [INFO] Браузер открыл URL: https://example.com
-2025-06-29 18:48:18,851 [INFO] Ожидание 1 секунд
-2025-06-29 18:48:20,156 [INFO] Сетевой запрос: https://www.python.org → 200
-2025-06-29 18:48:22,161 [INFO] Ожидание 1 секунд
-2025-06-29 18:48:23,501 [INFO] Сетевой запрос: https://github.com → 200
-2025-06-29 18:48:25,508 [INFO] Ожидание 1 секунд
-2025-06-29 18:48:26,509 [INFO] Браузер открыл URL: https://example.com
-2025-06-29 18:48:28,514 [INFO] Ожидание 1 секунд
-2025-06-29 18:48:29,795 [INFO] Сетевой запрос: https://www.python.org → 200
-2025-06-29 18:48:31,801 [INFO] Ожидание 1 секунд
-2025-06-29 18:49:56,428 [INFO] Запуск агента LISA с конфигурацией по ID
-2025-06-29 18:49:58,449 [INFO] Агент: agent_001, Интервал: 1, Задачи: ['open_browser', 'simulate_activity']
-2025-06-29 18:49:58,456 [INFO] Браузер открыл URL: https://example.com
-2025-06-29 18:50:00,465 [INFO] Ожидание 1 секунд
-2025-06-29 18:50:01,468 [INFO] Браузер открыл URL: https://example.com
-2025-06-29 18:50:03,481 [INFO] Ожидание 1 секунд
-2025-06-29 18:50:04,992 [INFO] Сетевой запрос: https://example.com → 200
-2025-06-29 18:50:06,999 [INFO] Ожидание 1 секунд
-2025-06-29 18:50:08,001 [INFO] Браузер открыл URL: https://example.com
-2025-06-29 18:50:10,005 [INFO] Ожидание 1 секунд
-2025-06-29 18:50:11,326 [INFO] Сетевой запрос: https://github.com → 200
-2025-06-29 18:50:13,332 [INFO] Ожидание 1 секунд
-2025-06-29 18:50:14,336 [INFO] Браузер открыл URL: https://example.com
-2025-06-29 18:50:16,339 [INFO] Ожидание 1 секунд
-2025-06-29 18:50:17,341 [INFO] Браузер открыл URL: https://example.com
-2025-06-29 18:50:19,350 [INFO] Ожидание 1 секунд
-2025-06-29 18:50:20,352 [INFO] Браузер открыл URL: https://example.com
-2025-06-29 18:50:22,359 [INFO] Ожидание 1 секунд
-2025-06-29 18:50:23,361 [INFO] Браузер открыл URL: https://example.com
-2025-06-29 20:59:41,686 [INFO] Запуск агента LISA с конфигурацией по ID
-2025-06-29 20:59:43,792 [ERROR] Ошибка при загрузке конфига агента: 404 Client Error: Not Found for url: http://localhost:8000/api/agents/agent_admin_dc1ba1be30dd/config/download?format=json
-2025-06-29 20:59:43,792 [ERROR] Конфигурация агента не получена. Завершение.
-2025-06-29 21:01:01,994 [INFO] Запуск агента LISA с конфигурацией по ID
-2025-06-29 21:01:04,042 [ERROR] Ошибка при загрузке конфига агента: 404 Client Error: Not Found for url: http://localhost:8000/api/agents/agent_admin_dc1ba1be30dd/config/download?format=json
-2025-06-29 21:01:04,042 [ERROR] Конфигурация агента не получена. Завершение.
-2025-06-29 21:03:30,218 [INFO] Запуск агента LISA с конфигурацией по ID
-2025-06-29 21:03:32,279 [INFO] Агент: agent_admin_dc1ba1be30dd, Интервал: 10, Задачи: ['open_browser', 'simulate_activity']
-2025-06-29 21:03:32,286 [INFO] Браузер открыл URL: https://example.com
-2025-06-29 21:03:34,331 [INFO] Ожидание 10 секунд
-2025-06-29 21:42:15,726 [INFO] Создан файл-блокировка agent_admin_dc1ba1be30dd.lock
-2025-06-29 21:42:15,726 [INFO] Запуск агента LISA с конфигурацией по ID
-2025-06-29 21:42:17,784 [INFO] Агент: agent_admin_dc1ba1be30dd, Интервал: 10, Задачи: ['open_browser', 'simulate_activity']
-2025-06-29 21:42:18,122 [INFO] Сетевой запрос: https://github.com → 200
-2025-06-29 21:42:20,158 [INFO] Ожидание 10 секунд
-2025-06-29 21:42:30,951 [INFO] Сетевой запрос: https://example.com → 200
-2025-06-29 21:42:32,999 [INFO] Ожидание 10 секунд
-2025-06-29 21:42:43,249 [INFO] Сетевой запрос: https://www.python.org → 200
-2025-06-29 21:42:45,298 [INFO] Ожидание 10 секунд
-2025-06-29 21:42:50,795 [INFO] Файл-блокировка agent_admin_dc1ba1be30dd.lock удалён
-2025-06-29 21:42:52,265 [INFO] Создан файл-блокировка agent_admin_dc1ba1be30dd.lock
-2025-06-29 21:42:52,265 [INFO] Запуск агента LISA с конфигурацией по ID
-2025-06-29 21:42:54,320 [INFO] Агент: agent_admin_dc1ba1be30dd, Интервал: 10, Задачи: ['open_browser', 'simulate_activity']
-2025-06-29 21:42:54,649 [INFO] Сетевой запрос: https://github.com → 200
-2025-06-29 21:42:56,696 [INFO] Ожидание 10 секунд
-2025-06-29 21:43:06,706 [INFO] Браузер открыл URL: https://example.com
-2025-06-29 21:43:08,744 [INFO] Ожидание 10 секунд
-2025-06-29 21:43:11,619 [INFO] Файл-блокировка agent_admin_dc1ba1be30dd.lock удалён
-2025-06-30 17:15:03,477 [INFO] Создан файл-блокировка agent_admin_dc1ba1be30dd.lock
-2025-06-30 17:15:03,478 [INFO] Запуск агента LISA с конфигурацией по ID
-2025-06-30 17:15:05,771 [INFO] Агент: agent_admin_dc1ba1be30dd, Интервал: 10, Задачи: ['open_browser', 'simulate_activity']
-2025-06-30 17:15:06,118 [INFO] Сетевой запрос: https://github.com → 200
-2025-06-30 17:15:08,152 [INFO] Ожидание 10 секунд
-2025-06-30 17:15:14,544 [INFO] Файл-блокировка agent_admin_dc1ba1be30dd.lock удалён
-2025-06-30 17:23:28,574 [INFO] Создан файл-блокировка agent_admin_dc1ba1be30dd.lock
-2025-06-30 17:23:28,574 [INFO] Запуск агента LISA с конфигурацией по ID
-2025-06-30 17:23:30,637 [INFO] Агент: agent_admin_dc1ba1be30dd, Интервал: 10, Задачи: [{'action': 'open_app', 'app': 'word', 'delay': 2, 'weight': 2}, {'action': 'open_app', 'app': 'docker', 'delay': 1, 'weight': 2}, {'action': 'open_browser', 'urls': ['https://admin.microsoft.com', 'https://docs.microsoft.com'], 'delay': 2, 'weight': 3}, {'action': 'run_terminal_command', 'terminal': 'powershell', 'command': 'Get-Service', 'delay': 2, 'weight': 2}, {'action': 'edit_file', 'path': 'C:\\\\Users\\\\%USERNAME%\\\\Documents\\\\admin_notes.txt', 'delay': 2, 'weight': 1}, {'action': 'simulate_activity', 'weight': 1}, {'action': 'os_settings', 'weight': 1}, {'action': 'ad_utilities', 'weight': 1}, {'action': 'sleep', 'seconds': 10, 'weight': 1}, {'action': 'terminate', 'delay': 5, 'weight': 1}]
-2025-06-30 17:23:30,637 [ERROR] Неизвестное действие: {'action': 'sleep', 'seconds': 10, 'weight': 1}
-2025-06-30 17:23:32,681 [INFO] Ожидание 10 секунд
-2025-06-30 17:23:42,682 [ERROR] Неизвестное действие: {'action': 'edit_file', 'path': 'C:\\\\Users\\\\%USERNAME%\\\\Documents\\\\admin_notes.txt', 'delay': 2, 'weight': 1}
-2025-06-30 17:23:44,725 [INFO] Ожидание 10 секунд
-2025-06-30 17:23:54,725 [ERROR] Неизвестное действие: {'action': 'open_app', 'app': 'docker', 'delay': 1, 'weight': 2}
-2025-06-30 17:23:56,774 [INFO] Ожидание 10 секунд
-2025-06-30 17:24:06,775 [ERROR] Неизвестное действие: {'action': 'sleep', 'seconds': 10, 'weight': 1}
-2025-06-30 17:24:08,822 [INFO] Файл-блокировка agent_admin_dc1ba1be30dd.lock удалён
-2025-06-30 17:27:13,755 [INFO] Создан файл-блокировка agent_admin_dc1ba1be30dd.lock
-2025-06-30 17:27:13,756 [INFO] Запуск агента LISA с конфигурацией по ID
-2025-06-30 17:27:15,802 [INFO] Агент: agent_admin_dc1ba1be30dd, Интервал: 10, Задачи: [{'action': 'open_app', 'app': 'word', 'delay': 2, 'weight': 2}, {'action': 'open_app', 'app': 'docker', 'delay': 1, 'weight': 2}, {'action': 'open_browser', 'urls': ['https://admin.microsoft.com', 'https://docs.microsoft.com'], 'delay': 2, 'weight': 3}, {'action': 'run_terminal_command', 'terminal': 'powershell', 'command': 'Get-Service', 'delay': 2, 'weight': 2}, {'action': 'edit_file', 'path': 'C:\\\\Users\\\\%USERNAME%\\\\Documents\\\\admin_notes.txt', 'delay': 2, 'weight': 1}, {'action': 'simulate_activity', 'weight': 1}, {'action': 'os_settings', 'weight': 1}, {'action': 'ad_utilities', 'weight': 1}, {'action': 'sleep', 'seconds': 10, 'weight': 1}, {'action': 'terminate', 'delay': 5, 'weight': 1}]
-2025-06-30 17:27:15,802 [INFO] Задержка 5 секунд перед действием terminate
-2025-06-30 17:27:20,804 [INFO] Выполняется завершение агента по сценарию.
-2025-06-30 17:27:20,804 [INFO] Файл-блокировка agent_admin_dc1ba1be30dd.lock удалён
-2025-06-30 17:27:25,531 [INFO] Создан файл-блокировка agent_admin_dc1ba1be30dd.lock
-2025-06-30 17:27:25,531 [INFO] Запуск агента LISA с конфигурацией по ID
-2025-06-30 17:27:27,591 [INFO] Агент: agent_admin_dc1ba1be30dd, Интервал: 10, Задачи: [{'action': 'open_app', 'app': 'word', 'delay': 2, 'weight': 2}, {'action': 'open_app', 'app': 'docker', 'delay': 1, 'weight': 2}, {'action': 'open_browser', 'urls': ['https://admin.microsoft.com', 'https://docs.microsoft.com'], 'delay': 2, 'weight': 3}, {'action': 'run_terminal_command', 'terminal': 'powershell', 'command': 'Get-Service', 'delay': 2, 'weight': 2}, {'action': 'edit_file', 'path': 'C:\\\\Users\\\\%USERNAME%\\\\Documents\\\\admin_notes.txt', 'delay': 2, 'weight': 1}, {'action': 'simulate_activity', 'weight': 1}, {'action': 'os_settings', 'weight': 1}, {'action': 'ad_utilities', 'weight': 1}, {'action': 'sleep', 'seconds': 10, 'weight': 1}, {'action': 'terminate', 'delay': 5, 'weight': 1}]
-2025-06-30 17:27:27,591 [INFO] Пауза (sleep) на 10 секунд
-2025-06-30 17:27:39,629 [INFO] Ожидание 10 секунд
-2025-06-30 17:27:49,986 [INFO] Сетевой запрос: https://github.com → 200
-2025-06-30 17:27:52,015 [INFO] Ожидание 10 секунд
-2025-06-30 17:28:02,358 [INFO] Сетевой запрос: https://github.com → 200
-2025-06-30 17:28:04,395 [INFO] Ожидание 10 секунд
-2025-06-30 17:28:08,039 [INFO] Файл-блокировка agent_admin_dc1ba1be30dd.lock удалён
-2025-06-30 17:28:23,075 [INFO] Создан файл-блокировка agent_admin_dc1ba1be30dd.lock
-2025-06-30 17:28:23,075 [INFO] Запуск агента LISA с конфигурацией по ID
-2025-06-30 17:28:25,134 [INFO] Агент: agent_admin_dc1ba1be30dd, Интервал: 10, Задачи: [{'action': 'open_app', 'app': 'word', 'delay': 2, 'weight': 2}, {'action': 'open_app', 'app': 'docker', 'delay': 1, 'weight': 2}, {'action': 'open_browser', 'urls': ['https://admin.microsoft.com', 'https://docs.microsoft.com'], 'delay': 2, 'weight': 3}, {'action': 'run_terminal_command', 'terminal': 'powershell', 'command': 'Get-Service', 'delay': 2, 'weight': 2}, {'action': 'edit_file', 'path': 'C:\\\\Users\\\\%USERNAME%\\\\Documents\\\\admin_notes.txt', 'delay': 2, 'weight': 1}, {'action': 'simulate_activity', 'weight': 1}, {'action': 'os_settings', 'weight': 1}, {'action': 'ad_utilities', 'weight': 1}, {'action': 'sleep', 'seconds': 10, 'weight': 1}, {'action': 'terminate', 'delay': 5, 'weight': 1}]
-2025-06-30 17:28:32,035 [INFO] Файл-блокировка agent_admin_dc1ba1be30dd.lock удалён
-2025-06-30 17:29:18,436 [INFO] Создан файл-блокировка agent_admin_dc1ba1be30dd.lock
-2025-06-30 17:29:18,436 [INFO] Запуск агента LISA с конфигурацией по ID
-2025-06-30 17:29:20,487 [INFO] Агент: agent_admin_dc1ba1be30dd, Интервал: 10, Задачи: [{'action': 'open_app', 'app': 'word', 'delay': 2, 'weight': 2}, {'action': 'open_app', 'app': 'docker', 'delay': 1, 'weight': 2}, {'action': 'open_browser', 'urls': ['https://admin.microsoft.com', 'https://docs.microsoft.com'], 'delay': 2, 'weight': 3}, {'action': 'run_terminal_command', 'terminal': 'powershell', 'command': 'Get-Service', 'delay': 2, 'weight': 2}, {'action': 'edit_file', 'path': 'C:\\\\Users\\\\%USERNAME%\\\\Documents\\\\admin_notes.txt', 'delay': 2, 'weight': 1}, {'action': 'simulate_activity', 'weight': 1}, {'action': 'os_settings', 'weight': 1}, {'action': 'ad_utilities', 'weight': 1}, {'action': 'sleep', 'seconds': 10, 'weight': 1}, {'action': 'terminate', 'delay': 5, 'weight': 1}]
-2025-06-30 17:29:20,487 [INFO] Задержка 2 секунд перед действием open_app
-2025-06-30 17:29:22,487 [INFO] Файл-блокировка agent_admin_dc1ba1be30dd.lock удалён
-2025-06-30 17:29:40,230 [INFO] Создан файл-блокировка agent_admin_dc1ba1be30dd.lock
-2025-06-30 17:29:40,230 [INFO] Запуск агента LISA с конфигурацией по ID
-2025-06-30 17:29:42,296 [INFO] Агент: agent_admin_dc1ba1be30dd, Интервал: 10, Задачи: [{'action': 'open_app', 'app': 'word', 'delay': 2, 'weight': 2}, {'action': 'open_app', 'app': 'docker', 'delay': 1, 'weight': 2}, {'action': 'open_browser', 'urls': ['https://admin.microsoft.com', 'https://docs.microsoft.com'], 'delay': 2, 'weight': 3}, {'action': 'run_terminal_command', 'terminal': 'powershell', 'command': 'Get-Service', 'delay': 2, 'weight': 2}, {'action': 'edit_file', 'path': 'C:\\\\Users\\\\%USERNAME%\\\\Documents\\\\admin_notes.txt', 'delay': 2, 'weight': 1}, {'action': 'simulate_activity', 'weight': 1}, {'action': 'os_settings', 'weight': 1}, {'action': 'ad_utilities', 'weight': 1}, {'action': 'sleep', 'seconds': 10, 'weight': 1}, {'action': 'terminate', 'delay': 5, 'weight': 1}]
-2025-06-30 17:29:42,296 [INFO] Задержка 2 секунд перед действием open_app
-2025-06-30 17:30:22,217 [INFO] Файл-блокировка agent_admin_dc1ba1be30dd.lock удалён
-2025-06-30 17:30:23,990 [INFO] Создан файл-блокировка agent_admin_dc1ba1be30dd.lock
-2025-06-30 17:30:23,991 [INFO] Запуск агента LISA с конфигурацией по ID
-2025-06-30 17:30:26,028 [INFO] Агент: agent_admin_dc1ba1be30dd, Интервал: 10, Задачи: [{'action': 'open_app', 'app': 'word', 'delay': 2, 'weight': 2}, {'action': 'open_app', 'app': 'docker', 'delay': 1, 'weight': 2}, {'action': 'open_browser', 'urls': ['https://admin.microsoft.com', 'https://docs.microsoft.com'], 'delay': 2, 'weight': 3}, {'action': 'run_terminal_command', 'terminal': 'powershell', 'command': 'Get-Service', 'delay': 2, 'weight': 2}, {'action': 'edit_file', 'path': 'C:\\\\Users\\\\%USERNAME%\\\\Documents\\\\admin_notes.txt', 'delay': 2, 'weight': 1}, {'action': 'simulate_activity', 'weight': 1}, {'action': 'os_settings', 'weight': 1}, {'action': 'ad_utilities', 'weight': 1}, {'action': 'sleep', 'seconds': 10, 'weight': 1}, {'action': 'terminate', 'delay': 5, 'weight': 1}]
-2025-06-30 17:30:26,028 [INFO] Задержка 2 секунд перед действием open_app
-2025-06-30 17:30:28,029 [INFO] Файл-блокировка agent_admin_dc1ba1be30dd.lock удалён
-2025-06-30 17:33:16,476 [INFO] Создан файл-блокировка agent_admin_dc1ba1be30dd.lock
-2025-06-30 17:33:16,476 [INFO] Запуск агента LISA с конфигурацией по ID
-2025-06-30 17:33:18,526 [INFO] Агент: agent_admin_dc1ba1be30dd, Интервал: 10, Задачи: [{'action': 'open_app', 'app': 'word', 'delay': 2, 'weight': 2}, {'action': 'open_app', 'app': 'docker', 'delay': 1, 'weight': 2}, {'action': 'open_browser', 'urls': ['https://admin.microsoft.com', 'https://docs.microsoft.com'], 'delay': 2, 'weight': 3}, {'action': 'run_terminal_command', 'terminal': 'powershell', 'command': 'Get-Service', 'delay': 2, 'weight': 2}, {'action': 'edit_file', 'path': 'C:\\\\Users\\\\%USERNAME%\\\\Documents\\\\admin_notes.txt', 'delay': 2, 'weight': 1}, {'action': 'simulate_activity', 'weight': 1}, {'action': 'os_settings', 'weight': 1}, {'action': 'ad_utilities', 'weight': 1}, {'action': 'sleep', 'seconds': 10, 'weight': 1}, {'action': 'terminate', 'delay': 5, 'weight': 1}]
-2025-06-30 17:33:18,526 [INFO] Задержка 2 секунд перед действием open_app
-2025-06-30 17:33:20,528 [INFO] Файл-блокировка agent_admin_dc1ba1be30dd.lock удалён
-2025-06-30 17:33:40,933 [INFO] Создан файл-блокировка agent_admin_dc1ba1be30dd.lock
-2025-06-30 17:33:40,933 [INFO] Запуск агента LISA с конфигурацией по ID
-2025-06-30 17:33:42,998 [INFO] Агент: agent_admin_dc1ba1be30dd, Интервал: 10, Задачи: [{'action': 'open_app', 'app': 'word', 'delay': 2, 'weight': 2}, {'action': 'open_app', 'app': 'docker', 'delay': 1, 'weight': 2}, {'action': 'open_browser', 'urls': ['https://admin.microsoft.com', 'https://docs.microsoft.com'], 'delay': 2, 'weight': 3}, {'action': 'run_terminal_command', 'terminal': 'powershell', 'command': 'Get-Service', 'delay': 2, 'weight': 2}, {'action': 'edit_file', 'path': 'C:\\\\Users\\\\%USERNAME%\\\\Documents\\\\admin_notes.txt', 'delay': 2, 'weight': 1}, {'action': 'simulate_activity', 'weight': 1}, {'action': 'os_settings', 'weight': 1}, {'action': 'ad_utilities', 'weight': 1}, {'action': 'sleep', 'seconds': 10, 'weight': 1}, {'action': 'terminate', 'delay': 5, 'weight': 1}]
-2025-06-30 17:33:42,998 [INFO] Задержка 2 секунд перед действием open_app
-2025-06-30 17:36:56,087 [INFO] Файл-блокировка agent_admin_dc1ba1be30dd.lock удалён
-2025-06-30 17:37:10,194 [INFO] Создан файл-блокировка agent_admin_dc1ba1be30dd.lock
-2025-06-30 17:37:10,194 [INFO] Запуск агента LISA с конфигурацией по ID
-2025-06-30 17:37:12,256 [INFO] Агент: agent_admin_dc1ba1be30dd, Интервал: 10, Задачи: [{'action': 'open_app', 'app': 'word', 'delay': 2, 'weight': 2}, {'action': 'open_app', 'app': 'docker', 'delay': 1, 'weight': 2}, {'action': 'open_browser', 'urls': ['https://admin.microsoft.com', 'https://docs.microsoft.com'], 'delay': 2, 'weight': 3}, {'action': 'run_terminal_command', 'terminal': 'powershell', 'command': 'Get-Service', 'delay': 2, 'weight': 2}, {'action': 'edit_file', 'path': 'C:\\\\Users\\\\%USERNAME%\\\\Documents\\\\admin_notes.txt', 'delay': 2, 'weight': 1}, {'action': 'simulate_activity', 'weight': 1}, {'action': 'os_settings', 'weight': 1}, {'action': 'ad_utilities', 'weight': 1}, {'action': 'sleep', 'seconds': 10, 'weight': 1}, {'action': 'terminate', 'delay': 5, 'weight': 1}]
-2025-06-30 17:37:18,895 [INFO] Задержка 2 секунд перед действием open_app
-2025-06-30 17:37:20,896 [INFO] Файл-блокировка agent_admin_dc1ba1be30dd.lock удалён
-2025-06-30 17:37:28,348 [INFO] Создан файл-блокировка agent_admin_dc1ba1be30dd.lock
-2025-06-30 17:37:28,349 [INFO] Запуск агента LISA с конфигурацией по ID
-2025-06-30 17:37:30,382 [INFO] Агент: agent_admin_dc1ba1be30dd, Интервал: 10, Задачи: [{'action': 'open_app', 'app': 'word', 'delay': 2, 'weight': 2}, {'action': 'open_app', 'app': 'docker', 'delay': 1, 'weight': 2}, {'action': 'open_browser', 'urls': ['https://admin.microsoft.com', 'https://docs.microsoft.com'], 'delay': 2, 'weight': 3}, {'action': 'run_terminal_command', 'terminal': 'powershell', 'command': 'Get-Service', 'delay': 2, 'weight': 2}, {'action': 'edit_file', 'path': 'C:\\\\Users\\\\%USERNAME%\\\\Documents\\\\admin_notes.txt', 'delay': 2, 'weight': 1}, {'action': 'simulate_activity', 'weight': 1}, {'action': 'os_settings', 'weight': 1}, {'action': 'ad_utilities', 'weight': 1}, {'action': 'sleep', 'seconds': 10, 'weight': 1}, {'action': 'terminate', 'delay': 5, 'weight': 1}]
-2025-06-30 17:37:30,388 [INFO] Задержка 2 секунд перед действием open_app
-2025-06-30 17:37:32,389 [INFO] Файл-блокировка agent_admin_dc1ba1be30dd.lock удалён
-2025-06-30 17:37:42,502 [INFO] Создан файл-блокировка agent_admin_dc1ba1be30dd.lock
-2025-06-30 17:37:42,502 [INFO] Запуск агента LISA с конфигурацией по ID
-2025-06-30 17:37:44,569 [INFO] Агент: agent_admin_dc1ba1be30dd, Интервал: 10, Задачи: [{'action': 'open_app', 'app': 'word', 'delay': 2, 'weight': 2}, {'action': 'open_app', 'app': 'docker', 'delay': 1, 'weight': 2}, {'action': 'open_browser', 'urls': ['https://admin.microsoft.com', 'https://docs.microsoft.com'], 'delay': 2, 'weight': 3}, {'action': 'run_terminal_command', 'terminal': 'powershell', 'command': 'Get-Service', 'delay': 2, 'weight': 2}, {'action': 'edit_file', 'path': 'C:\\\\Users\\\\%USERNAME%\\\\Documents\\\\admin_notes.txt', 'delay': 2, 'weight': 1}, {'action': 'simulate_activity', 'weight': 1}, {'action': 'os_settings', 'weight': 1}, {'action': 'ad_utilities', 'weight': 1}, {'action': 'sleep', 'seconds': 10, 'weight': 1}, {'action': 'terminate', 'delay': 5, 'weight': 1}]
-2025-06-30 17:37:48,049 [INFO] Задержка 2 секунд перед действием open_app
-2025-06-30 17:38:03,721 [INFO] Файл-блокировка agent_admin_dc1ba1be30dd.lock удалён
-2025-06-30 17:38:19,736 [INFO] Создан файл-блокировка agent_admin_dc1ba1be30dd.lock
-2025-06-30 17:38:19,736 [INFO] Запуск агента LISA с конфигурацией по ID
-2025-06-30 17:38:21,788 [INFO] Агент: agent_admin_dc1ba1be30dd, Интервал: 10, Задачи: [{'action': 'open_app', 'app': 'word', 'delay': 2, 'weight': 2}, {'action': 'open_app', 'app': 'docker', 'delay': 1, 'weight': 2}, {'action': 'open_browser', 'urls': ['https://admin.microsoft.com', 'https://docs.microsoft.com'], 'delay': 2, 'weight': 3}, {'action': 'run_terminal_command', 'terminal': 'powershell', 'command': 'Get-Service', 'delay': 2, 'weight': 2}, {'action': 'edit_file', 'path': 'C:\\\\Users\\\\%USERNAME%\\\\Documents\\\\admin_notes.txt', 'delay': 2, 'weight': 1}, {'action': 'simulate_activity', 'weight': 1}, {'action': 'os_settings', 'weight': 1}, {'action': 'ad_utilities', 'weight': 1}, {'action': 'sleep', 'seconds': 10, 'weight': 1}, {'action': 'terminate', 'delay': 5, 'weight': 1}]
-2025-06-30 17:38:21,792 [INFO] Задержка 2 секунд перед действием open_app
-2025-06-30 17:38:23,799 [INFO] Приложение запущено: C:\Program Files (x86)\Microsoft Office\root\Office16\WINWORD.EXE
-2025-06-30 17:38:25,838 [INFO] Ожидание 10 секунд
-2025-06-30 17:38:35,839 [INFO] Задержка 2 секунд перед действием open_app
-2025-06-30 17:38:37,841 [INFO] Приложение запущено: C:\Program Files (x86)\Microsoft Office\root\Office16\WINWORD.EXE
-2025-06-30 17:38:39,867 [INFO] Ожидание 10 секунд
-2025-06-30 17:38:49,868 [INFO] Задержка 2 секунд перед действием open_app
-2025-06-30 17:38:51,871 [INFO] Приложение запущено: C:\Program Files (x86)\Microsoft Office\root\Office16\WINWORD.EXE
-2025-06-30 17:38:53,895 [INFO] Ожидание 10 секунд
-2025-06-30 17:39:03,895 [INFO] Задержка 2 секунд перед действием open_app
-2025-06-30 17:39:05,897 [INFO] Приложение запущено: C:\Program Files (x86)\Microsoft Office\root\Office16\WINWORD.EXE
-2025-06-30 17:39:07,954 [INFO] Ожидание 10 секунд
-2025-06-30 17:39:17,955 [INFO] Задержка 2 секунд перед действием open_app
-2025-06-30 17:39:19,957 [INFO] Приложение запущено: C:\Program Files (x86)\Microsoft Office\root\Office16\WINWORD.EXE
-2025-06-30 17:39:22,008 [INFO] Ожидание 10 секунд
-2025-06-30 17:39:29,330 [INFO] Файл-блокировка agent_admin_dc1ba1be30dd.lock удалён
-2025-06-30 17:43:41,019 [INFO] Создан файл-блокировка agent_admin_dc1ba1be30dd.lock
-2025-06-30 17:43:41,019 [INFO] Запуск агента LISA с конфигурацией по ID
-2025-06-30 17:43:43,065 [INFO] Агент: agent_admin_dc1ba1be30dd, Интервал: 10, Задачи: [{'action': 'open_app', 'app': 'word', 'delay': 2, 'weight': 2}, {'action': 'open_app', 'app': 'docker', 'delay': 1, 'weight': 2}, {'action': 'open_browser', 'urls': ['https://admin.microsoft.com', 'https://docs.microsoft.com'], 'delay': 2, 'weight': 3}, {'action': 'run_terminal_command', 'terminal': 'powershell', 'command': 'Get-Service', 'delay': 2, 'weight': 2}, {'action': 'edit_file', 'path': 'C:\\\\Users\\\\%USERNAME%\\\\Documents\\\\admin_notes.txt', 'delay': 2, 'weight': 1}, {'action': 'simulate_activity', 'weight': 1}, {'action': 'os_settings', 'weight': 1}, {'action': 'ad_utilities', 'weight': 1}, {'action': 'sleep', 'seconds': 10, 'weight': 1}, {'action': 'terminate', 'delay': 5, 'weight': 1}]
-2025-06-30 17:43:43,069 [INFO] Задержка 2 секунд перед действием open_app
-2025-06-30 17:43:45,074 [INFO] Приложение запущено: C:\Program Files (x86)\Microsoft Office\root\Office16\WINWORD.EXE
-2025-06-30 17:43:47,098 [INFO] Ожидание 10 секунд
-2025-06-30 17:43:57,100 [INFO] Задержка 1 секунд перед действием open_app
-2025-06-30 17:43:58,105 [INFO] Приложение запущено: C:\Program Files\Docker\Docker\Docker Desktop.exe
-2025-06-30 17:44:00,147 [INFO] Ожидание 10 секунд
-2025-06-30 17:44:10,147 [INFO] Задержка 2 секунд перед действием open_browser
-2025-06-30 17:44:12,155 [INFO] Браузер открыл URL: https://docs.microsoft.com
-2025-06-30 17:44:14,189 [INFO] Ожидание 10 секунд
-2025-06-30 17:44:24,189 [INFO] Задержка 2 секунд перед действием run_terminal_command
-2025-06-30 17:44:26,196 [INFO] Выполнена команда: Get-Service
-2025-06-30 17:44:28,237 [INFO] Ожидание 10 секунд
-2025-06-30 17:44:38,240 [INFO] Задержка 2 секунд перед действием edit_file
-2025-06-30 17:44:40,271 [ERROR] Ошибка при открытии файла: [WinError 2] Не удается найти указанный файл: 'C:\\\\Users\\\\admin\\\\Documents\\\\admin_notes.txt'
-2025-06-30 17:44:42,315 [INFO] Ожидание 10 секунд
-2025-06-30 17:44:52,513 [INFO] Сетевой запрос: https://www.python.org → 200
-2025-06-30 17:44:54,564 [INFO] Ожидание 10 секунд
-2025-06-30 17:45:04,566 [ERROR] Неизвестное действие: os_settings
-2025-06-30 17:45:06,621 [INFO] Ожидание 10 секунд
-2025-06-30 17:45:16,621 [ERROR] Неизвестное действие: ad_utilities
-2025-06-30 17:45:18,666 [INFO] Ожидание 10 секунд
-2025-06-30 17:45:28,667 [INFO] Пауза (sleep) на 10 секунд
-2025-06-30 17:45:40,720 [INFO] Ожидание 10 секунд
-2025-06-30 17:45:50,720 [INFO] Задержка 5 секунд перед действием terminate
-2025-06-30 17:45:55,721 [INFO] Выполняется завершение агента по сценарию.
-2025-06-30 17:45:55,721 [INFO] Файл-блокировка agent_admin_dc1ba1be30dd.lock удалён
-2025-06-30 17:47:32,841 [INFO] Создан файл-блокировка agent_admin_dc1ba1be30dd.lock
-2025-06-30 17:47:32,841 [INFO] Запуск агента LISA с конфигурацией по ID
-2025-06-30 17:47:34,907 [INFO] Агент: agent_admin_dc1ba1be30dd, Интервал: 10, Задачи: [{'action': 'open_app', 'app': 'word', 'delay': 2, 'weight': 2}, {'action': 'open_app', 'app': 'docker', 'delay': 1, 'weight': 2}, {'action': 'open_browser', 'urls': ['https://admin.microsoft.com', 'https://docs.microsoft.com'], 'delay': 2, 'weight': 3}, {'action': 'run_terminal_command', 'terminal': 'powershell', 'command': 'Get-Service', 'delay': 2, 'weight': 2}, {'action': 'edit_file', 'path': 'C:\\\\Users\\\\%USERNAME%\\\\Documents\\\\admin_notes.txt', 'delay': 2, 'weight': 1}, {'action': 'simulate_activity', 'weight': 1}, {'action': 'os_settings', 'weight': 1}, {'action': 'ad_utilities', 'weight': 1}, {'action': 'sleep', 'seconds': 10, 'weight': 1}, {'action': 'terminate', 'delay': 5, 'weight': 1}]
-2025-06-30 17:47:34,911 [INFO] Задержка 2 секунд перед действием open_app
-2025-06-30 17:47:36,915 [INFO] Приложение запущено: C:\Program Files (x86)\Microsoft Office\root\Office16\WINWORD.EXE
-2025-06-30 17:47:38,959 [INFO] Ожидание 10 секунд
-2025-06-30 17:47:48,960 [INFO] Задержка 1 секунд перед действием open_app
-2025-06-30 17:47:49,964 [INFO] Приложение запущено: C:\Program Files\Docker\Docker\Docker Desktop.exe
-2025-06-30 17:47:52,013 [INFO] Ожидание 10 секунд
-2025-06-30 17:48:02,014 [INFO] Задержка 2 секунд перед действием open_browser
-2025-06-30 17:48:04,022 [INFO] Браузер открыл URL: https://admin.microsoft.com
-2025-06-30 17:48:06,062 [INFO] Ожидание 10 секунд
-2025-06-30 17:48:16,063 [INFO] Задержка 2 секунд перед действием run_terminal_command
-2025-06-30 17:48:18,070 [INFO] Выполнена команда: Get-Service
-2025-06-30 17:48:20,102 [INFO] Ожидание 10 секунд
-2025-06-30 17:48:30,104 [INFO] Задержка 2 секунд перед действием edit_file
-2025-06-30 17:48:32,182 [INFO] Файл открыт: C:\\Users\\admin\\Documents\\admin_notes.txt
-2025-06-30 17:48:34,234 [INFO] Ожидание 10 секунд
-2025-06-30 17:48:44,759 [INFO] Сетевой запрос: https://example.com → 200
-2025-06-30 17:48:46,792 [INFO] Ожидание 10 секунд
-2025-06-30 17:48:56,797 [INFO] Открыты настройки Windows
-2025-06-30 17:48:58,837 [INFO] Ожидание 10 секунд
-2025-06-30 17:49:08,841 [INFO] Открыт Active Directory Users and Computers
-2025-06-30 17:49:10,856 [INFO] Ожидание 10 секунд
-2025-06-30 17:49:20,857 [INFO] Пауза (sleep) на 10 секунд
-2025-06-30 17:49:32,900 [INFO] Ожидание 10 секунд
-2025-06-30 17:49:42,901 [INFO] Задержка 5 секунд перед действием terminate
-2025-06-30 17:49:47,902 [INFO] Выполняется завершение агента по сценарию.
-2025-06-30 17:49:47,902 [INFO] Файл-блокировка agent_admin_dc1ba1be30dd.lock удалён
-2025-06-30 18:12:49,356 [INFO] A blocking file has been created agent_admin_dc1ba1be30dd.lock
-2025-06-30 18:12:49,356 [INFO] Launching the LISA agent with the configuration by ID
-2025-06-30 18:12:51,406 [INFO] Agent: agent_admin_dc1ba1be30dd, Interval: 10, Tasks: [{'action': 'open_app', 'app': 'word', 'delay': 2, 'weight': 2}, {'action': 'open_app', 'app': 'docker', 'delay': 1, 'weight': 2}, {'action': 'open_browser', 'urls': ['https://admin.microsoft.com', 'https://docs.microsoft.com'], 'delay': 2, 'weight': 3}, {'action': 'run_terminal_command', 'terminal': 'powershell', 'command': 'Get-Service', 'delay': 2, 'weight': 2}, {'action': 'edit_file', 'path': 'C:\\\\Users\\\\%USERNAME%\\\\Documents\\\\admin_notes.txt', 'delay': 2, 'weight': 1}, {'action': 'simulate_activity', 'weight': 1}, {'action': 'os_settings', 'weight': 1}, {'action': 'ad_utilities', 'weight': 1}, {'action': 'sleep', 'seconds': 10, 'weight': 1}, {'action': 'terminate', 'delay': 5, 'weight': 1}]
-2025-06-30 18:12:51,410 [INFO] Delay of 2 seconds before the action open_app
-2025-06-30 18:12:53,415 [INFO] The application is running: C:\Program Files (x86)\Microsoft Office\root\Office16\WINWORD.EXE
-2025-06-30 18:12:55,448 [INFO] Waiting 10 seconds
-2025-06-30 18:12:58,173 [INFO] The lock file agent_admin_dc1ba1be30dd.lock has been deleted
-2025-07-04 19:48:12,637 [INFO] A blocking file has been created agent_admin_2cf05d6707da.lock
-2025-07-04 19:48:12,637 [INFO] Launching the LISA agent with the configuration by ID
-2025-07-04 19:48:14,736 [ERROR] Error loading the agent configuration: 404 Client Error: Not Found for url: http://localhost:8000/api/agents/agent_admin_2cf05d6707da/config/download?format=json
-2025-07-04 19:48:14,736 [ERROR] The agent configuration was not received. Completion.
-2025-07-04 19:48:14,736 [INFO] The lock file agent_admin_2cf05d6707da.lock has been deleted
-2025-07-04 21:03:29,159 [INFO] A blocking file has been created agent_admin_2cf05d6707da.lock
-2025-07-04 21:03:29,160 [INFO] Launching the LISA agent with the configuration by ID
-2025-07-04 21:03:31,211 [ERROR] Error loading the agent configuration: 404 Client Error: Not Found for url: http://localhost:8000/api/agents/agent_admin_2cf05d6707da/config/download?format=json
-2025-07-04 21:03:31,211 [ERROR] The agent configuration was not received. Completion.
-2025-07-04 21:03:31,211 [INFO] The lock file agent_admin_2cf05d6707da.lock has been deleted
-2025-07-04 21:16:44,964 [INFO] A blocking file has been created agent_admin_2cf05d6707da.lock
-2025-07-04 21:16:44,964 [INFO] Launching the LISA agent with the configuration by ID
-2025-07-04 21:16:47,017 [ERROR] Error loading the agent configuration: 404 Client Error: Not Found for url: http://localhost:8000/api/agents/agent_admin_2cf05d6707da/config/download?format=json
-2025-07-04 21:16:47,018 [ERROR] The agent configuration was not received. Completion.
-2025-07-04 21:16:47,018 [INFO] The lock file agent_admin_2cf05d6707da.lock has been deleted
-2025-07-04 21:50:33,099 [INFO] A blocking file has been created agent_admin_2cf05d6707da.lock
-2025-07-04 21:50:33,100 [INFO] Launching the LISA agent with the configuration by ID
-2025-07-04 21:50:35,133 [ERROR] Error loading the agent configuration: 404 Client Error: Not Found for url: http://localhost:8000/api/agents/agent_admin_2cf05d6707da/config/download?format=json
-2025-07-04 21:50:35,133 [ERROR] The agent configuration was not received. Completion.
-2025-07-04 21:50:35,133 [INFO] The lock file agent_admin_2cf05d6707da.lock has been deleted
-2025-07-04 21:54:46,584 [INFO] A blocking file has been created agent_admin_2cf05d6707da.lock
-2025-07-04 21:54:46,584 [INFO] Launching the LISA agent with the configuration by ID
-2025-07-04 21:54:48,642 [ERROR] Error loading the agent configuration: 404 Client Error: Not Found for url: http://localhost:8000/api/agents/agent_admin_2cf05d6707da/config/download?format=json
-2025-07-04 21:54:48,642 [ERROR] The agent configuration was not received. Completion.
-2025-07-04 21:54:48,643 [INFO] The lock file agent_admin_2cf05d6707da.lock has been deleted
-2025-07-05 15:46:10,672 [INFO] A blocking file has been created agent_admin_dc1ba1be30dd.lock
-2025-07-05 15:46:10,672 [INFO] Launching the LISA agent with the configuration by ID
-2025-07-05 15:46:12,805 [INFO] Agent: agent_admin_dc1ba1be30dd, Interval: 10, Tasks: [{'action': 'open_app', 'app': 'word', 'delay': 2, 'weight': 2}, {'action': 'open_app', 'app': 'docker', 'delay': 1, 'weight': 2}, {'action': 'open_browser', 'urls': ['https://admin.microsoft.com', 'https://docs.microsoft.com'], 'delay': 2, 'weight': 3}, {'action': 'run_terminal_command', 'terminal': 'powershell', 'command': 'Get-Service', 'delay': 2, 'weight': 2}, {'action': 'edit_file', 'path': 'C:\\\\Users\\\\%USERNAME%\\\\Documents\\\\admin_notes.txt', 'delay': 2, 'weight': 1}, {'action': 'simulate_activity', 'weight': 1}, {'action': 'os_settings', 'weight': 1}, {'action': 'ad_utilities', 'weight': 1}, {'action': 'sleep', 'seconds': 10, 'weight': 1}, {'action': 'terminate', 'delay': 5, 'weight': 1}]
-2025-07-05 15:46:12,829 [INFO] Delay of 2 seconds before the action open_app
-2025-07-05 15:46:14,834 [INFO] The application is running: C:\Program Files (x86)\Microsoft Office\root\Office16\WINWORD.EXE
-2025-07-05 15:46:16,880 [INFO] Waiting 10 seconds
-2025-07-05 15:46:26,881 [INFO] Delay of 1 seconds before the action open_app
-2025-07-05 15:46:27,888 [INFO] The application is running: C:\Program Files\Docker\Docker\Docker Desktop.exe
-2025-07-05 15:46:29,931 [INFO] Waiting 10 seconds
-2025-07-05 15:46:39,931 [INFO] Delay of 2 seconds before the action open_browser
-2025-07-05 15:46:41,944 [INFO] The browser opened the URL: https://docs.microsoft.com
-2025-07-05 15:46:44,004 [INFO] Waiting 10 seconds
-2025-07-05 15:46:53,512 [INFO] The lock file agent_admin_dc1ba1be30dd.lock has been deleted
-2025-07-05 15:48:15,785 [INFO] A blocking file has been created agent_admin_dc1ba1be30dd.lock
-2025-07-05 15:48:15,785 [INFO] Launching the LISA agent with the configuration by ID
-2025-07-05 15:48:17,849 [INFO] Agent: agent_admin_dc1ba1be30dd, Interval: 10, Tasks: [{'action': 'open_app', 'app': 'word', 'delay': 2, 'weight': 2}, {'action': 'open_app', 'app': 'docker', 'delay': 1, 'weight': 2}, {'action': 'open_browser', 'urls': ['https://admin.microsoft.com', 'https://docs.microsoft.com'], 'delay': 2, 'weight': 3}, {'action': 'run_terminal_command', 'terminal': 'powershell', 'command': 'Get-Service', 'delay': 2, 'weight': 2}, {'action': 'edit_file', 'path': 'C:\\\\Users\\\\%USERNAME%\\\\Documents\\\\admin_notes.txt', 'delay': 2, 'weight': 1}, {'action': 'simulate_activity', 'weight': 1}, {'action': 'os_settings', 'weight': 1}, {'action': 'ad_utilities', 'weight': 1}, {'action': 'sleep', 'seconds': 10, 'weight': 1}, {'action': 'terminate', 'delay': 5, 'weight': 1}]
-2025-07-05 15:48:17,855 [INFO] Delay of 2 seconds before the action open_app
-2025-07-05 15:48:19,860 [INFO] The application is running: C:\Program Files (x86)\Microsoft Office\root\Office16\WINWORD.EXE
-2025-07-05 15:48:21,905 [INFO] Waiting 10 seconds
-2025-07-05 15:48:24,741 [INFO] The lock file agent_admin_dc1ba1be30dd.lock has been deleted
-2025-07-05 15:58:13,711 [INFO] A blocking file has been created agent_admin_dc1ba1be30dd.lock
-2025-07-05 15:58:13,711 [INFO] Launching the LISA agent with the configuration by ID
-2025-07-05 15:58:15,826 [INFO] Agent: agent_admin_dc1ba1be30dd, Interval: 10, Tasks: [{'action': 'open_app', 'app': 'word', 'delay': 2, 'weight': 2}, {'action': 'open_app', 'app': 'docker', 'delay': 1, 'weight': 2}, {'action': 'open_browser', 'urls': ['https://admin.microsoft.com', 'https://docs.microsoft.com'], 'delay': 2, 'weight': 3}, {'action': 'run_terminal_command', 'terminal': 'powershell', 'command': 'Get-Service', 'delay': 2, 'weight': 2}, {'action': 'edit_file', 'path': 'C:\\\\Users\\\\%USERNAME%\\\\Documents\\\\admin_notes.txt', 'delay': 2, 'weight': 1}, {'action': 'simulate_activity', 'weight': 1}, {'action': 'os_settings', 'weight': 1}, {'action': 'ad_utilities', 'weight': 1}, {'action': 'sleep', 'seconds': 10, 'weight': 1}, {'action': 'terminate', 'delay': 5, 'weight': 1}]
-2025-07-05 15:58:15,831 [INFO] Delay of 2 seconds before the action open_app
-2025-07-05 15:58:17,836 [INFO] The application is running: C:\Program Files (x86)\Microsoft Office\root\Office16\WINWORD.EXE
-2025-07-05 15:58:19,876 [INFO] Waiting 10 seconds
-2025-07-05 15:58:21,818 [INFO] The lock file agent_admin_dc1ba1be30dd.lock has been deleted
-2025-07-05 15:58:37,107 [INFO] A blocking file has been created agent_admin_dc1ba1be30dd.lock
-2025-07-05 15:58:37,108 [INFO] Launching the LISA agent with the configuration by ID
-2025-07-05 15:58:39,155 [INFO] Agent: agent_admin_dc1ba1be30dd, Interval: 10, Tasks: [{'action': 'open_app', 'app': 'word', 'delay': 2, 'weight': 2}, {'action': 'open_app', 'app': 'docker', 'delay': 1, 'weight': 2}, {'action': 'open_browser', 'urls': ['https://admin.microsoft.com', 'https://docs.microsoft.com'], 'delay': 2, 'weight': 3}, {'action': 'run_terminal_command', 'terminal': 'powershell', 'command': 'Get-Service', 'delay': 2, 'weight': 2}, {'action': 'edit_file', 'path': 'C:\\\\Users\\\\%USERNAME%\\\\Documents\\\\admin_notes.txt', 'delay': 2, 'weight': 1}, {'action': 'simulate_activity', 'weight': 1}, {'action': 'os_settings', 'weight': 1}, {'action': 'ad_utilities', 'weight': 1}, {'action': 'sleep', 'seconds': 10, 'weight': 1}, {'action': 'terminate', 'delay': 5, 'weight': 1}]
-2025-07-05 15:58:39,159 [INFO] Delay of 2 seconds before the action open_app
-2025-07-05 15:58:41,164 [INFO] The application is running: C:\Program Files (x86)\Microsoft Office\root\Office16\WINWORD.EXE
-2025-07-05 15:58:43,214 [INFO] Waiting 10 seconds
-2025-07-05 15:58:45,622 [INFO] The lock file agent_admin_dc1ba1be30dd.lock has been deleted
-2025-07-05 16:00:06,513 [INFO] A blocking file has been created agent_admin_dc1ba1be30dd.lock
-2025-07-05 16:00:06,514 [INFO] Launching the LISA agent with the configuration by ID
-2025-07-05 16:00:08,559 [INFO] Agent: agent_admin_dc1ba1be30dd, Interval: 10, Tasks: [{'action': 'open_app', 'app': 'word', 'delay': 2, 'weight': 2}, {'action': 'open_app', 'app': 'docker', 'delay': 1, 'weight': 2}, {'action': 'open_browser', 'urls': ['https://admin.microsoft.com', 'https://docs.microsoft.com'], 'delay': 2, 'weight': 3}, {'action': 'run_terminal_command', 'terminal': 'powershell', 'command': 'Get-Service', 'delay': 2, 'weight': 2}, {'action': 'edit_file', 'path': 'C:\\\\Users\\\\%USERNAME%\\\\Documents\\\\admin_notes.txt', 'delay': 2, 'weight': 1}, {'action': 'simulate_activity', 'weight': 1}, {'action': 'os_settings', 'weight': 1}, {'action': 'ad_utilities', 'weight': 1}, {'action': 'sleep', 'seconds': 10, 'weight': 1}, {'action': 'terminate', 'delay': 5, 'weight': 1}]
-2025-07-05 16:00:08,563 [INFO] Delay of 2 seconds before the action open_app
-2025-07-05 16:00:10,569 [INFO] The application is running: C:\Program Files (x86)\Microsoft Office\root\Office16\WINWORD.EXE
-2025-07-05 16:00:12,616 [INFO] Waiting 10 seconds
-2025-07-05 16:00:14,803 [INFO] The lock file agent_admin_dc1ba1be30dd.lock has been deleted
-2025-07-05 16:01:45,805 [INFO] A blocking file has been created agent_admin_dc1ba1be30dd.lock
-2025-07-05 16:01:45,805 [INFO] Launching the LISA agent with the configuration by ID
-2025-07-05 16:01:47,851 [INFO] Agent: agent_admin_dc1ba1be30dd, Interval: 10, Tasks: [{'action': 'open_app', 'app': 'word', 'delay': 2, 'weight': 2}, {'action': 'open_app', 'app': 'docker', 'delay': 1, 'weight': 2}, {'action': 'open_browser', 'urls': ['https://admin.microsoft.com', 'https://docs.microsoft.com'], 'delay': 2, 'weight': 3}, {'action': 'run_terminal_command', 'terminal': 'powershell', 'command': 'Get-Service', 'delay': 2, 'weight': 2}, {'action': 'edit_file', 'path': 'C:\\\\Users\\\\%USERNAME%\\\\Documents\\\\admin_notes.txt', 'delay': 2, 'weight': 1}, {'action': 'simulate_activity', 'weight': 1}, {'action': 'os_settings', 'weight': 1}, {'action': 'ad_utilities', 'weight': 1}, {'action': 'sleep', 'seconds': 10, 'weight': 1}, {'action': 'terminate', 'delay': 5, 'weight': 1}]
-2025-07-05 16:01:47,855 [INFO] Delay of 2 seconds before the action open_app
-2025-07-05 16:01:49,860 [INFO] The application is running: C:\Program Files (x86)\Microsoft Office\root\Office16\WINWORD.EXE
-2025-07-05 16:01:51,917 [INFO] Waiting 10 seconds
-2025-07-05 16:01:54,423 [INFO] The lock file agent_admin_dc1ba1be30dd.lock has been deleted
-2025-07-05 16:03:22,876 [INFO] A blocking file has been created agent_admin_dc1ba1be30dd.lock
-2025-07-05 16:03:22,877 [INFO] Launching the LISA agent with the configuration by ID
-2025-07-05 16:03:24,929 [INFO] Agent: agent_admin_dc1ba1be30dd, Interval: 10, Tasks: [{'action': 'open_app', 'app': 'word', 'delay': 2, 'weight': 2}, {'action': 'open_app', 'app': 'docker', 'delay': 1, 'weight': 2}, {'action': 'open_browser', 'urls': ['https://admin.microsoft.com', 'https://docs.microsoft.com'], 'delay': 2, 'weight': 3}, {'action': 'run_terminal_command', 'terminal': 'powershell', 'command': 'Get-Service', 'delay': 2, 'weight': 2}, {'action': 'edit_file', 'path': 'C:\\\\Users\\\\%USERNAME%\\\\Documents\\\\admin_notes.txt', 'delay': 2, 'weight': 1}, {'action': 'simulate_activity', 'weight': 1}, {'action': 'os_settings', 'weight': 1}, {'action': 'ad_utilities', 'weight': 1}, {'action': 'sleep', 'seconds': 10, 'weight': 1}, {'action': 'terminate', 'delay': 5, 'weight': 1}]
-2025-07-05 16:03:24,935 [INFO] Delay of 2 seconds before the action open_app
-2025-07-05 16:03:26,939 [INFO] The application is running: C:\Program Files (x86)\Microsoft Office\root\Office16\WINWORD.EXE
-2025-07-05 16:03:28,991 [INFO] Waiting 10 seconds
-2025-07-05 16:03:38,991 [INFO] Delay of 1 seconds before the action open_app
-2025-07-05 16:03:39,997 [INFO] The application is running: C:\Program Files\Docker\Docker\Docker Desktop.exe
-2025-07-05 16:03:42,038 [INFO] Waiting 10 seconds
-2025-07-05 16:03:52,038 [INFO] Delay of 2 seconds before the action open_browser
-2025-07-05 16:03:54,046 [INFO] The browser opened the URL: https://docs.microsoft.com
-2025-07-05 16:03:56,090 [INFO] Waiting 10 seconds
-2025-07-05 16:04:02,100 [INFO] The lock file agent_admin_dc1ba1be30dd.lock has been deleted
-2025-07-05 16:09:11,209 [INFO] A blocking file has been created agent_admin_dc1ba1be30dd.lock
-2025-07-05 16:09:11,209 [INFO] Launching the LISA agent with the configuration by ID
-2025-07-05 16:09:13,260 [INFO] Agent: agent_admin_dc1ba1be30dd, Interval: 10, Tasks: [{'action': 'open_app', 'app': 'word', 'delay': 2, 'weight': 2}, {'action': 'open_app', 'app': 'docker', 'delay': 1, 'weight': 2}, {'action': 'open_browser', 'urls': ['https://admin.microsoft.com', 'https://docs.microsoft.com'], 'delay': 2, 'weight': 3}, {'action': 'run_terminal_command', 'terminal': 'powershell', 'command': 'Get-Service', 'delay': 2, 'weight': 2}, {'action': 'edit_file', 'path': 'C:\\\\Users\\\\%USERNAME%\\\\Documents\\\\admin_notes.txt', 'delay': 2, 'weight': 1}, {'action': 'simulate_activity', 'weight': 1}, {'action': 'os_settings', 'weight': 1}, {'action': 'ad_utilities', 'weight': 1}, {'action': 'sleep', 'seconds': 10, 'weight': 1}, {'action': 'terminate', 'delay': 5, 'weight': 1}]
-2025-07-05 16:09:13,264 [INFO] Delay of 2 seconds before the action open_app
-2025-07-05 16:09:15,270 [INFO] The application is running: C:\Program Files (x86)\Microsoft Office\root\Office16\WINWORD.EXE
-2025-07-05 16:09:17,320 [INFO] Waiting 10 seconds
-2025-07-05 16:09:19,740 [INFO] The lock file agent_admin_dc1ba1be30dd.lock has been deleted
-2025-07-05 16:20:26,528 [INFO] A blocking file has been created agent_admin_dc1ba1be30dd.lock
-2025-07-05 16:20:26,528 [INFO] Launching the LISA agent with the configuration by ID
-2025-07-05 16:20:28,574 [INFO] Agent: agent_admin_dc1ba1be30dd, Interval: 10, Tasks: [{'action': 'open_app', 'app': 'word', 'delay': 2, 'weight': 2}, {'action': 'open_app', 'app': 'docker', 'delay': 1, 'weight': 2}, {'action': 'open_browser', 'urls': ['https://admin.microsoft.com', 'https://docs.microsoft.com'], 'delay': 2, 'weight': 3}, {'action': 'run_terminal_command', 'terminal': 'powershell', 'command': 'Get-Service', 'delay': 2, 'weight': 2}, {'action': 'edit_file', 'path': 'C:\\\\Users\\\\%USERNAME%\\\\Documents\\\\admin_notes.txt', 'delay': 2, 'weight': 1}, {'action': 'simulate_activity', 'weight': 1}, {'action': 'os_settings', 'weight': 1}, {'action': 'ad_utilities', 'weight': 1}, {'action': 'sleep', 'seconds': 10, 'weight': 1}, {'action': 'terminate', 'delay': 5, 'weight': 1}]
-2025-07-05 16:20:28,578 [INFO] Delay of 2 seconds before the action open_app
-2025-07-05 16:20:30,583 [INFO] The application is running: C:\Program Files (x86)\Microsoft Office\root\Office16\WINWORD.EXE
-2025-07-05 16:20:32,623 [INFO] Waiting 10 seconds
-2025-07-05 16:20:42,624 [INFO] Delay of 1 seconds before the action open_app
-2025-07-05 16:20:43,629 [INFO] The application is running: C:\Program Files\Docker\Docker\Docker Desktop.exe
-2025-07-05 16:20:45,678 [INFO] Waiting 10 seconds
-2025-07-05 16:20:55,680 [INFO] Delay of 2 seconds before the action open_browser
-2025-07-05 16:20:57,687 [INFO] The browser opened the URL: https://admin.microsoft.com
-2025-07-05 16:20:59,735 [INFO] Waiting 10 seconds
-2025-07-05 16:21:03,042 [INFO] The lock file agent_admin_dc1ba1be30dd.lock has been deleted
-2025-07-05 16:31:45,698 [INFO] A blocking file has been created agent_admin_dc1ba1be30dd.lock
-2025-07-05 16:31:45,698 [INFO] Launching the LISA agent with the configuration by ID
-2025-07-05 16:31:47,735 [INFO] Agent: agent_admin_dc1ba1be30dd, Interval: 10, Tasks: [{'action': 'open_app', 'app': 'word', 'delay': 2, 'weight': 2}, {'action': 'open_app', 'app': 'docker', 'delay': 1, 'weight': 2}, {'action': 'open_browser', 'urls': ['https://admin.microsoft.com', 'https://docs.microsoft.com'], 'delay': 2, 'weight': 3}, {'action': 'run_terminal_command', 'terminal': 'powershell', 'command': 'Get-Service', 'delay': 2, 'weight': 2}, {'action': 'edit_file', 'path': 'C:\\\\Users\\\\%USERNAME%\\\\Documents\\\\admin_notes.txt', 'delay': 2, 'weight': 1}, {'action': 'simulate_activity', 'weight': 1}, {'action': 'os_settings', 'weight': 1}, {'action': 'ad_utilities', 'weight': 1}, {'action': 'sleep', 'seconds': 10, 'weight': 1}, {'action': 'terminate', 'delay': 5, 'weight': 1}]
-2025-07-05 16:31:47,740 [INFO] Delay of 2 seconds before the action open_app
-2025-07-05 16:31:49,744 [INFO] The application is running: C:\Program Files (x86)\Microsoft Office\root\Office16\WINWORD.EXE
-2025-07-05 16:31:51,791 [INFO] Waiting 10 seconds
-2025-07-05 16:31:55,108 [INFO] The lock file agent_admin_dc1ba1be30dd.lock has been deleted
+2025-07-11 19:42:09,832 [INFO] A blocking file has been created agent_admin_dc1ba1be30dd.lock
+2025-07-11 19:42:09,833 [INFO] Launching the LISA agent with the configuration by ID
+2025-07-11 19:42:13,944 [ERROR] Error loading the agent configuration: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /api/agents/agent_admin_dc1ba1be30dd/config/download?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000025D52A6E090>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение'))
+2025-07-11 19:42:13,945 [ERROR] Agent config was not received. Completion.
+2025-07-11 19:42:13,946 [INFO] The lock file agent_admin_dc1ba1be30dd.lock has been deleted
+2025-07-11 19:42:39,153 [INFO] A blocking file has been created agent_admin_dc1ba1be30dd.lock
+2025-07-11 19:42:39,154 [INFO] Launching the LISA agent with the configuration by ID
+2025-07-11 19:42:43,253 [ERROR] Error loading the agent configuration: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /api/agents/agent_admin_dc1ba1be30dd/config/download?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001C07984E090>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение'))
+2025-07-11 19:42:43,254 [ERROR] Agent config was not received. Completion.
+2025-07-11 19:42:43,255 [INFO] The lock file agent_admin_dc1ba1be30dd.lock has been deleted
+2025-07-11 19:43:10,309 [INFO] A blocking file has been created agent_admin_dc1ba1be30dd.lock
+2025-07-11 19:43:10,309 [INFO] Launching the LISA agent with the configuration by ID
+2025-07-11 19:43:14,402 [ERROR] Error loading the agent configuration: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /api/agents/agent_admin_dc1ba1be30dd/config/download?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B5731AE090>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение'))
+2025-07-11 19:43:14,403 [ERROR] Agent config was not received. Completion.
+2025-07-11 19:43:14,404 [INFO] The lock file agent_admin_dc1ba1be30dd.lock has been deleted
+2025-07-11 19:44:17,168 [INFO] A blocking file has been created agent_admin_dc1ba1be30dd.lock
+2025-07-11 19:44:17,169 [INFO] Launching the LISA agent with the configuration by ID
+2025-07-11 19:44:19,279 [ERROR] Error loading the agent configuration: 404 Client Error: Not Found for url: http://localhost:8000/api/agents/agent_admin_dc1ba1be30dd/config/download?format=json
+2025-07-11 19:44:19,280 [ERROR] Agent config was not received. Completion.
+2025-07-11 19:44:19,281 [INFO] The lock file agent_admin_dc1ba1be30dd.lock has been deleted
+2025-07-11 19:45:00,591 [INFO] A blocking file has been created agent_admin_dc1ba1be30dd.lock
+2025-07-11 19:45:00,591 [INFO] Launching the LISA agent with the configuration by ID
+2025-07-11 19:45:02,632 [ERROR] Error loading the agent configuration: 404 Client Error: Not Found for url: http://localhost:8000/api/agents/agent_admin_dc1ba1be30dd/config/download?format=json
+2025-07-11 19:45:02,633 [ERROR] Agent config was not received. Completion.
+2025-07-11 19:45:02,634 [INFO] The lock file agent_admin_dc1ba1be30dd.lock has been deleted
+2025-07-11 19:49:41,701 [INFO] A blocking file has been created agent_admin_dc1ba1be30dd.lock
+2025-07-11 19:49:41,702 [INFO] Launching the LISA agent with the configuration by ID
+2025-07-11 19:59:15,027 [ERROR] The agent with the ID agent_admin_dc1ba1be30dd has already been launched! Completion.
+2025-07-11 19:59:29,371 [ERROR] The agent with the ID agent_admin_dc1ba1be30dd has already been launched! Completion.
+2025-07-11 19:59:49,232 [INFO] A blocking file has been created agent_admin_dc1ba1be30dd.lock
+2025-07-11 19:59:49,232 [INFO] Launching the LISA agent with the configuration by ID
+2025-07-11 19:59:51,324 [ERROR] Error loading the agent configuration: 500 Server Error: Internal Server Error for url: http://localhost:8000/api/agents/agent_admin_dc1ba1be30dd/config/download?format=json
+2025-07-11 19:59:51,325 [ERROR] Agent config was not received. Completion.
+2025-07-11 19:59:51,326 [INFO] The lock file agent_admin_dc1ba1be30dd.lock has been deleted
+2025-07-11 20:02:54,881 [INFO] A blocking file has been created agent_admin_dc1ba1be30dd.lock
+2025-07-11 20:02:54,882 [INFO] Launching the LISA agent with the configuration by ID
+2025-07-11 20:02:56,969 [ERROR] Error loading the agent configuration: 500 Server Error: Internal Server Error for url: http://localhost:8000/api/agents/agent_admin_dc1ba1be30dd/config/download?format=json
+2025-07-11 20:02:56,970 [ERROR] Agent config was not received. Completion.
+2025-07-11 20:02:56,971 [INFO] The lock file agent_admin_dc1ba1be30dd.lock has been deleted
+2025-07-11 20:17:14,305 [INFO] A blocking file has been created agent_admin_dc1ba1be30dd.lock
+2025-07-11 20:17:14,305 [INFO] Launching the LISA agent with the configuration by ID
+2025-07-11 20:17:16,385 [ERROR] Error loading the agent configuration: 500 Server Error: Internal Server Error for url: http://localhost:8000/api/agents/agent_admin_dc1ba1be30dd/config/download?format=json
+2025-07-11 20:17:16,386 [ERROR] Agent config was not received. Completion.
+2025-07-11 20:17:16,387 [INFO] The lock file agent_admin_dc1ba1be30dd.lock has been deleted
+2025-07-11 20:17:59,126 [INFO] A blocking file has been created agent_admin_dc1ba1be30dd.lock
+2025-07-11 20:17:59,127 [INFO] Launching the LISA agent with the configuration by ID
+2025-07-11 20:18:01,217 [ERROR] Error loading the agent configuration: 500 Server Error: Internal Server Error for url: http://localhost:8000/api/agents/agent_admin_dc1ba1be30dd/config/download?format=json
+2025-07-11 20:18:01,217 [ERROR] Agent config was not received. Completion.
+2025-07-11 20:18:01,218 [INFO] The lock file agent_admin_dc1ba1be30dd.lock has been deleted
+2025-07-11 20:18:45,928 [INFO] A blocking file has been created agent_admin_dc1ba1be30dd.lock
+2025-07-11 20:18:45,929 [INFO] Launching the LISA agent with the configuration by ID
+2025-07-11 20:18:48,015 [ERROR] Error loading the agent configuration: 500 Server Error: Internal Server Error for url: http://localhost:8000/api/agents/agent_admin_dc1ba1be30dd/config/download?format=json
+2025-07-11 20:18:48,016 [ERROR] Agent config was not received. Completion.
+2025-07-11 20:18:48,017 [INFO] The lock file agent_admin_dc1ba1be30dd.lock has been deleted
+2025-07-11 20:22:07,596 [INFO] A blocking file has been created agent_admin_dc1ba1be30dd.lock
+2025-07-11 20:22:07,597 [INFO] Launching the LISA agent with the configuration by ID
+2025-07-11 20:22:09,679 [ERROR] Error loading the agent configuration: 500 Server Error: Internal Server Error for url: http://localhost:8000/api/agents/agent_admin_dc1ba1be30dd/config/download?format=json
+2025-07-11 20:22:09,680 [ERROR] Agent config was not received. Completion.
+2025-07-11 20:22:09,681 [INFO] The lock file agent_admin_dc1ba1be30dd.lock has been deleted
+2025-07-11 20:23:41,737 [INFO] A blocking file has been created agent_admin_dc1ba1be30dd.lock
+2025-07-11 20:23:41,737 [INFO] Launching the LISA agent with the configuration by ID
+2025-07-11 20:23:43,802 [ERROR] Error loading the agent configuration: 500 Server Error: Internal Server Error for url: http://localhost:8000/api/agents/agent_admin_dc1ba1be30dd/config/download?format=json
+2025-07-11 20:23:43,803 [ERROR] Agent config was not received. Completion.
+2025-07-11 20:23:43,804 [INFO] The lock file agent_admin_dc1ba1be30dd.lock has been deleted
+2025-07-11 20:24:08,155 [INFO] A blocking file has been created agent_admin_dc1ba1be30dd.lock
+2025-07-11 20:24:08,156 [INFO] Launching the LISA agent with the configuration by ID
+2025-07-11 20:24:10,231 [ERROR] Error loading the agent configuration: 404 Client Error: Not Found for url: http://localhost:8000/api/agents/agent_admin_dc1ba1be30dd/config/download?format=json
+2025-07-11 20:24:10,232 [ERROR] Agent config was not received. Completion.
+2025-07-11 20:24:10,233 [INFO] The lock file agent_admin_dc1ba1be30dd.lock has been deleted
+2025-07-11 20:24:36,349 [INFO] A blocking file has been created agent_admin_dc1ba1be30dd.lock
+2025-07-11 20:24:36,350 [INFO] Launching the LISA agent with the configuration by ID
+2025-07-11 20:24:38,431 [ERROR] Error loading the agent configuration: 404 Client Error: Not Found for url: http://localhost:8000/api/agents/agent_admin_dc1ba1be30dd/config/download?format=json
+2025-07-11 20:24:38,432 [ERROR] Agent config was not received. Completion.
+2025-07-11 20:24:38,433 [INFO] The lock file agent_admin_dc1ba1be30dd.lock has been deleted
+2025-07-11 20:24:50,768 [INFO] A blocking file has been created agent_admin_dc1ba1be30dd.lock
+2025-07-11 20:24:50,768 [INFO] Launching the LISA agent with the configuration by ID
+2025-07-11 20:24:52,841 [ERROR] Error loading the agent configuration: 404 Client Error: Not Found for url: http://localhost:8000/api/agents/agent_admin_dc1ba1be30dd/config/download?format=json
+2025-07-11 20:24:52,842 [ERROR] Agent config was not received. Completion.
+2025-07-11 20:24:52,843 [INFO] The lock file agent_admin_dc1ba1be30dd.lock has been deleted
+2025-07-11 20:24:59,921 [INFO] A blocking file has been created agent_admin_dc1ba1be30dd.lock
+2025-07-11 20:24:59,922 [INFO] Launching the LISA agent with the configuration by ID
+2025-07-11 20:25:02,333 [ERROR] Error loading the agent configuration: 404 Client Error: Not Found for url: http://localhost:8000/api/agents/agent_admin_dc1ba1be30dd/config/download?format=json
+2025-07-11 20:25:02,334 [ERROR] Agent config was not received. Completion.
+2025-07-11 20:25:02,335 [INFO] The lock file agent_admin_dc1ba1be30dd.lock has been deleted
+2025-07-11 20:25:08,620 [INFO] A blocking file has been created agent_admin_dc1ba1be30dd.lock
+2025-07-11 20:25:08,621 [INFO] Launching the LISA agent with the configuration by ID
+2025-07-11 20:25:10,698 [ERROR] Error loading the agent configuration: 404 Client Error: Not Found for url: http://localhost:8000/api/agents/agent_admin_dc1ba1be30dd/config/download?format=json
+2025-07-11 20:25:10,699 [ERROR] Agent config was not received. Completion.
+2025-07-11 20:25:10,700 [INFO] The lock file agent_admin_dc1ba1be30dd.lock has been deleted
+2025-07-11 20:25:59,598 [INFO] A blocking file has been created agent_admin_dc1ba1be30dd.lock
+2025-07-11 20:25:59,599 [INFO] Launching the LISA agent with the configuration by ID
+2025-07-11 20:26:01,672 [ERROR] Error loading the agent configuration: 404 Client Error: Not Found for url: http://localhost:8000/api/agents/agent_admin_dc1ba1be30dd/config/download?format=json
+2025-07-11 20:26:01,673 [ERROR] Agent config was not received. Completion.
+2025-07-11 20:26:01,674 [INFO] The lock file agent_admin_dc1ba1be30dd.lock has been deleted
+2025-07-11 20:26:18,005 [INFO] A blocking file has been created agent_admin_dc1ba1be30dd.lock
+2025-07-11 20:26:18,006 [INFO] Launching the LISA agent with the configuration by ID
+2025-07-11 20:26:20,076 [ERROR] Error loading the agent configuration: 404 Client Error: Not Found for url: http://localhost:8000/api/agents/agent_admin_dc1ba1be30dd/config/download?format=json
+2025-07-11 20:26:20,077 [ERROR] Agent config was not received. Completion.
+2025-07-11 20:26:20,079 [INFO] The lock file agent_admin_dc1ba1be30dd.lock has been deleted
+2025-07-11 20:26:47,463 [INFO] A blocking file has been created agent_admin_dc1ba1be30dd.lock
+2025-07-11 20:26:47,463 [INFO] Launching the LISA agent with the configuration by ID
+2025-07-11 20:26:49,551 [ERROR] Error loading the agent configuration: 404 Client Error: Not Found for url: http://localhost:8000/api/agents/agent_admin_dc1ba1be30dd/config/download?format=json
+2025-07-11 20:26:49,552 [ERROR] Agent config was not received. Completion.
+2025-07-11 20:26:49,553 [INFO] The lock file agent_admin_dc1ba1be30dd.lock has been deleted
+2025-07-11 20:29:03,077 [INFO] A blocking file has been created agent_admin_dc1ba1be30dd.lock
+2025-07-11 20:29:03,078 [INFO] Launching the LISA agent with the configuration by ID
+2025-07-11 20:29:05,158 [INFO] The lock file agent_admin_dc1ba1be30dd.lock has been deleted
+2025-07-11 20:29:22,705 [INFO] A blocking file has been created agent_admin_dc1ba1be30dd.lock
+2025-07-11 20:29:22,706 [INFO] Launching the LISA agent with the configuration by ID
+2025-07-11 20:30:29,920 [INFO] The lock file agent_admin_dc1ba1be30dd.lock has been deleted
+2025-07-11 20:30:44,233 [INFO] A blocking file has been created agent_admin_dc1ba1be30dd.lock
+2025-07-11 20:30:44,233 [INFO] Launching the LISA agent with the configuration by ID
+2025-07-11 20:30:46,314 [ERROR] The task template is empty. Completion.
+2025-07-11 20:30:46,315 [INFO] The lock file agent_admin_dc1ba1be30dd.lock has been deleted
+2025-07-11 20:39:04,302 [INFO] A blocking file has been created agent_admin_dc1ba1be30dd.lock
+2025-07-11 20:39:04,303 [INFO] Launching the LISA agent with the configuration by ID
+2025-07-11 20:39:06,388 [ERROR] The task template is empty. Completion.
+2025-07-11 20:39:06,389 [INFO] The lock file agent_admin_dc1ba1be30dd.lock has been deleted
+2025-07-11 20:41:10,295 [INFO] A blocking file has been created agent_admin_dc1ba1be30dd.lock
+2025-07-11 20:41:10,296 [INFO] Launching the LISA agent with the configuration by ID
+2025-07-11 20:41:12,385 [ERROR] The task template is empty. Completion.
+2025-07-11 20:41:12,386 [INFO] The lock file agent_admin_dc1ba1be30dd.lock has been deleted
+2025-07-11 20:41:45,792 [INFO] A blocking file has been created agent_admin_dc1ba1be30dd.lock
+2025-07-11 20:41:45,792 [INFO] Launching the LISA agent with the configuration by ID
+2025-07-11 20:41:47,863 [INFO] The lock file agent_admin_dc1ba1be30dd.lock has been deleted
+2025-07-11 20:41:58,711 [INFO] A blocking file has been created agent_admin_dc1ba1be30dd.lock
+2025-07-11 20:41:58,712 [INFO] Launching the LISA agent with the configuration by ID
+2025-07-11 20:42:24,100 [INFO] The lock file agent_admin_dc1ba1be30dd.lock has been deleted
+2025-07-11 20:43:15,263 [INFO] A blocking file has been created agent_admin_dc1ba1be30dd.lock
+2025-07-11 20:43:15,264 [INFO] Launching the LISA agent with the configuration by ID
+2025-07-11 20:43:17,343 [ERROR] The task template is empty. Completion.
+2025-07-11 20:43:17,344 [INFO] The lock file agent_admin_dc1ba1be30dd.lock has been deleted
+2025-07-12 17:52:17,454 [INFO] A blocking file has been created agent_admin_dc1ba1be30dd.lock
+2025-07-12 17:52:17,455 [INFO] Launching the LISA agent with the configuration by ID
+2025-07-12 17:52:19,566 [ERROR] The task template is empty. Completion.
+2025-07-12 17:52:19,567 [INFO] The lock file agent_admin_dc1ba1be30dd.lock has been deleted
+2025-07-12 17:53:25,158 [INFO] A blocking file has been created agent_admin_dc1ba1be30dd.lock
+2025-07-12 17:53:25,158 [INFO] Launching the LISA agent with the configuration by ID
+2025-07-12 17:53:27,228 [ERROR] The task template is empty. Completion.
+2025-07-12 17:53:27,229 [INFO] The lock file agent_admin_dc1ba1be30dd.lock has been deleted
+2025-07-12 18:00:04,461 [INFO] A blocking file has been created agent_admin_dc1ba1be30dd.lock
+2025-07-12 18:00:04,461 [INFO] Launching the LISA agent with the configuration by ID
+2025-07-12 18:00:06,515 [ERROR] The task template is empty. Completion.
+2025-07-12 18:00:06,516 [INFO] The lock file agent_admin_dc1ba1be30dd.lock has been deleted
+2025-07-12 18:00:16,153 [INFO] A blocking file has been created agent_admin_dc1ba1be30dd.lock
+2025-07-12 18:00:16,153 [INFO] Launching the LISA agent with the configuration by ID
+2025-07-12 18:00:18,230 [ERROR] The task template is empty. Completion.
+2025-07-12 18:00:18,231 [INFO] The lock file agent_admin_dc1ba1be30dd.lock has been deleted
+2025-07-12 18:00:27,081 [INFO] A blocking file has been created agent_admin_dc1ba1be30dd.lock
+2025-07-12 18:00:27,083 [INFO] Launching the LISA agent with the configuration by ID
+2025-07-12 18:02:57,655 [INFO] The lock file agent_admin_dc1ba1be30dd.lock has been deleted
+2025-07-12 18:12:53,688 [INFO] A blocking file has been created agent_admin_dc1ba1be30dd.lock
+2025-07-12 18:12:53,689 [INFO] Launching the LISA agent with the configuration by ID
+2025-07-12 18:13:26,128 [INFO] The lock file agent_admin_dc1ba1be30dd.lock has been deleted
+2025-07-12 18:13:47,476 [INFO] A blocking file has been created agent_admin_dc1ba1be30dd.lock
+2025-07-12 18:13:47,478 [INFO] Launching the LISA agent with the configuration by ID
+2025-07-12 18:14:03,154 [INFO] Agent: agent_admin_dc1ba1be30dd, Interval: 10, Tasks: [{'action': 'simulate_activity', 'repeatable': True, 'delay': 5, 'weight': 1}, {'action': 'open_app', 'app': 'word', 'delay': 2, 'repeatable': False, 'weight': 2}, {'action': 'open_app', 'app': 'docker', 'delay': 1, 'repeatable': False, 'weight': 2}, {'action': 'open_browser', 'urls': ['https://admin.microsoft.com', 'https://docs.microsoft.com'], 'delay': 2, 'repeatable': False, 'weight': 3}, {'action': 'run_terminal_command', 'terminal': 'powershell', 'command': 'Get-Service', 'delay': 2, 'repeatable': False, 'weight': 2}, {'action': 'edit_file', 'path': 'C:\\\\Users\\\\%USERNAME%\\\\Documents\\\\admin_notes.txt', 'delay': 2, 'repeatable': False, 'weight': 1}, {'action': 'os_settings', 'repeatable': False, 'weight': 1}, {'action': 'ad_utilities', 'repeatable': False, 'weight': 1}, {'action': 'sleep', 'seconds': 10, 'repeatable': False, 'weight': 1}, {'action': 'terminate', 'delay': 5, 'repeatable': False, 'weight': 1}]
+2025-07-12 18:14:03,280 [INFO] Delay of 5 seconds before the action simulate_activity
+2025-07-12 18:14:03,395 [INFO] Delay of 2 seconds before the action open_app
+2025-07-12 18:14:05,391 [INFO] Heartbeat sent: {'status': 'received', 'agent_id': 'agent_admin_dc1ba1be30dd', 'timestamp': '2025-07-12T15:14:05.381087', 'message': 'Heartbeat processed successfully', 'next_heartbeat_in': 86400, 'commands': []}
+2025-07-12 18:14:05,415 [INFO] The application is running: C:\Program Files (x86)\Microsoft Office\root\Office16\WINWORD.EXE
+2025-07-12 18:14:07,481 [INFO] Waiting 10 seconds
+2025-07-12 18:14:08,651 [INFO] Network request: https://github.com → 200
+2025-07-12 18:14:08,652 [INFO] Repeatable task 'simulate_activity' sleeping 5 sec
+2025-07-12 18:14:10,492 [INFO] Heartbeat sent: {'status': 'received', 'agent_id': 'agent_admin_dc1ba1be30dd', 'timestamp': '2025-07-12T15:14:10.484042', 'message': 'Heartbeat processed successfully', 'next_heartbeat_in': 86400, 'commands': []}
+2025-07-12 18:14:13,654 [INFO] Delay of 5 seconds before the action simulate_activity
+2025-07-12 18:14:15,571 [INFO] Heartbeat sent: {'status': 'received', 'agent_id': 'agent_admin_dc1ba1be30dd', 'timestamp': '2025-07-12T15:14:15.556972', 'message': 'Heartbeat processed successfully', 'next_heartbeat_in': 86400, 'commands': []}
+2025-07-12 18:14:17,777 [INFO] Delay of 1 seconds before the action open_app
+2025-07-12 18:14:19,539 [INFO] The application is running: C:\Program Files\Docker\Docker\Docker Desktop.exe
+2025-07-12 18:14:19,621 [INFO] Network request: https://www.python.org → 200
+2025-07-12 18:14:19,623 [INFO] Repeatable task 'simulate_activity' sleeping 5 sec
+2025-07-12 18:14:20,729 [INFO] Heartbeat sent: {'status': 'received', 'agent_id': 'agent_admin_dc1ba1be30dd', 'timestamp': '2025-07-12T15:14:20.719021', 'message': 'Heartbeat processed successfully', 'next_heartbeat_in': 86400, 'commands': []}
+2025-07-12 18:14:21,619 [INFO] The lock file agent_admin_dc1ba1be30dd.lock has been deleted
+2025-07-13 15:36:55,757 [INFO] A blocking file has been created agent_admin_dc1ba1be30dd.lock
+2025-07-13 15:36:55,758 [INFO] Launching the LISA agent with the configuration by ID
+2025-07-13 15:36:57,955 [INFO] Agent: agent_admin_dc1ba1be30dd, Interval: 10, Tasks: [{'action': 'simulate_activity', 'repeatable': True, 'delay': 5, 'weight': 1}, {'action': 'open_app', 'app': 'word', 'delay': 2, 'repeatable': False, 'weight': 2}, {'action': 'open_app', 'app': 'docker', 'delay': 1, 'repeatable': False, 'weight': 2}, {'action': 'open_browser', 'urls': ['https://admin.microsoft.com', 'https://docs.microsoft.com'], 'delay': 2, 'repeatable': False, 'weight': 3}, {'action': 'run_terminal_command', 'terminal': 'powershell', 'command': 'Get-Service', 'delay': 2, 'repeatable': False, 'weight': 2}, {'action': 'edit_file', 'path': 'C:\\\\Users\\\\%USERNAME%\\\\Documents\\\\admin_notes.txt', 'delay': 2, 'repeatable': False, 'weight': 1}, {'action': 'create_file', 'path': 'C:\\\\Users\\\\%USERNAME%\\\\Documents\\\\new_note.txt', 'content': 'This is a new file.', 'editor': 'notepad', 'delay': 1, 'repeatable': False, 'weight': 1}, {'action': 'read_file', 'path': 'C:\\\\Users\\\\%USERNAME%\\\\Documents\\\\new_note.txt', 'editor': 'notepad', 'delay': 1, 'repeatable': False, 'weight': 1}, {'action': 'update_file', 'path': 'C:\\\\Users\\\\%USERNAME%\\\\Documents\\\\new_note.txt', 'content': 'Updated content line.', 'delay': 1, 'repeatable': False, 'weight': 1}, {'action': 'delete_file', 'path': 'C:\\\\Users\\\\%USERNAME%\\\\Documents\\\\new_note.txt', 'delay': 1, 'repeatable': False, 'weight': 1}, {'action': 'os_settings', 'repeatable': False, 'weight': 1}, {'action': 'ad_utilities', 'repeatable': False, 'weight': 1}, {'action': 'sleep', 'seconds': 10, 'repeatable': False, 'weight': 1}, {'action': 'terminate', 'delay': 5, 'repeatable': False, 'weight': 1}]
+2025-07-13 15:36:58,028 [INFO] Delay of 5 seconds before the action simulate_activity
+2025-07-13 15:36:58,118 [INFO] Delay of 2 seconds before the action open_app
+2025-07-13 15:37:00,132 [INFO] The application is running: C:\Program Files (x86)\Microsoft Office\root\Office16\WINWORD.EXE
+2025-07-13 15:37:00,142 [INFO] Heartbeat sent: {'status': 'received', 'agent_id': 'agent_admin_dc1ba1be30dd', 'timestamp': '2025-07-13T12:37:00.135170', 'message': 'Heartbeat processed successfully', 'next_heartbeat_in': 86400, 'commands': []}
+2025-07-13 15:37:02,173 [INFO] Waiting 10 seconds
+2025-07-13 15:37:03,252 [INFO] Network request: https://www.python.org → 200
+2025-07-13 15:37:03,253 [INFO] Repeatable task 'simulate_activity' sleeping 5 sec
+2025-07-13 15:37:05,223 [INFO] Heartbeat sent: {'status': 'received', 'agent_id': 'agent_admin_dc1ba1be30dd', 'timestamp': '2025-07-13T12:37:05.217962', 'message': 'Heartbeat processed successfully', 'next_heartbeat_in': 86400, 'commands': []}
+2025-07-13 15:37:08,254 [INFO] Delay of 5 seconds before the action simulate_activity
+2025-07-13 15:37:11,146 [INFO] Heartbeat sent: {'status': 'received', 'agent_id': 'agent_admin_dc1ba1be30dd', 'timestamp': '2025-07-13T12:37:10.620661', 'message': 'Heartbeat processed successfully', 'next_heartbeat_in': 86400, 'commands': []}
+2025-07-13 15:37:12,477 [INFO] Delay of 1 seconds before the action open_app
+2025-07-13 15:37:12,712 [INFO] The lock file agent_admin_dc1ba1be30dd.lock has been deleted
+2025-07-13 15:38:47,386 [INFO] A blocking file has been created agent_admin_dc1ba1be30dd.lock
+2025-07-13 15:38:47,386 [INFO] Launching the LISA agent with the configuration by ID
+2025-07-13 15:38:49,503 [INFO] Agent: agent_admin_dc1ba1be30dd, Interval: 10, Tasks: [{'action': 'simulate_activity', 'repeatable': True, 'delay': 5, 'weight': 1}, {'action': 'open_app', 'app': 'word', 'delay': 2, 'repeatable': False, 'weight': 2}, {'action': 'open_app', 'app': 'docker', 'delay': 1, 'repeatable': False, 'weight': 2}, {'action': 'open_browser', 'urls': ['https://admin.microsoft.com', 'https://docs.microsoft.com'], 'delay': 2, 'repeatable': False, 'weight': 3}, {'action': 'run_terminal_command', 'terminal': 'powershell', 'command': 'Get-Service', 'delay': 2, 'repeatable': False, 'weight': 2}, {'action': 'edit_file', 'path': 'C:\\\\Users\\\\%USERNAME%\\\\Documents\\\\admin_notes.txt', 'delay': 2, 'repeatable': False, 'weight': 1}, {'action': 'create_file', 'path': 'C:\\\\Users\\\\%USERNAME%\\\\Documents\\\\new_note.txt', 'content': 'This is a new file.', 'editor': 'notepad', 'delay': 1, 'repeatable': False, 'weight': 1}, {'action': 'read_file', 'path': 'C:\\\\Users\\\\%USERNAME%\\\\Documents\\\\new_note.txt', 'editor': 'notepad', 'delay': 1, 'repeatable': False, 'weight': 1}, {'action': 'update_file', 'path': 'C:\\\\Users\\\\%USERNAME%\\\\Documents\\\\new_note.txt', 'content': 'Updated content line.', 'delay': 1, 'repeatable': False, 'weight': 1}, {'action': 'delete_file', 'path': 'C:\\\\Users\\\\%USERNAME%\\\\Documents\\\\new_note.txt', 'delay': 1, 'repeatable': False, 'weight': 1}, {'action': 'os_settings', 'repeatable': False, 'weight': 1}, {'action': 'ad_utilities', 'repeatable': False, 'weight': 1}, {'action': 'sleep', 'seconds': 10, 'repeatable': False, 'weight': 1}, {'action': 'terminate', 'delay': 5, 'repeatable': False, 'weight': 1}]
+2025-07-13 15:38:49,519 [INFO] Delay of 5 seconds before the action simulate_activity
+2025-07-13 15:38:49,599 [INFO] Delay of 2 seconds before the action open_app
+2025-07-13 15:38:51,591 [INFO] Heartbeat sent: {'status': 'received', 'agent_id': 'agent_admin_dc1ba1be30dd', 'timestamp': '2025-07-13T12:38:51.585694', 'message': 'Heartbeat processed successfully', 'next_heartbeat_in': 86400, 'commands': []}
+2025-07-13 15:38:51,614 [INFO] The application is running: C:\Program Files (x86)\Microsoft Office\root\Office16\WINWORD.EXE
+2025-07-13 15:38:53,658 [INFO] Waiting 10 seconds
+2025-07-13 15:38:54,722 [INFO] Network request: https://www.python.org → 200
+2025-07-13 15:38:54,723 [INFO] Repeatable task 'simulate_activity' sleeping 5 sec
+2025-07-13 15:38:56,688 [INFO] Heartbeat sent: {'status': 'received', 'agent_id': 'agent_admin_dc1ba1be30dd', 'timestamp': '2025-07-13T12:38:56.682506', 'message': 'Heartbeat processed successfully', 'next_heartbeat_in': 86400, 'commands': []}
+2025-07-13 15:38:59,723 [INFO] Delay of 5 seconds before the action simulate_activity
+2025-07-13 15:39:01,756 [INFO] Heartbeat sent: {'status': 'received', 'agent_id': 'agent_admin_dc1ba1be30dd', 'timestamp': '2025-07-13T12:39:01.738652', 'message': 'Heartbeat processed successfully', 'next_heartbeat_in': 86400, 'commands': []}
+2025-07-13 15:39:01,905 [INFO] The lock file agent_admin_dc1ba1be30dd.lock has been deleted
+2025-07-13 16:08:45,190 [INFO] A blocking file has been created agent_admin_dc1ba1be30dd.lock
+2025-07-13 16:08:45,191 [INFO] Launching the LISA agent with the configuration by ID
+2025-07-13 16:08:47,302 [INFO] Agent: agent_admin_dc1ba1be30dd, Interval: 10, Tasks: [{'action': 'simulate_activity', 'repeatable': True, 'delay': 5, 'weight': 1}, {'action': 'open_app', 'app': 'word', 'delay': 2, 'repeatable': False, 'weight': 2}, {'action': 'open_app', 'app': 'docker', 'delay': 1, 'repeatable': False, 'weight': 2}, {'action': 'open_browser', 'urls': ['https://admin.microsoft.com', 'https://docs.microsoft.com'], 'delay': 2, 'repeatable': False, 'weight': 3}, {'action': 'run_terminal_command', 'terminal': 'powershell', 'command': 'Get-Service', 'delay': 2, 'repeatable': False, 'weight': 2}, {'action': 'os_settings', 'repeatable': False, 'weight': 1}, {'action': 'ad_utilities', 'repeatable': False, 'weight': 1}, {'action': 'sleep', 'seconds': 10, 'repeatable': False, 'weight': 1}, {'action': 'terminate', 'delay': 5, 'repeatable': False, 'weight': 1}]
+2025-07-13 16:08:47,319 [INFO] Delay of 5 seconds before the action simulate_activity
+2025-07-13 16:08:47,403 [INFO] Delay of 2 seconds before the action open_app
+2025-07-13 16:08:49,403 [INFO] Heartbeat sent: {'status': 'received', 'agent_id': 'agent_admin_dc1ba1be30dd', 'timestamp': '2025-07-13T13:08:49.397371', 'message': 'Heartbeat processed successfully', 'next_heartbeat_in': 86400, 'commands': []}
+2025-07-13 16:08:49,417 [INFO] The application is running: C:\Program Files (x86)\Microsoft Office\root\Office16\WINWORD.EXE
+2025-07-13 16:08:51,448 [INFO] Waiting 10 seconds
+2025-07-13 16:08:52,983 [INFO] Network request: https://example.com → 200
+2025-07-13 16:08:52,984 [INFO] Repeatable task 'simulate_activity' sleeping 5 sec
+2025-07-13 16:08:54,502 [INFO] Heartbeat sent: {'status': 'received', 'agent_id': 'agent_admin_dc1ba1be30dd', 'timestamp': '2025-07-13T13:08:54.495164', 'message': 'Heartbeat processed successfully', 'next_heartbeat_in': 86400, 'commands': []}
+2025-07-13 16:08:56,589 [INFO] The lock file agent_admin_dc1ba1be30dd.lock has been deleted
+2025-07-13 16:09:22,233 [INFO] A blocking file has been created agent_admin_dc1ba1be30dd.lock
+2025-07-13 16:09:22,233 [INFO] Launching the LISA agent with the configuration by ID
+2025-07-13 16:09:24,347 [INFO] Agent: agent_admin_dc1ba1be30dd, Interval: 10, Tasks: [{'action': 'create_file', 'path': 'C:\\\\Users\\\\%USERNAME%\\\\Documents\\\\word_doc.docx', 'content': 'This is a Word document.', 'editor': 'word', 'delay': 2, 'repeatable': False, 'weight': 1}, {'action': 'create_file', 'path': 'C:\\\\Users\\\\%USERNAME%\\\\Documents\\\\notes.txt', 'content': 'This is a Notepad file.', 'editor': 'notepad', 'delay': 1, 'repeatable': False, 'weight': 1}, {'action': 'create_file', 'path': 'C:\\\\Users\\\\%USERNAME%\\\\Documents\\\\vscode_note.txt', 'content': 'This is a VSCode file.', 'editor': 'vscode', 'delay': 1, 'repeatable': False, 'weight': 1}]
+2025-07-13 16:09:24,446 [INFO] Delay of 2 seconds before the action create_file
+2025-07-13 16:09:26,433 [INFO] Heartbeat sent: {'status': 'received', 'agent_id': 'agent_admin_dc1ba1be30dd', 'timestamp': '2025-07-13T13:09:26.427084', 'message': 'Heartbeat processed successfully', 'next_heartbeat_in': 86400, 'commands': []}
+2025-07-13 16:09:26,449 [ERROR] Failed to create file: No module named 'docx'
+2025-07-13 16:09:28,479 [INFO] Waiting 10 seconds
+2025-07-13 16:09:31,535 [INFO] Heartbeat sent: {'status': 'received', 'agent_id': 'agent_admin_dc1ba1be30dd', 'timestamp': '2025-07-13T13:09:31.528832', 'message': 'Heartbeat processed successfully', 'next_heartbeat_in': 86400, 'commands': []}
+2025-07-13 16:09:36,619 [INFO] Heartbeat sent: {'status': 'received', 'agent_id': 'agent_admin_dc1ba1be30dd', 'timestamp': '2025-07-13T13:09:36.612947', 'message': 'Heartbeat processed successfully', 'next_heartbeat_in': 86400, 'commands': []}
+2025-07-13 16:09:38,554 [INFO] Delay of 1 seconds before the action create_file
+2025-07-13 16:09:39,558 [INFO] File created: C:\\Users\\admin\\Documents\\notes.txt
+2025-07-13 16:09:41,629 [INFO] Waiting 10 seconds
+2025-07-13 16:09:41,726 [INFO] Heartbeat sent: {'status': 'received', 'agent_id': 'agent_admin_dc1ba1be30dd', 'timestamp': '2025-07-13T13:09:41.720715', 'message': 'Heartbeat processed successfully', 'next_heartbeat_in': 86400, 'commands': []}
+2025-07-13 16:09:46,790 [INFO] Heartbeat sent: {'status': 'received', 'agent_id': 'agent_admin_dc1ba1be30dd', 'timestamp': '2025-07-13T13:09:46.784453', 'message': 'Heartbeat processed successfully', 'next_heartbeat_in': 86400, 'commands': []}
+2025-07-13 16:09:51,707 [INFO] Delay of 1 seconds before the action create_file
+2025-07-13 16:09:51,840 [INFO] Heartbeat sent: {'status': 'received', 'agent_id': 'agent_admin_dc1ba1be30dd', 'timestamp': '2025-07-13T13:09:51.834836', 'message': 'Heartbeat processed successfully', 'next_heartbeat_in': 86400, 'commands': []}
+2025-07-13 16:09:52,709 [INFO] File created: C:\\Users\\admin\\Documents\\vscode_note.txt
+2025-07-13 16:09:52,713 [ERROR] Failed to create file: [WinError 2] Не удается найти указанный файл
+2025-07-13 16:09:54,738 [INFO] Waiting 10 seconds
+2025-07-13 16:09:56,918 [INFO] Heartbeat sent: {'status': 'received', 'agent_id': 'agent_admin_dc1ba1be30dd', 'timestamp': '2025-07-13T13:09:56.912043', 'message': 'Heartbeat processed successfully', 'next_heartbeat_in': 86400, 'commands': []}
+2025-07-13 16:10:02,013 [INFO] Heartbeat sent: {'status': 'received', 'agent_id': 'agent_admin_dc1ba1be30dd', 'timestamp': '2025-07-13T13:10:02.007688', 'message': 'Heartbeat processed successfully', 'next_heartbeat_in': 86400, 'commands': []}
+2025-07-13 16:10:04,819 [INFO] Delay of 2 seconds before the action create_file
+2025-07-13 16:10:06,823 [ERROR] Failed to create file: No module named 'docx'
+2025-07-13 16:10:07,097 [INFO] Heartbeat sent: {'status': 'received', 'agent_id': 'agent_admin_dc1ba1be30dd', 'timestamp': '2025-07-13T13:10:07.091849', 'message': 'Heartbeat processed successfully', 'next_heartbeat_in': 86400, 'commands': []}
+2025-07-13 16:10:08,874 [INFO] Waiting 10 seconds
+2025-07-13 16:10:12,168 [INFO] Heartbeat sent: {'status': 'received', 'agent_id': 'agent_admin_dc1ba1be30dd', 'timestamp': '2025-07-13T13:10:12.162627', 'message': 'Heartbeat processed successfully', 'next_heartbeat_in': 86400, 'commands': []}
+2025-07-13 16:10:17,219 [INFO] Heartbeat sent: {'status': 'received', 'agent_id': 'agent_admin_dc1ba1be30dd', 'timestamp': '2025-07-13T13:10:17.214414', 'message': 'Heartbeat processed successfully', 'next_heartbeat_in': 86400, 'commands': []}
+2025-07-13 16:10:18,948 [INFO] Delay of 1 seconds before the action create_file
+2025-07-13 16:10:19,950 [INFO] File created: C:\\Users\\admin\\Documents\\notes.txt
+2025-07-13 16:10:21,995 [INFO] Waiting 10 seconds
+2025-07-13 16:10:22,312 [INFO] Heartbeat sent: {'status': 'received', 'agent_id': 'agent_admin_dc1ba1be30dd', 'timestamp': '2025-07-13T13:10:22.305897', 'message': 'Heartbeat processed successfully', 'next_heartbeat_in': 86400, 'commands': []}
+2025-07-13 16:10:22,573 [INFO] The lock file agent_admin_dc1ba1be30dd.lock has been deleted
+2025-07-13 16:12:02,585 [INFO] A blocking file has been created agent_admin_dc1ba1be30dd.lock
+2025-07-13 16:12:02,585 [INFO] Launching the LISA agent with the configuration by ID
+2025-07-13 16:12:04,647 [INFO] Agent: agent_admin_dc1ba1be30dd, Interval: 10, Tasks: [{'action': 'create_file', 'path': 'C:\\\\Users\\\\%USERNAME%\\\\Documents\\\\word_doc.docx', 'content': 'This is a Word document.', 'editor': 'word', 'delay': 2, 'repeatable': False, 'weight': 1}, {'action': 'create_file', 'path': 'C:\\\\Users\\\\%USERNAME%\\\\Documents\\\\notes.txt', 'content': 'This is a Notepad file.', 'editor': 'notepad', 'delay': 1, 'repeatable': False, 'weight': 1}, {'action': 'create_file', 'path': 'C:\\\\Users\\\\%USERNAME%\\\\Documents\\\\vscode_note.txt', 'content': 'This is a VSCode file.', 'editor': 'vscode', 'delay': 1, 'repeatable': False, 'weight': 1}]
+2025-07-13 16:12:04,743 [INFO] Delay of 2 seconds before the action create_file
+2025-07-13 16:12:06,746 [ERROR] Failed to create file: No module named 'docx'
+2025-07-13 16:12:06,764 [INFO] Heartbeat sent: {'status': 'received', 'agent_id': 'agent_admin_dc1ba1be30dd', 'timestamp': '2025-07-13T13:12:06.758447', 'message': 'Heartbeat processed successfully', 'next_heartbeat_in': 86400, 'commands': []}
+2025-07-13 16:12:08,796 [INFO] Waiting 10 seconds
+2025-07-13 16:12:18,881 [INFO] Delay of 1 seconds before the action create_file
+2025-07-13 16:12:19,883 [INFO] File created: C:\\Users\\admin\\Documents\\notes.txt
+2025-07-13 16:12:21,946 [INFO] Waiting 10 seconds
+2025-07-13 16:12:32,020 [INFO] Delay of 1 seconds before the action create_file
+2025-07-13 16:12:33,022 [INFO] File created: C:\\Users\\admin\\Documents\\vscode_note.txt
+2025-07-13 16:12:33,028 [ERROR] Failed to create file: [WinError 2] Не удается найти указанный файл
+2025-07-13 16:12:35,068 [INFO] Waiting 10 seconds
+2025-07-13 16:12:45,147 [INFO] Delay of 2 seconds before the action create_file
+2025-07-13 16:12:47,151 [ERROR] Failed to create file: No module named 'docx'
+2025-07-13 16:12:49,214 [INFO] Waiting 10 seconds
+2025-07-13 16:12:50,449 [INFO] The lock file agent_admin_dc1ba1be30dd.lock has been deleted
+2025-07-13 16:15:15,366 [INFO] A blocking file has been created agent_admin_dc1ba1be30dd.lock
+2025-07-13 16:15:15,367 [INFO] Launching the LISA agent with the configuration by ID
+2025-07-13 16:15:17,468 [INFO] Agent: agent_admin_dc1ba1be30dd, Interval: 10, Tasks: [{'action': 'create_file', 'path': 'C:\\\\Users\\\\%USERNAME%\\\\Documents\\\\word_doc.docx', 'content': 'This is a Word document.', 'editor': 'word', 'delay': 2, 'repeatable': False, 'weight': 1}, {'action': 'create_file', 'path': 'C:\\\\Users\\\\%USERNAME%\\\\Documents\\\\notes.txt', 'content': 'This is a Notepad file.', 'editor': 'notepad', 'delay': 1, 'repeatable': False, 'weight': 1}, {'action': 'create_file', 'path': 'C:\\\\Users\\\\%USERNAME%\\\\Documents\\\\vscode_note.txt', 'content': 'This is a VSCode file.', 'editor': 'vscode', 'delay': 1, 'repeatable': False, 'weight': 1}]
+2025-07-13 16:15:17,631 [INFO] Delay of 2 seconds before the action create_file
+2025-07-13 16:15:19,598 [INFO] Heartbeat sent: {'status': 'received', 'agent_id': 'agent_admin_dc1ba1be30dd', 'timestamp': '2025-07-13T13:15:19.591165', 'message': 'Heartbeat processed successfully', 'next_heartbeat_in': 86400, 'commands': []}
+2025-07-13 16:16:18,250 [INFO] DOCX file created: C:\\Users\\admin\\Documents\\word_doc.docx
+2025-07-13 16:16:24,546 [INFO] Waiting 10 seconds
+2025-07-13 16:16:34,636 [INFO] Delay of 1 seconds before the action create_file
+2025-07-13 16:16:35,639 [INFO] File created: C:\\Users\\admin\\Documents\\notes.txt
+2025-07-13 16:16:37,736 [INFO] Waiting 10 seconds
+2025-07-13 16:16:42,961 [INFO] The lock file agent_admin_dc1ba1be30dd.lock has been deleted
+2025-07-13 16:19:10,695 [INFO] A blocking file has been created agent_admin_dc1ba1be30dd.lock
+2025-07-13 16:19:10,695 [INFO] Launching the LISA agent with the configuration by ID
+2025-07-13 16:19:12,777 [INFO] Agent: agent_admin_dc1ba1be30dd, Interval: 10, Tasks: [{'action': 'create_file', 'path': 'C:\\\\Users\\\\%USERNAME%\\\\Documents\\\\word_doc.docx', 'content': 'This is a Word document.', 'editor': 'word', 'delay': 2, 'repeatable': False, 'weight': 1}, {'action': 'create_file', 'path': 'C:\\\\Users\\\\%USERNAME%\\\\Documents\\\\notes.txt', 'content': 'This is a Notepad file.', 'editor': 'notepad', 'delay': 1, 'repeatable': False, 'weight': 1}, {'action': 'create_file', 'path': 'C:\\\\Users\\\\%USERNAME%\\\\Documents\\\\vscode_note.txt', 'content': 'This is a VSCode file.', 'editor': 'vscode', 'delay': 1, 'repeatable': False, 'weight': 1}]
+2025-07-13 16:19:12,882 [INFO] Delay of 2 seconds before the action create_file
+2025-07-13 16:19:14,848 [INFO] Heartbeat sent: {'status': 'received', 'agent_id': 'agent_admin_dc1ba1be30dd', 'timestamp': '2025-07-13T13:19:14.842431', 'message': 'Heartbeat processed successfully', 'next_heartbeat_in': 86400, 'commands': []}
+2025-07-13 16:19:15,277 [INFO] DOCX file created: C:\\Users\\admin\\Documents\\word_doc.docx
+2025-07-13 16:19:17,350 [INFO] Waiting 10 seconds
+2025-07-13 16:19:24,856 [INFO] The lock file agent_admin_dc1ba1be30dd.lock has been deleted
+2025-07-13 16:21:17,572 [INFO] A blocking file has been created agent_admin_dc1ba1be30dd.lock
+2025-07-13 16:21:17,573 [INFO] Launching the LISA agent with the configuration by ID
+2025-07-13 16:21:19,684 [INFO] Agent: agent_admin_dc1ba1be30dd, Interval: 10, Tasks: [{'action': 'create_file', 'path': 'C:\\\\Users\\\\%USERNAME%\\\\Documents\\\\word_doc.docx', 'content': 'This is a Word document.', 'editor': 'word', 'delay': 2, 'repeatable': False, 'weight': 1}, {'action': 'create_file', 'path': 'C:\\\\Users\\\\%USERNAME%\\\\Documents\\\\notes.txt', 'content': 'This is a Notepad file.', 'editor': 'notepad', 'delay': 1, 'repeatable': False, 'weight': 1}, {'action': 'create_file', 'path': 'C:\\\\Users\\\\%USERNAME%\\\\Documents\\\\vscode_note.txt', 'content': 'This is a VSCode file.', 'editor': 'vscode', 'delay': 1, 'repeatable': False, 'weight': 1}]
+2025-07-13 16:21:21,320 [INFO] Delay of 2 seconds before the action create_file
+2025-07-13 16:21:21,885 [INFO] Heartbeat sent: {'status': 'received', 'agent_id': 'agent_admin_dc1ba1be30dd', 'timestamp': '2025-07-13T13:21:21.878299', 'message': 'Heartbeat processed successfully', 'next_heartbeat_in': 86400, 'commands': []}
+2025-07-13 16:21:23,671 [ERROR] Failed to create file: [Errno 13] Permission denied: 'C:\\\\Users\\\\admin\\\\Documents\\\\word_doc.docx'
+2025-07-13 16:21:25,716 [INFO] Waiting 10 seconds
+2025-07-13 16:21:36,604 [INFO] Delay of 1 seconds before the action create_file
+2025-07-13 16:21:37,607 [INFO] File created: C:\\Users\\admin\\Documents\\notes.txt
+2025-07-13 16:21:39,762 [INFO] Waiting 10 seconds
+2025-07-13 16:21:48,218 [INFO] The lock file agent_admin_dc1ba1be30dd.lock has been deleted
+2025-07-13 16:27:22,587 [INFO] A blocking file has been created agent_admin_dc1ba1be30dd.lock
+2025-07-13 16:27:22,588 [INFO] Launching the LISA agent with the configuration by ID
+2025-07-13 16:27:24,702 [INFO] Agent: agent_admin_dc1ba1be30dd, Interval: 10, Tasks: [{'action': 'read_file', 'path': 'C:\\\\Users\\\\%USERNAME%\\\\Documents\\\\word_doc.docx', 'editor': 'word', 'delay': 1, 'repeatable': False, 'weight': 1}, {'action': 'read_file', 'path': 'C:\\\\Users\\\\%USERNAME%\\\\Documents\\\\notes.txt', 'editor': 'notepad', 'delay': 1, 'repeatable': False, 'weight': 1}, {'action': 'read_file', 'path': 'C:\\\\Users\\\\%USERNAME%\\\\Documents\\\\vscode_note.txt', 'editor': 'vscode', 'delay': 1, 'repeatable': False, 'weight': 1}]
+2025-07-13 16:27:24,799 [INFO] Delay of 1 seconds before the action read_file
+2025-07-13 16:27:25,812 [INFO] File opened for reading: C:\\Users\\admin\\Documents\\word_doc.docx
+2025-07-13 16:27:26,802 [INFO] Heartbeat sent: {'status': 'received', 'agent_id': 'agent_admin_dc1ba1be30dd', 'timestamp': '2025-07-13T13:27:26.796661', 'message': 'Heartbeat processed successfully', 'next_heartbeat_in': 86400, 'commands': []}
+2025-07-13 16:27:27,845 [INFO] Waiting 10 seconds
+2025-07-13 16:27:37,920 [INFO] Delay of 1 seconds before the action read_file
+2025-07-13 16:27:38,927 [INFO] File opened for reading: C:\\Users\\admin\\Documents\\notes.txt
+2025-07-13 16:27:40,964 [INFO] Waiting 10 seconds
+2025-07-13 16:27:51,045 [INFO] Delay of 1 seconds before the action read_file
+2025-07-13 16:27:52,050 [ERROR] Failed to read file: [WinError 2] Не удается найти указанный файл
+2025-07-13 16:27:54,115 [INFO] Waiting 10 seconds
+2025-07-13 16:28:03,353 [INFO] The lock file agent_admin_dc1ba1be30dd.lock has been deleted
+2025-07-13 16:28:24,987 [INFO] A blocking file has been created agent_admin_dc1ba1be30dd.lock
+2025-07-13 16:28:24,988 [INFO] Launching the LISA agent with the configuration by ID
+2025-07-13 16:28:27,082 [INFO] The lock file agent_admin_dc1ba1be30dd.lock has been deleted
+2025-07-13 16:29:12,581 [INFO] A blocking file has been created agent_admin_dc1ba1be30dd.lock
+2025-07-13 16:29:12,589 [INFO] Launching the LISA agent with the configuration by ID
+2025-07-13 16:29:45,240 [ERROR] The agent with the ID agent_admin_dc1ba1be30dd has already been launched! Completion.
+2025-07-13 16:29:59,717 [ERROR] The agent with the ID agent_admin_dc1ba1be30dd has already been launched! Completion.
+2025-07-13 16:32:07,407 [INFO] A blocking file has been created agent_admin_dc1ba1be30dd.lock
+2025-07-13 16:32:07,408 [INFO] Launching the LISA agent with the configuration by ID
+2025-07-13 16:32:09,533 [INFO] Agent: agent_admin_dc1ba1be30dd, Interval: 10, Tasks: [{'action': 'read_file', 'path': 'C:\\\\Users\\\\%USERNAME%\\\\Documents\\\\word_doc.docx', 'editor': 'word', 'delay': 1, 'repeatable': False, 'weight': 1}, {'action': 'read_file', 'path': 'C:\\\\Users\\\\%USERNAME%\\\\Documents\\\\notes.txt', 'editor': 'notepad', 'delay': 1, 'repeatable': False, 'weight': 1}, {'action': 'read_file', 'path': 'C:\\\\Users\\\\%USERNAME%\\\\Documents\\\\vscode_note.txt', 'editor': 'vscode', 'delay': 1, 'repeatable': False, 'weight': 1}]
+2025-07-13 16:32:09,632 [INFO] Delay of 1 seconds before the action read_file
+2025-07-13 16:32:10,643 [INFO] File opened for reading: C:\\Users\\admin\\Documents\\word_doc.docx
+2025-07-13 16:32:11,611 [INFO] Heartbeat sent: {'status': 'received', 'agent_id': 'agent_admin_dc1ba1be30dd', 'timestamp': '2025-07-13T13:32:11.604615', 'message': 'Heartbeat processed successfully', 'next_heartbeat_in': 86400, 'commands': []}
+2025-07-13 16:32:12,678 [INFO] Waiting 10 seconds
+2025-07-13 16:32:21,628 [INFO] The lock file agent_admin_dc1ba1be30dd.lock has been deleted
+2025-07-13 16:32:44,486 [INFO] A blocking file has been created agent_admin_dc1ba1be30dd.lock
+2025-07-13 16:32:44,486 [INFO] Launching the LISA agent with the configuration by ID
+2025-07-13 16:32:46,582 [INFO] Agent: agent_admin_dc1ba1be30dd, Interval: 10, Tasks: [{'action': 'read_file', 'path': 'C:\\\\Users\\\\%USERNAME%\\\\Documents\\\\word_doc.docx', 'editor': 'word', 'delay': 1, 'repeatable': False, 'weight': 1}, {'action': 'read_file', 'path': 'C:\\\\Users\\\\%USERNAME%\\\\Documents\\\\notes.txt', 'editor': 'notepad', 'delay': 1, 'repeatable': False, 'weight': 1}, {'action': 'read_file', 'path': 'C:\\\\Users\\\\%USERNAME%\\\\Documents\\\\vscode_note.txt', 'editor': 'vscode', 'delay': 1, 'repeatable': False, 'weight': 1}]
+2025-07-13 16:32:46,678 [INFO] Delay of 1 seconds before the action read_file
+2025-07-13 16:32:47,689 [INFO] File opened for reading: C:\\Users\\admin\\Documents\\word_doc.docx
+2025-07-13 16:32:48,659 [INFO] Heartbeat sent: {'status': 'received', 'agent_id': 'agent_admin_dc1ba1be30dd', 'timestamp': '2025-07-13T13:32:48.651556', 'message': 'Heartbeat processed successfully', 'next_heartbeat_in': 86400, 'commands': []}
+2025-07-13 16:32:49,727 [INFO] Waiting 10 seconds
+2025-07-13 16:32:59,805 [INFO] Delay of 1 seconds before the action read_file
+2025-07-13 16:33:00,814 [INFO] File opened for reading: C:\\Users\\admin\\Documents\\notes.txt
+2025-07-13 16:33:02,975 [INFO] Waiting 10 seconds
+2025-07-13 16:33:09,433 [INFO] The lock file agent_admin_dc1ba1be30dd.lock has been deleted
+2025-07-13 16:33:44,687 [INFO] A blocking file has been created agent_admin_dc1ba1be30dd.lock
+2025-07-13 16:33:44,688 [INFO] Launching the LISA agent with the configuration by ID
+2025-07-13 16:33:46,753 [INFO] Agent: agent_admin_dc1ba1be30dd, Interval: 10, Tasks: [{'action': 'read_file', 'path': 'C:\\\\Users\\\\%USERNAME%\\\\Documents\\\\word_doc.docx', 'editor': 'word', 'delay': 1, 'repeatable': False, 'weight': 1}, {'action': 'read_file', 'path': 'C:\\\\Users\\\\%USERNAME%\\\\Documents\\\\notes.txt', 'editor': 'notepad', 'delay': 1, 'repeatable': False, 'weight': 1}, {'action': 'read_file', 'path': 'C:\\\\Users\\\\%USERNAME%\\\\Documents\\\\vscode_note.txt', 'editor': 'vscode', 'delay': 1, 'repeatable': False, 'weight': 1}]
+2025-07-13 16:33:46,851 [INFO] Delay of 1 seconds before the action read_file
+2025-07-13 16:33:47,863 [INFO] File opened for reading: C:\\Users\\admin\\Documents\\word_doc.docx
+2025-07-13 16:33:48,824 [INFO] Heartbeat sent: {'status': 'received', 'agent_id': 'agent_admin_dc1ba1be30dd', 'timestamp': '2025-07-13T13:33:48.817497', 'message': 'Heartbeat processed successfully', 'next_heartbeat_in': 86400, 'commands': []}
+2025-07-13 16:33:49,907 [INFO] Waiting 10 seconds
+2025-07-13 16:33:59,981 [INFO] Delay of 1 seconds before the action read_file
+2025-07-13 16:34:00,650 [INFO] The lock file agent_admin_dc1ba1be30dd.lock has been deleted
+2025-07-13 16:34:03,249 [INFO] A blocking file has been created agent_admin_dc1ba1be30dd.lock
+2025-07-13 16:34:03,249 [INFO] Launching the LISA agent with the configuration by ID
+2025-07-13 16:34:05,364 [INFO] Agent: agent_admin_dc1ba1be30dd, Interval: 0, Tasks: [{'action': 'read_file', 'path': 'C:\\\\Users\\\\%USERNAME%\\\\Documents\\\\word_doc.docx', 'editor': 'word', 'delay': 1, 'repeatable': False, 'weight': 1}, {'action': 'read_file', 'path': 'C:\\\\Users\\\\%USERNAME%\\\\Documents\\\\notes.txt', 'editor': 'notepad', 'delay': 1, 'repeatable': False, 'weight': 1}, {'action': 'read_file', 'path': 'C:\\\\Users\\\\%USERNAME%\\\\Documents\\\\vscode_note.txt', 'editor': 'vscode', 'delay': 1, 'repeatable': False, 'weight': 1}]
+2025-07-13 16:34:05,460 [INFO] Delay of 1 seconds before the action read_file
+2025-07-13 16:34:06,471 [INFO] File opened for reading: C:\\Users\\admin\\Documents\\word_doc.docx
+2025-07-13 16:34:07,441 [INFO] Heartbeat sent: {'status': 'received', 'agent_id': 'agent_admin_dc1ba1be30dd', 'timestamp': '2025-07-13T13:34:07.435018', 'message': 'Heartbeat processed successfully', 'next_heartbeat_in': 86400, 'commands': []}
+2025-07-13 16:34:08,504 [INFO] Waiting 0 seconds
+2025-07-13 16:34:08,585 [INFO] Delay of 1 seconds before the action read_file
+2025-07-13 16:34:09,593 [INFO] File opened for reading: C:\\Users\\admin\\Documents\\notes.txt
+2025-07-13 16:34:11,616 [INFO] Waiting 0 seconds
+2025-07-13 16:34:11,691 [INFO] Delay of 1 seconds before the action read_file
+2025-07-13 16:34:12,696 [ERROR] Failed to read file: [WinError 2] Не удается найти указанный файл
+2025-07-13 16:34:14,757 [INFO] Waiting 0 seconds
+2025-07-13 16:34:14,899 [INFO] Delay of 1 seconds before the action read_file
+2025-07-13 16:34:15,908 [INFO] File opened for reading: C:\\Users\\admin\\Documents\\word_doc.docx
+2025-07-13 16:34:17,949 [INFO] Waiting 0 seconds
+2025-07-13 16:34:18,035 [INFO] Delay of 1 seconds before the action read_file
+2025-07-13 16:34:19,040 [INFO] File opened for reading: C:\\Users\\admin\\Documents\\notes.txt
+2025-07-13 16:34:21,083 [INFO] The lock file agent_admin_dc1ba1be30dd.lock has been deleted
+2025-07-13 16:35:04,327 [INFO] A blocking file has been created agent_admin_dc1ba1be30dd.lock
+2025-07-13 16:35:04,327 [INFO] Launching the LISA agent with the configuration by ID
+2025-07-13 16:35:06,436 [INFO] Agent: agent_admin_dc1ba1be30dd, Interval: 0, Tasks: [{'action': 'read_file', 'path': 'C:\\\\Users\\\\%USERNAME%\\\\Documents\\\\word_doc.docx', 'editor': 'word', 'delay': 1, 'repeatable': False, 'weight': 1}, {'action': 'read_file', 'path': 'C:\\\\Users\\\\%USERNAME%\\\\Documents\\\\notes.txt', 'editor': 'notepad', 'delay': 1, 'repeatable': False, 'weight': 1}, {'action': 'read_file', 'path': 'C:\\\\Users\\\\%USERNAME%\\\\Documents\\\\vscode_note.txt', 'editor': 'vscode', 'delay': 1, 'repeatable': False, 'weight': 1}, {'action': 'terminate', 'delay': 5, 'repeatable': False, 'weight': 1}]
+2025-07-13 16:35:06,533 [INFO] Delay of 1 seconds before the action read_file
+2025-07-13 16:35:07,544 [INFO] File opened for reading: C:\\Users\\admin\\Documents\\word_doc.docx
+2025-07-13 16:35:08,502 [INFO] Heartbeat sent: {'status': 'received', 'agent_id': 'agent_admin_dc1ba1be30dd', 'timestamp': '2025-07-13T13:35:08.496648', 'message': 'Heartbeat processed successfully', 'next_heartbeat_in': 86400, 'commands': []}
+2025-07-13 16:35:09,577 [INFO] Waiting 0 seconds
+2025-07-13 16:35:09,650 [INFO] Delay of 1 seconds before the action read_file
+2025-07-13 16:35:10,658 [INFO] File opened for reading: C:\\Users\\admin\\Documents\\notes.txt
+2025-07-13 16:35:12,701 [INFO] Waiting 0 seconds
+2025-07-13 16:35:12,778 [INFO] Delay of 1 seconds before the action read_file
+2025-07-13 16:35:13,784 [ERROR] Failed to read file: [WinError 2] Не удается найти указанный файл
+2025-07-13 16:35:15,827 [INFO] Waiting 0 seconds
+2025-07-13 16:35:15,903 [INFO] Delay of 5 seconds before the action terminate
+2025-07-13 16:35:20,904 [INFO] The agent is being terminated according to the script.
+2025-07-13 16:35:20,905 [INFO] The lock file agent_admin_dc1ba1be30dd.lock has been deleted
+2025-07-13 16:40:01,917 [INFO] A blocking file has been created agent_admin_dc1ba1be30dd.lock
+2025-07-13 16:40:01,918 [INFO] Launching the LISA agent with the configuration by ID
+2025-07-13 16:40:04,055 [INFO] Agent: agent_admin_dc1ba1be30dd, Interval: 0, Tasks: [{'action': 'read_file', 'path': 'C:\\\\Users\\\\%USERNAME%\\\\Documents\\\\word_doc.docx', 'editor': 'word', 'delay': 1, 'repeatable': False, 'weight': 1}, {'action': 'read_file', 'path': 'C:\\\\Users\\\\%USERNAME%\\\\Documents\\\\notes.txt', 'editor': 'notepad', 'delay': 1, 'repeatable': False, 'weight': 1}, {'action': 'read_file', 'path': 'C:\\\\Users\\\\%USERNAME%\\\\Documents\\\\vscode_note.txt', 'editor': 'vscode', 'delay': 1, 'repeatable': False, 'weight': 1}, {'action': 'terminate', 'delay': 0, 'repeatable': False, 'weight': 1}]
+2025-07-13 16:40:04,218 [INFO] Delay of 1 seconds before the action read_file
+2025-07-13 16:40:06,205 [INFO] Heartbeat sent: {'status': 'received', 'agent_id': 'agent_admin_dc1ba1be30dd', 'timestamp': '2025-07-13T13:40:06.198331', 'message': 'Heartbeat processed successfully', 'next_heartbeat_in': 86400, 'commands': []}
+2025-07-13 16:40:39,431 [INFO] File opened for reading: C:\\Users\\admin\\Documents\\word_doc.docx
+2025-07-13 16:40:41,484 [INFO] Waiting 0 seconds
+2025-07-13 16:40:41,614 [INFO] Delay of 1 seconds before the action read_file
+2025-07-13 16:40:42,633 [INFO] File opened for reading: C:\\Users\\admin\\Documents\\notes.txt
+2025-07-13 16:40:45,107 [INFO] Waiting 0 seconds
+2025-07-13 16:40:47,479 [INFO] Delay of 1 seconds before the action read_file
+2025-07-13 16:41:10,545 [ERROR] Failed to read file: [WinError 2] Не удается найти указанный файл
+2025-07-13 16:41:12,600 [INFO] Waiting 0 seconds
+2025-07-13 16:41:12,677 [INFO] The agent is being terminated according to the script.
+2025-07-13 16:41:12,678 [INFO] The lock file agent_admin_dc1ba1be30dd.lock has been deleted
+2025-07-13 16:44:13,991 [INFO] A blocking file has been created agent_admin_dc1ba1be30dd.lock
+2025-07-13 16:44:13,992 [INFO] Launching the LISA agent with the configuration by ID
+2025-07-13 16:44:16,081 [INFO] Agent: agent_admin_dc1ba1be30dd, Interval: 0, Tasks: [{'action': 'read_file', 'path': 'C:\\\\Users\\\\%USERNAME%\\\\Documents\\\\word_doc.docx', 'editor': 'word', 'delay': 1, 'repeatable': False, 'weight': 1}, {'action': 'read_file', 'path': 'C:\\\\Users\\\\%USERNAME%\\\\Documents\\\\notes.txt', 'editor': 'notepad', 'delay': 1, 'repeatable': False, 'weight': 1}, {'action': 'read_file', 'path': 'C:\\\\Users\\\\%USERNAME%\\\\Documents\\\\vscode_note.txt', 'editor': 'vscode', 'delay': 1, 'repeatable': False, 'weight': 1}, {'action': 'terminate', 'delay': 0, 'repeatable': False, 'weight': 1}]
+2025-07-13 16:44:16,181 [INFO] Delay of 1 seconds before the action read_file
+2025-07-13 16:44:17,191 [INFO] File opened for reading: C:\\Users\\admin\\Documents\\word_doc.docx
+2025-07-13 16:44:18,146 [INFO] Heartbeat sent: {'status': 'received', 'agent_id': 'agent_admin_dc1ba1be30dd', 'timestamp': '2025-07-13T13:44:18.140878', 'message': 'Heartbeat processed successfully', 'next_heartbeat_in': 86400, 'commands': []}
+2025-07-13 16:44:19,227 [INFO] Waiting 0 seconds
+2025-07-13 16:44:19,298 [INFO] Delay of 1 seconds before the action read_file
+2025-07-13 16:44:20,305 [INFO] File opened for reading: C:\\Users\\admin\\Documents\\notes.txt
+2025-07-13 16:44:22,332 [INFO] Waiting 0 seconds
+2025-07-13 16:44:22,405 [INFO] Delay of 1 seconds before the action read_file
+2025-07-13 16:44:23,410 [ERROR] Failed to read file: [WinError 2] Не удается найти указанный файл
+2025-07-13 16:44:25,452 [INFO] Waiting 0 seconds
+2025-07-13 16:44:25,527 [INFO] The agent is being terminated according to the script.
+2025-07-13 16:44:25,528 [INFO] The lock file agent_admin_dc1ba1be30dd.lock has been deleted
+2025-07-13 16:46:47,453 [INFO] A blocking file has been created agent_admin_dc1ba1be30dd.lock
+2025-07-13 16:46:47,454 [INFO] Launching the LISA agent with the configuration by ID
+2025-07-13 16:46:49,536 [INFO] Agent: agent_admin_dc1ba1be30dd, Interval: 0, Tasks: [{'action': 'read_file', 'path': 'C:\\\\Users\\\\%USERNAME%\\\\Documents\\\\word_doc.docx', 'editor': 'word', 'delay': 1, 'repeatable': False, 'weight': 1}, {'action': 'read_file', 'path': 'C:\\\\Users\\\\%USERNAME%\\\\Documents\\\\notes.txt', 'editor': 'notepad', 'delay': 1, 'repeatable': False, 'weight': 1}, {'action': 'read_file', 'path': 'C:\\\\Users\\\\%USERNAME%\\\\Documents\\\\vscode_note.txt', 'editor': 'vscode', 'delay': 1, 'repeatable': False, 'weight': 1}, {'action': 'terminate', 'delay': 0, 'repeatable': False, 'weight': 1}]
+2025-07-13 16:46:49,637 [INFO] Delay of 1 seconds before the action read_file
+2025-07-13 16:46:50,649 [INFO] File opened for reading: C:\\Users\\admin\\Documents\\word_doc.docx
+2025-07-13 16:46:51,612 [INFO] Heartbeat sent: {'status': 'received', 'agent_id': 'agent_admin_dc1ba1be30dd', 'timestamp': '2025-07-13T13:46:51.605855', 'message': 'Heartbeat processed successfully', 'next_heartbeat_in': 86400, 'commands': []}
+2025-07-13 16:46:52,692 [INFO] Waiting 0 seconds
+2025-07-13 16:46:52,781 [INFO] Delay of 1 seconds before the action read_file
+2025-07-13 16:46:53,788 [INFO] File opened for reading: C:\\Users\\admin\\Documents\\notes.txt
+2025-07-13 16:46:55,818 [INFO] Waiting 0 seconds
+2025-07-13 16:46:55,896 [INFO] Delay of 1 seconds before the action read_file
+2025-07-13 16:46:56,909 [ERROR] Failed to read file: [WinError 2] Не удается найти указанный файл
+2025-07-13 16:46:58,960 [INFO] Waiting 0 seconds
+2025-07-13 16:46:59,362 [INFO] The agent is being terminated according to the script.
+2025-07-13 16:46:59,364 [INFO] The lock file agent_admin_dc1ba1be30dd.lock has been deleted
+2025-07-13 16:47:46,296 [INFO] A blocking file has been created agent_admin_dc1ba1be30dd.lock
+2025-07-13 16:47:46,297 [INFO] Launching the LISA agent with the configuration by ID
+2025-07-13 16:47:48,623 [INFO] Agent: agent_admin_dc1ba1be30dd, Interval: 0, Tasks: [{'action': 'read_file', 'path': 'C:\\\\Users\\\\%USERNAME%\\\\Documents\\\\word_doc.docx', 'editor': 'word', 'delay': 1, 'repeatable': False, 'weight': 1}, {'action': 'read_file', 'path': 'C:\\\\Users\\\\%USERNAME%\\\\Documents\\\\notes.txt', 'editor': 'notepad', 'delay': 1, 'repeatable': False, 'weight': 1}, {'action': 'read_file', 'path': 'C:\\\\Users\\\\%USERNAME%\\\\Documents\\\\vscode_note.txt', 'editor': 'vscode', 'delay': 1, 'repeatable': False, 'weight': 1}, {'action': 'terminate', 'delay': 0, 'repeatable': False, 'weight': 1}]
+2025-07-13 16:47:48,721 [INFO] Delay of 1 seconds before the action read_file
+2025-07-13 16:47:49,732 [INFO] File opened for reading: C:\\Users\\admin\\Documents\\word_doc.docx
+2025-07-13 16:47:50,707 [INFO] Heartbeat sent: {'status': 'received', 'agent_id': 'agent_admin_dc1ba1be30dd', 'timestamp': '2025-07-13T13:47:50.700570', 'message': 'Heartbeat processed successfully', 'next_heartbeat_in': 86400, 'commands': []}
+2025-07-13 16:47:51,766 [INFO] Waiting 0 seconds
+2025-07-13 16:47:51,853 [INFO] Delay of 1 seconds before the action read_file
+2025-07-13 16:47:52,860 [INFO] File opened for reading: C:\\Users\\admin\\Documents\\notes.txt
+2025-07-13 16:47:54,920 [INFO] Waiting 0 seconds
+2025-07-13 16:47:54,998 [INFO] Delay of 1 seconds before the action read_file
+2025-07-13 16:47:55,999 [ERROR] Failed to read file: [WinError 2] Не удается найти указанный файл
+2025-07-13 16:47:58,061 [INFO] Waiting 0 seconds
+2025-07-13 16:47:58,136 [INFO] The agent is being terminated according to the script.
+2025-07-13 16:47:58,137 [INFO] The lock file agent_admin_dc1ba1be30dd.lock has been deleted
+2025-07-13 16:48:18,844 [INFO] A blocking file has been created agent_admin_dc1ba1be30dd.lock
+2025-07-13 16:48:18,845 [INFO] Launching the LISA agent with the configuration by ID
+2025-07-13 16:48:21,361 [INFO] Agent: agent_admin_dc1ba1be30dd, Interval: 0, Tasks: [{'action': 'read_file', 'path': 'C:\\\\Users\\\\%USERNAME%\\\\Documents\\\\word_doc.docx', 'editor': 'word', 'delay': 1, 'repeatable': False, 'weight': 1}, {'action': 'read_file', 'path': 'C:\\\\Users\\\\%USERNAME%\\\\Documents\\\\notes.txt', 'editor': 'notepad', 'delay': 1, 'repeatable': False, 'weight': 1}, {'action': 'read_file', 'path': 'C:\\\\Users\\\\%USERNAME%\\\\Documents\\\\vscode_note.txt', 'editor': 'vscode', 'delay': 1, 'repeatable': False, 'weight': 1}, {'action': 'terminate', 'delay': 0, 'repeatable': False, 'weight': 1}]
+2025-07-13 16:48:22,509 [INFO] Delay of 1 seconds before the action read_file
+2025-07-13 16:48:23,575 [INFO] File opened for reading: C:\\Users\\admin\\Documents\\word_doc.docx
+2025-07-13 16:48:23,881 [INFO] Heartbeat sent: {'status': 'received', 'agent_id': 'agent_admin_dc1ba1be30dd', 'timestamp': '2025-07-13T13:48:23.861006', 'message': 'Heartbeat processed successfully', 'next_heartbeat_in': 86400, 'commands': []}
+2025-07-13 16:48:25,745 [INFO] Waiting 0 seconds
+2025-07-13 16:48:25,822 [INFO] Delay of 1 seconds before the action read_file
+2025-07-13 16:48:26,836 [INFO] File opened for reading: C:\\Users\\admin\\Documents\\notes.txt
+2025-07-13 16:48:28,895 [INFO] Waiting 0 seconds
+2025-07-13 16:48:28,973 [INFO] Delay of 1 seconds before the action read_file
+2025-07-13 16:50:06,362 [INFO] The lock file agent_admin_dc1ba1be30dd.lock has been deleted
+2025-07-13 16:51:02,697 [INFO] A blocking file has been created agent_admin_dc1ba1be30dd.lock
+2025-07-13 16:51:02,698 [INFO] Launching the LISA agent with the configuration by ID
+2025-07-13 16:51:04,908 [INFO] Agent: agent_admin_dc1ba1be30dd, Interval: 0, Tasks: [{'action': 'read_file', 'path': 'C:\\\\Users\\\\%USERNAME%\\\\Documents\\\\word_doc.docx', 'editor': 'word', 'delay': 1, 'repeatable': False, 'weight': 1}, {'action': 'read_file', 'path': 'C:\\\\Users\\\\%USERNAME%\\\\Documents\\\\notes.txt', 'editor': 'notepad', 'delay': 1, 'repeatable': False, 'weight': 1}, {'action': 'read_file', 'path': 'C:\\\\Users\\\\%USERNAME%\\\\Documents\\\\vscode_note.txt', 'editor': 'vscode', 'delay': 1, 'repeatable': False, 'weight': 1}, {'action': 'terminate', 'delay': 0, 'repeatable': False, 'weight': 1}]
+2025-07-13 16:51:05,029 [INFO] Delay of 1 seconds before the action read_file
+2025-07-13 16:51:06,041 [INFO] File opened for reading: C:\\Users\\admin\\Documents\\word_doc.docx
+2025-07-13 16:51:07,025 [INFO] Heartbeat sent: {'status': 'received', 'agent_id': 'agent_admin_dc1ba1be30dd', 'timestamp': '2025-07-13T13:51:07.019966', 'message': 'Heartbeat processed successfully', 'next_heartbeat_in': 86400, 'commands': []}
+2025-07-13 16:51:08,081 [INFO] Waiting 0 seconds
+2025-07-13 16:51:08,159 [INFO] Delay of 1 seconds before the action read_file
+2025-07-13 16:51:09,166 [INFO] File opened for reading: C:\\Users\\admin\\Documents\\notes.txt
+2025-07-13 16:51:11,185 [INFO] Waiting 0 seconds
+2025-07-13 16:51:11,259 [INFO] Delay of 1 seconds before the action read_file
+2025-07-13 16:51:12,278 [INFO] File opened for reading: C:\\Users\\admin\\Documents\\vscode_note.txt
+2025-07-13 16:51:14,766 [INFO] Waiting 0 seconds
+2025-07-13 16:51:17,466 [INFO] The agent is being terminated according to the script.
+2025-07-13 16:51:17,468 [INFO] The lock file agent_admin_dc1ba1be30dd.lock has been deleted
+2025-07-13 16:55:35,263 [INFO] A blocking file has been created agent_admin_dc1ba1be30dd.lock
+2025-07-13 16:55:35,263 [INFO] Launching the LISA agent with the configuration by ID
+2025-07-13 16:55:37,350 [INFO] Agent: agent_admin_dc1ba1be30dd, Interval: 0, Tasks: [{'action': 'read_file', 'path': 'C:\\\\Users\\\\%USERNAME%\\\\Documents\\\\word_doc.docx', 'editor': 'word', 'delay': 1, 'repeatable': False, 'weight': 1}, {'action': 'read_file', 'path': 'C:\\\\Users\\\\%USERNAME%\\\\Documents\\\\notes.txt', 'editor': 'notepad', 'delay': 1, 'repeatable': False, 'weight': 1}, {'action': 'read_file', 'path': 'C:\\\\Users\\\\%USERNAME%\\\\Documents\\\\vscode_note.txt', 'editor': 'vscode', 'delay': 1, 'repeatable': False, 'weight': 1}, {'action': 'terminate', 'delay': 0, 'repeatable': False, 'weight': 1}]
+2025-07-13 16:55:37,448 [INFO] Delay of 1 seconds before the action read_file
+2025-07-13 16:55:38,450 [ERROR] Unknown action: read_file
+2025-07-13 16:55:39,457 [INFO] Heartbeat sent: {'status': 'received', 'agent_id': 'agent_admin_dc1ba1be30dd', 'timestamp': '2025-07-13T13:55:39.436866', 'message': 'Heartbeat processed successfully', 'next_heartbeat_in': 86400, 'commands': []}
+2025-07-13 16:55:40,608 [INFO] Waiting 0 seconds
+2025-07-13 16:55:42,380 [INFO] Delay of 1 seconds before the action read_file
+2025-07-13 16:55:43,381 [ERROR] Unknown action: read_file
+2025-07-13 16:55:45,436 [INFO] Waiting 0 seconds
+2025-07-13 16:55:45,508 [INFO] Delay of 1 seconds before the action read_file
+2025-07-13 16:55:46,510 [ERROR] Unknown action: read_file
+2025-07-13 16:55:48,545 [INFO] Waiting 0 seconds
+2025-07-13 16:55:48,618 [INFO] The agent is being terminated according to the script.
+2025-07-13 16:55:48,619 [INFO] The lock file agent_admin_dc1ba1be30dd.lock has been deleted
+2025-07-13 16:56:53,722 [INFO] A blocking file has been created agent_admin_dc1ba1be30dd.lock
+2025-07-13 16:56:53,723 [INFO] Launching the LISA agent with the configuration by ID
+2025-07-13 16:56:55,782 [INFO] Agent: agent_admin_dc1ba1be30dd, Interval: 0, Tasks: [{'action': 'read_file', 'path': 'C:\\\\Users\\\\%USERNAME%\\\\Documents\\\\word_doc.docx', 'editor': 'word', 'delay': 1, 'repeatable': False, 'weight': 1}, {'action': 'read_file', 'path': 'C:\\\\Users\\\\%USERNAME%\\\\Documents\\\\notes.txt', 'editor': 'notepad', 'delay': 1, 'repeatable': False, 'weight': 1}, {'action': 'read_file', 'path': 'C:\\\\Users\\\\%USERNAME%\\\\Documents\\\\vscode_note.txt', 'editor': 'vscode', 'delay': 1, 'repeatable': False, 'weight': 1}, {'action': 'terminate', 'delay': 0, 'repeatable': False, 'weight': 1}]
+2025-07-13 16:56:55,882 [INFO] Delay of 1 seconds before the action read_file
+2025-07-13 16:56:56,893 [INFO] File opened for reading: C:\\Users\\admin\\Documents\\word_doc.docx
+2025-07-13 16:56:57,853 [INFO] Heartbeat sent: {'status': 'received', 'agent_id': 'agent_admin_dc1ba1be30dd', 'timestamp': '2025-07-13T13:56:57.846537', 'message': 'Heartbeat processed successfully', 'next_heartbeat_in': 86400, 'commands': []}
+2025-07-13 16:56:58,931 [INFO] Waiting 0 seconds
+2025-07-13 16:56:59,136 [INFO] Delay of 1 seconds before the action read_file
+2025-07-13 16:57:00,147 [INFO] File opened for reading: C:\\Users\\admin\\Documents\\notes.txt
+2025-07-13 16:57:02,187 [INFO] Waiting 0 seconds
+2025-07-13 16:57:02,258 [INFO] Delay of 1 seconds before the action read_file
+2025-07-13 16:57:03,276 [INFO] File opened for reading: C:\\Users\\admin\\Documents\\vscode_note.txt
+2025-07-13 16:57:05,319 [INFO] Waiting 0 seconds
+2025-07-13 16:57:05,395 [INFO] The agent is being terminated according to the script.
+2025-07-13 16:57:05,397 [INFO] The lock file agent_admin_dc1ba1be30dd.lock has been deleted
+2025-07-13 16:59:37,519 [INFO] A blocking file has been created agent_admin_dc1ba1be30dd.lock
+2025-07-13 16:59:37,519 [INFO] Launching the LISA agent with the configuration by ID
+2025-07-13 16:59:39,626 [INFO] Agent: agent_admin_dc1ba1be30dd, Interval: 0, Tasks: [{'action': 'delete_file', 'path': 'C:\\\\Users\\\\%USERNAME%\\\\Documents\\\\word_doc.docx', 'delay': 1, 'repeatable': False, 'weight': 1}, {'action': 'delete_file', 'path': 'C:\\\\Users\\\\%USERNAME%\\\\Documents\\\\notes.txt', 'delay': 1, 'repeatable': False, 'weight': 1}, {'action': 'delete_file', 'path': 'C:\\\\Users\\\\%USERNAME%\\\\Documents\\\\vscode_note.txt', 'delay': 1, 'repeatable': False, 'weight': 1}, {'action': 'terminate', 'delay': 0, 'repeatable': False, 'weight': 1}]
+2025-07-13 16:59:39,729 [INFO] Delay of 1 seconds before the action delete_file
+2025-07-13 16:59:40,731 [INFO] File deleted: C:\\Users\\admin\\Documents\\word_doc.docx
+2025-07-13 16:59:41,741 [INFO] Heartbeat sent: {'status': 'received', 'agent_id': 'agent_admin_dc1ba1be30dd', 'timestamp': '2025-07-13T13:59:41.734171', 'message': 'Heartbeat processed successfully', 'next_heartbeat_in': 86400, 'commands': []}
+2025-07-13 16:59:42,793 [INFO] Waiting 0 seconds
+2025-07-13 16:59:42,868 [INFO] Delay of 1 seconds before the action delete_file
+2025-07-13 16:59:43,869 [INFO] File deleted: C:\\Users\\admin\\Documents\\notes.txt
+2025-07-13 16:59:45,912 [INFO] Waiting 0 seconds
+2025-07-13 16:59:45,990 [INFO] Delay of 1 seconds before the action delete_file
+2025-07-13 16:59:46,992 [INFO] File deleted: C:\\Users\\admin\\Documents\\vscode_note.txt
+2025-07-13 16:59:49,024 [INFO] Waiting 0 seconds
+2025-07-13 16:59:49,102 [INFO] The agent is being terminated according to the script.
+2025-07-13 16:59:49,103 [INFO] The lock file agent_admin_dc1ba1be30dd.lock has been deleted
+2025-07-13 17:00:20,884 [INFO] A blocking file has been created agent_admin_dc1ba1be30dd.lock
+2025-07-13 17:00:20,885 [INFO] Launching the LISA agent with the configuration by ID
+2025-07-13 17:00:22,978 [INFO] Agent: agent_admin_dc1ba1be30dd, Interval: 0, Tasks: [{'action': 'create_file', 'path': 'C:\\\\Users\\\\%USERNAME%\\\\Documents\\\\word_doc.docx', 'content': 'This is a Word document.', 'editor': 'word', 'delay': 2, 'repeatable': False, 'weight': 1}, {'action': 'create_file', 'path': 'C:\\\\Users\\\\%USERNAME%\\\\Documents\\\\notes.txt', 'content': 'This is a Notepad file.', 'editor': 'notepad', 'delay': 1, 'repeatable': False, 'weight': 1}, {'action': 'create_file', 'path': 'C:\\\\Users\\\\%USERNAME%\\\\Documents\\\\vscode_note.txt', 'content': 'This is a VSCode file.', 'editor': 'vscode', 'delay': 1, 'repeatable': False, 'weight': 1}, {'action': 'terminate', 'delay': 0, 'repeatable': False, 'weight': 1}]
+2025-07-13 17:00:23,076 [INFO] Delay of 2 seconds before the action create_file
+2025-07-13 17:00:25,064 [INFO] Heartbeat sent: {'status': 'received', 'agent_id': 'agent_admin_dc1ba1be30dd', 'timestamp': '2025-07-13T14:00:25.058104', 'message': 'Heartbeat processed successfully', 'next_heartbeat_in': 86400, 'commands': []}
+2025-07-13 17:00:25,454 [INFO] DOCX file created: C:\\Users\\admin\\Documents\\word_doc.docx
+2025-07-13 17:00:27,490 [INFO] Waiting 0 seconds
+2025-07-13 17:00:27,627 [INFO] Delay of 1 seconds before the action create_file
+2025-07-13 17:00:28,630 [INFO] File created: C:\\Users\\admin\\Documents\\notes.txt
+2025-07-13 17:00:30,670 [INFO] Waiting 0 seconds
+2025-07-13 17:00:30,743 [INFO] Delay of 1 seconds before the action create_file
+2025-07-13 17:00:31,746 [INFO] File created: C:\\Users\\admin\\Documents\\vscode_note.txt
+2025-07-13 17:00:33,813 [INFO] Waiting 0 seconds
+2025-07-13 17:00:34,030 [INFO] The agent is being terminated according to the script.
+2025-07-13 17:00:34,032 [INFO] The lock file agent_admin_dc1ba1be30dd.lock has been deleted
+2025-07-13 17:00:57,736 [INFO] A blocking file has been created agent_admin_dc1ba1be30dd.lock
+2025-07-13 17:00:57,737 [INFO] Launching the LISA agent with the configuration by ID
+2025-07-13 17:00:59,845 [INFO] Agent: agent_admin_dc1ba1be30dd, Interval: 0, Tasks: [{'action': 'update_file', 'path': 'C:\\\\Users\\\\%USERNAME%\\\\Documents\\\\word_doc.docx', 'content': 'Updated Word document content.', 'delay': 1, 'repeatable': False, 'weight': 1}, {'action': 'update_file', 'path': 'C:\\\\Users\\\\%USERNAME%\\\\Documents\\\\notes.txt', 'content': 'Updated Notepad file content.', 'delay': 1, 'repeatable': False, 'weight': 1}, {'action': 'update_file', 'path': 'C:\\\\Users\\\\%USERNAME%\\\\Documents\\\\vscode_note.txt', 'content': 'Updated VSCode file content.', 'delay': 1, 'repeatable': False, 'weight': 1}, {'action': 'terminate', 'delay': 0, 'repeatable': False, 'weight': 1}]
+2025-07-13 17:00:59,940 [INFO] Delay of 1 seconds before the action update_file
+2025-07-13 17:01:00,943 [INFO] File updated: C:\\Users\\admin\\Documents\\word_doc.docx
+2025-07-13 17:01:01,927 [INFO] Heartbeat sent: {'status': 'received', 'agent_id': 'agent_admin_dc1ba1be30dd', 'timestamp': '2025-07-13T14:01:01.921814', 'message': 'Heartbeat processed successfully', 'next_heartbeat_in': 86400, 'commands': []}
+2025-07-13 17:01:02,994 [INFO] Waiting 0 seconds
+2025-07-13 17:01:03,064 [INFO] Delay of 1 seconds before the action update_file
+2025-07-13 17:01:04,066 [INFO] File updated: C:\\Users\\admin\\Documents\\notes.txt
+2025-07-13 17:01:06,125 [INFO] Waiting 0 seconds
+2025-07-13 17:01:06,197 [INFO] Delay of 1 seconds before the action update_file
+2025-07-13 17:01:07,199 [INFO] File updated: C:\\Users\\admin\\Documents\\vscode_note.txt
+2025-07-13 17:01:09,249 [INFO] Waiting 0 seconds
+2025-07-13 17:01:09,330 [INFO] The agent is being terminated according to the script.
+2025-07-13 17:01:09,331 [INFO] The lock file agent_admin_dc1ba1be30dd.lock has been deleted
+2025-07-13 17:06:18,638 [INFO] A blocking file has been created agent_admin_dc1ba1be30dd.lock
+2025-07-13 17:06:18,638 [INFO] Launching the LISA agent with the configuration by ID
+2025-07-13 17:06:20,711 [INFO] Agent: agent_admin_dc1ba1be30dd, Interval: 0, Tasks: [{'action': 'update_file', 'path': 'C:\\\\Users\\\\%USERNAME%\\\\Documents\\\\word_doc.docx', 'content': 'Updated Word document content.', 'delay': 1, 'repeatable': False, 'weight': 1}, {'action': 'update_file', 'path': 'C:\\\\Users\\\\%USERNAME%\\\\Documents\\\\notes.txt', 'content': 'Updated Notepad file content.', 'delay': 1, 'repeatable': False, 'weight': 1}, {'action': 'update_file', 'path': 'C:\\\\Users\\\\%USERNAME%\\\\Documents\\\\vscode_note.txt', 'content': 'Updated VSCode file content.', 'delay': 1, 'repeatable': False, 'weight': 1}, {'action': 'terminate', 'delay': 0, 'repeatable': False, 'weight': 1}]
+2025-07-13 17:06:20,822 [INFO] Delay of 1 seconds before the action update_file
+2025-07-13 17:06:21,825 [INFO] File updated (appended): C:\\Users\\admin\\Documents\\word_doc.docx
+2025-07-13 17:06:22,818 [INFO] Heartbeat sent: {'status': 'received', 'agent_id': 'agent_admin_dc1ba1be30dd', 'timestamp': '2025-07-13T14:06:22.812990', 'message': 'Heartbeat processed successfully', 'next_heartbeat_in': 86400, 'commands': []}
+2025-07-13 17:06:23,919 [INFO] Waiting 0 seconds
+2025-07-13 17:06:24,185 [INFO] Delay of 1 seconds before the action update_file
+2025-07-13 17:06:25,194 [INFO] File updated (appended): C:\\Users\\admin\\Documents\\notes.txt
+2025-07-13 17:06:27,516 [INFO] Waiting 0 seconds
+2025-07-13 17:06:29,310 [INFO] Delay of 1 seconds before the action update_file
+2025-07-13 17:06:30,313 [INFO] File updated (appended): C:\\Users\\admin\\Documents\\vscode_note.txt
+2025-07-13 17:06:32,337 [INFO] Waiting 0 seconds
+2025-07-13 17:06:32,418 [INFO] The agent is being terminated according to the script.
+2025-07-13 17:06:32,419 [INFO] The lock file agent_admin_dc1ba1be30dd.lock has been deleted
+2025-07-13 17:07:11,501 [INFO] A blocking file has been created agent_admin_dc1ba1be30dd.lock
+2025-07-13 17:07:11,505 [INFO] Launching the LISA agent with the configuration by ID
+2025-07-13 17:07:13,661 [INFO] Agent: agent_admin_dc1ba1be30dd, Interval: 0, Tasks: [{'action': 'create_file', 'path': 'C:\\\\Users\\\\%USERNAME%\\\\Documents\\\\word_doc.docx', 'content': 'This is a Word document.', 'editor': 'word', 'delay': 2, 'repeatable': False, 'weight': 1}, {'action': 'create_file', 'path': 'C:\\\\Users\\\\%USERNAME%\\\\Documents\\\\notes.txt', 'content': 'This is a Notepad file.', 'editor': 'notepad', 'delay': 1, 'repeatable': False, 'weight': 1}, {'action': 'create_file', 'path': 'C:\\\\Users\\\\%USERNAME%\\\\Documents\\\\vscode_note.txt', 'content': 'This is a VSCode file.', 'editor': 'vscode', 'delay': 1, 'repeatable': False, 'weight': 1}, {'action': 'terminate', 'delay': 0, 'repeatable': False, 'weight': 1}]
+2025-07-13 17:07:13,756 [INFO] Delay of 2 seconds before the action create_file
+2025-07-13 17:07:15,757 [INFO] Heartbeat sent: {'status': 'received', 'agent_id': 'agent_admin_dc1ba1be30dd', 'timestamp': '2025-07-13T14:07:15.751146', 'message': 'Heartbeat processed successfully', 'next_heartbeat_in': 86400, 'commands': []}
+2025-07-13 17:07:16,133 [INFO] DOCX file created: C:\\Users\\admin\\Documents\\word_doc.docx
+2025-07-13 17:07:18,177 [INFO] Waiting 0 seconds
+2025-07-13 17:07:18,277 [INFO] Delay of 1 seconds before the action create_file
+2025-07-13 17:07:19,280 [INFO] File created: C:\\Users\\admin\\Documents\\notes.txt
+2025-07-13 17:07:21,324 [INFO] Waiting 0 seconds
+2025-07-13 17:07:21,399 [INFO] Delay of 1 seconds before the action create_file
+2025-07-13 17:07:22,401 [INFO] File created: C:\\Users\\admin\\Documents\\vscode_note.txt
+2025-07-13 17:07:24,453 [INFO] Waiting 0 seconds
+2025-07-13 17:07:24,534 [INFO] The agent is being terminated according to the script.
+2025-07-13 17:07:24,535 [INFO] The lock file agent_admin_dc1ba1be30dd.lock has been deleted
+2025-07-13 17:07:59,287 [INFO] A blocking file has been created agent_admin_dc1ba1be30dd.lock
+2025-07-13 17:07:59,288 [INFO] Launching the LISA agent with the configuration by ID
+2025-07-13 17:08:01,387 [INFO] Agent: agent_admin_dc1ba1be30dd, Interval: 0, Tasks: [{'action': 'update_file', 'path': 'C:\\\\Users\\\\%USERNAME%\\\\Documents\\\\word_doc.docx', 'content': 'Updated Word document content.', 'delay': 1, 'repeatable': False, 'weight': 1}, {'action': 'update_file', 'path': 'C:\\\\Users\\\\%USERNAME%\\\\Documents\\\\notes.txt', 'content': 'Updated Notepad file content.', 'delay': 1, 'repeatable': False, 'weight': 1}, {'action': 'update_file', 'path': 'C:\\\\Users\\\\%USERNAME%\\\\Documents\\\\vscode_note.txt', 'content': 'Updated VSCode file content.', 'delay': 1, 'repeatable': False, 'weight': 1}, {'action': 'terminate', 'delay': 0, 'repeatable': False, 'weight': 1}]
+2025-07-13 17:08:01,487 [INFO] Delay of 1 seconds before the action update_file
+2025-07-13 17:08:02,490 [INFO] File updated (appended): C:\\Users\\admin\\Documents\\word_doc.docx
+2025-07-13 17:08:03,479 [INFO] Heartbeat sent: {'status': 'received', 'agent_id': 'agent_admin_dc1ba1be30dd', 'timestamp': '2025-07-13T14:08:03.473916', 'message': 'Heartbeat processed successfully', 'next_heartbeat_in': 86400, 'commands': []}
+2025-07-13 17:08:04,542 [INFO] Waiting 0 seconds
+2025-07-13 17:08:04,613 [INFO] Delay of 1 seconds before the action update_file
+2025-07-13 17:08:05,616 [INFO] File updated (appended): C:\\Users\\admin\\Documents\\notes.txt
+2025-07-13 17:08:07,666 [INFO] Waiting 0 seconds
+2025-07-13 17:08:07,741 [INFO] Delay of 1 seconds before the action update_file
+2025-07-13 17:08:08,743 [INFO] File updated (appended): C:\\Users\\admin\\Documents\\vscode_note.txt
+2025-07-13 17:08:10,778 [INFO] Waiting 0 seconds
+2025-07-13 17:08:10,851 [INFO] The agent is being terminated according to the script.
+2025-07-13 17:08:10,852 [INFO] The lock file agent_admin_dc1ba1be30dd.lock has been deleted
+2025-07-13 17:08:46,903 [INFO] A blocking file has been created agent_admin_dc1ba1be30dd.lock
+2025-07-13 17:08:46,903 [INFO] Launching the LISA agent with the configuration by ID
+2025-07-13 17:08:48,987 [INFO] Agent: agent_admin_dc1ba1be30dd, Interval: 0, Tasks: [{'action': 'update_file', 'path': 'C:\\\\Users\\\\%USERNAME%\\\\Documents\\\\word_doc.docx', 'content': 'Updated Word document content.', 'delay': 1, 'repeatable': False, 'weight': 1}, {'action': 'update_file', 'path': 'C:\\\\Users\\\\%USERNAME%\\\\Documents\\\\notes.txt', 'content': 'Updated Notepad file content.', 'delay': 1, 'repeatable': False, 'weight': 1}, {'action': 'update_file', 'path': 'C:\\\\Users\\\\%USERNAME%\\\\Documents\\\\vscode_note.txt', 'content': 'Updated VSCode file content.', 'delay': 1, 'repeatable': False, 'weight': 1}, {'action': 'terminate', 'delay': 0, 'repeatable': False, 'weight': 1}]
+2025-07-13 17:08:49,085 [INFO] Delay of 1 seconds before the action update_file
+2025-07-13 17:08:50,087 [INFO] File updated (appended): C:\\Users\\admin\\Documents\\word_doc.docx
+2025-07-13 17:08:51,096 [INFO] Heartbeat sent: {'status': 'received', 'agent_id': 'agent_admin_dc1ba1be30dd', 'timestamp': '2025-07-13T14:08:51.089288', 'message': 'Heartbeat processed successfully', 'next_heartbeat_in': 86400, 'commands': []}
+2025-07-13 17:08:52,141 [INFO] Waiting 0 seconds
+2025-07-13 17:08:52,213 [INFO] Delay of 1 seconds before the action update_file
+2025-07-13 17:08:53,215 [INFO] File updated (appended): C:\\Users\\admin\\Documents\\notes.txt
+2025-07-13 17:08:55,278 [INFO] Waiting 0 seconds
+2025-07-13 17:08:55,349 [INFO] Delay of 1 seconds before the action update_file
+2025-07-13 17:08:56,351 [INFO] File updated (appended): C:\\Users\\admin\\Documents\\vscode_note.txt
+2025-07-13 17:08:58,391 [INFO] Waiting 0 seconds
+2025-07-13 17:08:58,463 [INFO] The agent is being terminated according to the script.
+2025-07-13 17:08:58,464 [INFO] The lock file agent_admin_dc1ba1be30dd.lock has been deleted
+2025-07-13 17:12:51,406 [INFO] A blocking file has been created agent_admin_dc1ba1be30dd.lock
+2025-07-13 17:12:51,407 [INFO] Launching the LISA agent with the configuration by ID
+2025-07-13 17:12:53,478 [INFO] The lock file agent_admin_dc1ba1be30dd.lock has been deleted
+2025-07-13 17:13:08,767 [INFO] A blocking file has been created agent_admin_dc1ba1be30dd.lock
+2025-07-13 17:13:08,768 [INFO] Launching the LISA agent with the configuration by ID
+2025-07-13 17:13:10,843 [INFO] Agent: agent_admin_dc1ba1be30dd, Interval: 0, Tasks: [{'action': 'update_file', 'path': 'C:\\\\Users\\\\%USERNAME%\\\\Documents\\\\word_doc.docx', 'content': 'Updated Word document content.', 'delay': 1, 'repeatable': False, 'weight': 1}, {'action': 'update_file', 'path': 'C:\\\\Users\\\\%USERNAME%\\\\Documents\\\\notes.txt', 'content': 'Updated Notepad file content.', 'delay': 1, 'repeatable': False, 'weight': 1}, {'action': 'update_file', 'path': 'C:\\\\Users\\\\%USERNAME%\\\\Documents\\\\vscode_note.txt', 'content': 'Updated VSCode file content.', 'delay': 1, 'repeatable': False, 'weight': 1}, {'action': 'terminate', 'delay': 0, 'repeatable': False, 'weight': 1}]
+2025-07-13 17:13:10,940 [INFO] Delay of 1 seconds before the action update_file
+2025-07-13 17:13:11,943 [INFO] File updated (appended): C:\\Users\\admin\\Documents\\word_doc.docx
+2025-07-13 17:13:12,947 [INFO] Heartbeat sent: {'status': 'received', 'agent_id': 'agent_admin_dc1ba1be30dd', 'timestamp': '2025-07-13T14:13:12.941964', 'message': 'Heartbeat processed successfully', 'next_heartbeat_in': 86400, 'commands': []}
+2025-07-13 17:13:13,983 [INFO] Waiting 0 seconds
+2025-07-13 17:13:14,053 [INFO] Delay of 1 seconds before the action update_file
+2025-07-13 17:13:15,055 [INFO] File updated (appended): C:\\Users\\admin\\Documents\\notes.txt
+2025-07-13 17:13:17,105 [INFO] Waiting 0 seconds
+2025-07-13 17:13:17,179 [INFO] Delay of 1 seconds before the action update_file
+2025-07-13 17:13:18,182 [INFO] File updated (appended): C:\\Users\\admin\\Documents\\vscode_note.txt
+2025-07-13 17:13:20,218 [INFO] Waiting 0 seconds
+2025-07-13 17:13:20,289 [INFO] The agent is being terminated according to the script.
+2025-07-13 17:13:20,290 [INFO] The lock file agent_admin_dc1ba1be30dd.lock has been deleted
+2025-07-13 17:25:29,858 [INFO] A blocking file has been created agent_admin_dc1ba1be30dd.lock
+2025-07-13 17:25:29,859 [INFO] Launching the LISA agent with the configuration by ID
+2025-07-13 17:25:31,956 [INFO] Agent: agent_admin_dc1ba1be30dd, Interval: 0, Tasks: [{'action': 'update_file', 'path': 'C:\\\\Users\\\\%USERNAME%\\\\Documents\\\\word_doc.docx', 'content': 'Updated Word document content.', 'delay': 1, 'repeatable': False, 'weight': 1}, {'action': 'update_file', 'path': 'C:\\\\Users\\\\%USERNAME%\\\\Documents\\\\notes.txt', 'content': 'Updated Notepad file content.', 'delay': 1, 'repeatable': False, 'weight': 1}, {'action': 'update_file', 'path': 'C:\\\\Users\\\\%USERNAME%\\\\Documents\\\\vscode_note.txt', 'content': 'Updated VSCode file content.', 'delay': 1, 'repeatable': False, 'weight': 1}, {'action': 'terminate', 'delay': 0, 'repeatable': False, 'weight': 1}]
+2025-07-13 17:25:32,115 [INFO] Delay of 1 seconds before the action update_file
+2025-07-13 17:25:33,117 [INFO] File updated (appended): C:\\Users\\admin\\Documents\\word_doc.docx
+2025-07-13 17:25:34,078 [INFO] Heartbeat sent: {'status': 'received', 'agent_id': 'agent_admin_dc1ba1be30dd', 'timestamp': '2025-07-13T14:25:34.073102', 'message': 'Heartbeat processed successfully', 'next_heartbeat_in': 86400, 'commands': []}
+2025-07-13 17:25:35,154 [INFO] Waiting 0 seconds
+2025-07-13 17:25:35,234 [INFO] Delay of 1 seconds before the action update_file
+2025-07-13 17:25:36,236 [INFO] File updated (appended): C:\\Users\\admin\\Documents\\notes.txt
+2025-07-13 17:25:38,274 [INFO] Waiting 0 seconds
+2025-07-13 17:25:38,349 [INFO] Delay of 1 seconds before the action update_file
+2025-07-13 17:25:39,352 [INFO] File updated (appended): C:\\Users\\admin\\Documents\\vscode_note.txt
+2025-07-13 17:25:41,371 [INFO] Waiting 0 seconds
+2025-07-13 17:25:41,449 [INFO] The agent is being terminated according to the script.
+2025-07-13 17:25:41,450 [INFO] The lock file agent_admin_dc1ba1be30dd.lock has been deleted

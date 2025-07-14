@@ -1,17 +1,42 @@
+import argparse
 import getpass
 import logging
 import os
 import random
+import subprocess
+import threading
 import time
 import uuid
 from datetime import datetime
 from pathlib import Path
 
+import requests
 import yaml
 
-from actions import apps, files, net
+from actions import apps, net
 from client.server_api import send_activity, download_agent_config
 from utils.logger import setup_logger
+
+# === Парсим аргументы ===
+parser = argparse.ArgumentParser(description="LISA Agent")
+parser.add_argument("--debug", action="store_true", help="Run agent in debug mode and clean logs before start")
+args = parser.parse_args()
+
+# === Если debug-режим, чистим логи ===
+LOG_FILE = Path("agent.log")  # или тот путь, который у тебя реально
+if args.debug:
+    # Очистка логов
+    if LOG_FILE.exists():
+        LOG_FILE.unlink()
+        print("[*] Debug mode: old logs cleared.")
+
+    # Очистка всех .lock файлов
+    for lock_file in Path().glob("*.lock"):
+        try:
+            lock_file.unlink()
+            print(f"[*] Debug mode: removed lock file {lock_file.name}")
+        except Exception as e:
+            print(f"[!] Failed to remove lock file {lock_file.name}: {e}")
 
 # === Генерация уникального AGENT_ID ===
 
@@ -112,10 +137,6 @@ def run_action(action, paths):
         else:
             logging.warning(f"Unknown terminal: {terminal}")
 
-    elif action_type == "edit_file":
-        path = os.path.expandvars(action.get("path", ""))
-        files.edit_file(path)
-
     elif action_type == "sleep":
         seconds = action.get("seconds", 60)
         logging.info(f"Pause (sleep) for {seconds} seconds")
@@ -133,6 +154,119 @@ def run_action(action, paths):
 
     elif action_type == "ad_utilities":
         apps.open_ad_utilities()
+
+    elif action_type == "create_file":
+        path = os.path.expandvars(action.get("path", ""))
+        content = action.get("content", "")
+        editor = action.get("editor")
+
+        if not path:
+            logger.warning("No path specified for create_file")
+            return
+
+        try:
+            if editor == "word" and path.endswith(".docx"):
+                from docx import Document
+                doc = Document()
+                doc.add_paragraph(content)
+                doc.save(path)
+                logger.info(f"DOCX file created: {path}")
+            else:
+                with open(path, "w", encoding="utf-8") as f:
+                    f.write(content)
+                logger.info(f"File created: {path}")
+
+            if editor == "notepad":
+                subprocess.Popen(["notepad.exe", path])
+            elif editor == "vscode":
+                raw_vscode_path = paths.get("apps", {}).get("vscode", "code")
+                vscode_path = os.path.expandvars(raw_vscode_path)
+                subprocess.Popen([vscode_path, path])
+            elif editor == "word":
+                raw_word_path = paths.get("apps", {}).get("word", "WINWORD.EXE")
+                word_path = os.path.expandvars(raw_word_path)
+                subprocess.Popen([word_path, path])
+
+        except Exception as e:
+            logger.error(f"Failed to create file: {e}")
+
+    elif action_type == "read_file":
+        path = os.path.expandvars(action.get("path", ""))
+        editor = action.get("editor")
+
+        if not path:
+            logger.warning("No path specified for read_file")
+            return
+
+        try:
+            if os.path.exists(path):
+                if editor == "notepad":
+                    subprocess.Popen(["notepad.exe", path])
+                elif editor == "vscode":
+                    raw_vscode_path = paths.get("apps", {}).get("vscode", "code")
+                    vscode_path = os.path.expandvars(raw_vscode_path)
+                    subprocess.Popen([vscode_path, path])
+                elif editor == "word":
+                    raw_word_path = paths.get("apps", {}).get("word", "WINWORD.EXE")
+                    word_path = os.path.expandvars(raw_word_path)
+                    subprocess.Popen([word_path, path])
+
+                logger.info(f"File opened for reading: {path}")
+            else:
+                logger.warning(f"File not found for reading: {path}")
+
+        except Exception as e:
+            logger.error(f"Failed to read file: {e}")
+
+    elif action_type == "update_file":
+        path = os.path.expandvars(action.get("path", ""))
+        content = action.get("content", "")
+        editor = action.get("editor")
+
+        if not path:
+            logger.warning("No path specified for update_file")
+            return
+
+        try:
+            if os.path.exists(path):
+                if editor == "word" and path.endswith(".docx"):
+                    from docx import Document
+                    doc = Document(path)
+                    if doc.paragraphs:
+                        # Добавляем к последнему параграфу
+                        doc.paragraphs[-1].add_run(content)
+                    else:
+                        # Если пусто — создаём первый параграф
+                        doc.add_paragraph(content)
+                    doc.save(path)
+                    logger.info(f"DOCX file updated (appended): {path}")
+                else:
+                    with open(path, "a", encoding="utf-8") as f:
+                        f.write(content)
+                    logger.info(f"File updated (appended): {path}")
+            else:
+                logger.warning(f"File not found for update: {path}")
+
+        except Exception as e:
+            logger.error(f"Failed to update file: {e}")
+
+
+    elif action_type == "delete_file":
+        path = os.path.expandvars(action.get("path", ""))
+
+        if not path:
+            logger.warning("No path specified for delete_file")
+            return
+
+        try:
+            if os.path.exists(path):
+                os.remove(path)
+                logger.info(f"File deleted: {path}")
+            else:
+                logger.warning(f"File not found for deletion: {path}")
+
+        except Exception as e:
+            logger.error(f"Failed to delete file: {e}")
 
 
     elif action_type == "conditional_exit":
@@ -160,7 +294,46 @@ def is_work_time(settings):
     return weekday in work_days and start <= current_time <= end
 
 
+def user_exists(username):
+    result = subprocess.run(
+        ["net", "user", username],
+        stdout=subprocess.PIPE,
+        stderr=subprocess.PIPE,
+        text=True
+    )
+    return "The user name could not be found" not in result.stdout
+
+
+def send_heartbeat():
+    while True:
+        payload = {
+            "agent_id": AGENT_ID,
+            "username": username,
+            "timestamp": datetime.utcnow().isoformat(),
+            "role": "Admin",
+            "system_info": {
+                "platform": os.name
+            },
+            "status": "active"
+        }
+
+        # Используй свой URL и API ключ, если есть
+        url = "http://localhost:8000/api/agents/heartbeat"
+        headers = {"Authorization": "Bearer sk-agent-heartbeat-key-2024"}
+
+        try:
+            response = requests.post(url, json=payload, headers=headers, timeout=10)
+            response.raise_for_status()
+            logger.info(f"Heartbeat sent: {response.json()}")
+        except Exception as e:
+            logger.error(f"Failed to send heartbeat: {e}")
+
+        # Спим 24 часа = 86400 сек
+        time.sleep(86400)
+
+
 # === Основной цикл ===
+
 
 def main():
     check_singleton()
@@ -169,7 +342,7 @@ def main():
     try:
         config = download_agent_config(AGENT_ID)
         if not config:
-            logger.error("The agent configuration was not received. Completion.")
+            logger.error("Agent config was not received. Completion.")
             return
 
         interval = config.get("custom_config", {}).get("interval", 10)
@@ -183,9 +356,25 @@ def main():
         logger.info(f"Agent: {AGENT_ID}, Interval: {interval}, Tasks: {tasks}")
         settings, paths, _ = load_config()
 
+        # === Heartbeat поток ===
+        t_heartbeat = threading.Thread(target=send_heartbeat, daemon=True)
+        t_heartbeat.start()
+
+        # === Запускаем repeatable задачи в фоне ===
+        for task in tasks:
+            if task.get("repeatable"):
+                t = threading.Thread(
+                    target=run_repeatable, args=(task, paths), daemon=True
+                )
+                t.start()
+
         if randomize:
             while True:
-                task = weighted_choice(tasks)
+                if not user_exists(username):
+                    logger.info(f"User '{username}' no longer exists. The agent is stopping.")
+                    break
+
+                task = weighted_choice([t for t in tasks if not t.get("repeatable")])
                 run_action(task, paths=paths)
 
                 send_activity(AGENT_ID, task, {"status": "ok"})
@@ -194,6 +383,13 @@ def main():
         else:
             while True:
                 for task in tasks:
+                    if task.get("repeatable"):
+                        continue  # Skip, уже крутится в фоне
+
+                    if not user_exists(username):
+                        logger.info(f"User '{username}' no longer exists. The agent is stopping.")
+                        break
+
                     run_action(task, paths=paths)
 
                     send_activity(AGENT_ID, task, {"status": "ok"})
@@ -202,6 +398,14 @@ def main():
 
     finally:
         cleanup_singleton()
+
+
+def run_repeatable(task, paths):
+    while True:
+        run_action(task, paths)
+        delay = task.get("delay", 5)
+        logger.info(f"Repeatable task '{task['action']}' sleeping {delay} sec")
+        time.sleep(delay)
 
 
 # === Запуск ===

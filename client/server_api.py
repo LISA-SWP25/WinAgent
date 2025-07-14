@@ -21,7 +21,7 @@ def generate_agent_config(role_id: int, template_id: int):
 
 
 def download_agent_config(agent_id: str):
-    url = f"{BASE_URL}/agents/{agent_id}/config/download?format=json"
+    url = f"{BASE_URL}/agents/{agent_id}/config/download"
     try:
         response = requests.get(url)
         response.raise_for_status()

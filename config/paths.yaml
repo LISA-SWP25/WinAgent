@@ -10,6 +10,7 @@ apps:
   outlook: "C:\\Program Files (x86)\\Microsoft Office\\root\\Office16\\OUTLOOK.EXE"
 
   # Dev tools
+  #"C:\Users\admin\AppData\Local\Programs\Microsoft VS Code\Code.exe"
   vscode: "C:\\Users\\%USERNAME%\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe"
   gitbash: "C:\\Program Files\\Git\\git-bash.exe"
 
